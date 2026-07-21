@@ -1,0 +1,18 @@
+  <script>
+    const mediaHeading=document.querySelector('#video .section-head');
+    if(mediaHeading){mediaHeading.querySelector('.eyebrow').textContent='Project Film & Gallery · 项目影像';mediaHeading.querySelector('.title')?.remove()}
+    const locationSection=document.getElementById('location'),locationTitle=locationSection?.querySelector('.title'),locationMap=locationSection?.querySelector('.map-live iframe'),locationCaption=locationSection?.querySelector('.map-live .caption');
+    if(locationTitle)locationTitle.innerHTML='TALEA，<br><em>项目定位与城市连接</em>';
+    if(locationMap){locationMap.src='https://www.google.com/maps?q=Talea+Beyond,+Dubai+Maritime+City,+Dubai&z=14&output=embed';locationMap.title='TALEA Google 地图位置'}
+    if(locationCaption)locationCaption.textContent='Google 地图 · TALEA 项目定位';
+    const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
+    const navLinks=[...document.querySelectorAll('.nav-links a')];
+    const navSections=navLinks.map(link=>document.querySelector(link.getAttribute('href'))).filter(Boolean);
+    const navObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(!entry.isIntersecting)return;navLinks.forEach(link=>link.classList.toggle('active',link.getAttribute('href')===`#${entry.target.id}`));const active=navLinks.find(link=>link.classList.contains('active'));if(active)active.scrollIntoView({block:'nearest',inline:'center'})})},{rootMargin:'-20% 0px -68% 0px'});
+    navSections.forEach(section=>navObserver.observe(section));
+    const galleryVideo=document.getElementById('galleryVideo'),videoThumb=document.querySelector('.thumb-video');if(!galleryVideo)videoThumb?.remove();
+    const thumbs=[...document.querySelectorAll('.thumb')],main=document.getElementById('galleryMain'),galleryTitle=document.getElementById('galleryTitle'),gallery=document.getElementById('gallery'),videoSrc=galleryVideo?.src;let galleryIndex=0,galleryTimer;
+    function showGallery(index){galleryIndex=(index+thumbs.length)%thumbs.length;const button=thumbs[galleryIndex],isVideo=button.dataset.type==='video'&&galleryVideo;clearInterval(galleryTimer);main.style.opacity='.35';setTimeout(()=>{if(isVideo){main.hidden=true;galleryVideo.hidden=false}else{if(galleryVideo&&!galleryVideo.hidden){galleryVideo.hidden=true;galleryVideo.src=videoSrc}main.hidden=false;main.src=button.dataset.src;main.alt=`TALEA ${button.dataset.title}`;main.style.opacity='1'}galleryTitle.textContent=button.dataset.title;thumbs.forEach((item,i)=>item.classList.toggle('active',i===galleryIndex))},140)}
+    function startGallery(){if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||thumbs[galleryIndex]?.dataset.type==='video')return;clearInterval(galleryTimer);galleryTimer=setInterval(()=>showGallery(galleryIndex+1),5200)}
+    thumbs.forEach((button,index)=>button.addEventListener('click',()=>{showGallery(index);startGallery()}));document.getElementById('galleryPrev').addEventListener('click',()=>{showGallery(galleryIndex-1);startGallery()});document.getElementById('galleryNext').addEventListener('click',()=>{showGallery(galleryIndex+1);startGallery()});gallery.addEventListener('mouseenter',()=>clearInterval(galleryTimer));gallery.addEventListener('mouseleave',startGallery);gallery.addEventListener('focusin',()=>clearInterval(galleryTimer));gallery.addEventListener('focusout',startGallery);if(!galleryVideo)showGallery(0);startGallery();
+  </script>

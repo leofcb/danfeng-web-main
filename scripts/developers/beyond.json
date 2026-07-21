@@ -1,0 +1,132 @@
+{
+  "slug": "beyond",
+  "name": "BEYOND",
+  "cn": "超越地产",
+  "rated": true,
+  "footerDate": "2026-07-19",
+  "wechatHref": "https://u.wechat.com/MBHeTbPUEaA4Wzeda66CFBo?s=2",
+  "seo": {
+    "desc": "BEYOND 超越地产（OMNIYAT 集团旗下）开发商档案：DFP-5 评级速览、品牌理念、迪拜市场战绩、代表作品与在售项目。丹枫置业独立整理。",
+    "ogDesc": "DFP-5 评级速览、品牌理念、迪拜战绩、代表作品与在售项目。"
+  },
+  "hero": {
+    "kicker": "OMNIYAT GROUP 旗下 · EST. 2024",
+    "span": "Transcending the Ordinary · 超越平凡",
+    "en": "BEYOND DEVELOPMENTS",
+    "copy": "以设计的不同，将向往变成地址。BEYOND 于 2024 年创立于迪拜，信奉「不同源于设计」，在迪拜海事城、棕榈岛、迪拜群岛与哈伊马角，打造有灵魂的滨海社区——让设计、生活方式与增值在此和谐生长。"
+  },
+  "facts": [
+    { "k": "创立", "v": "2024", "em": "OMNIYAT 集团品牌" },
+    { "k": "总部", "v": "迪拜 · Mina Rashid" },
+    { "k": "所有权", "v": "私营" },
+    { "k": "在建项目", "v": "10 个" },
+    { "k": "在建套数", "v": "6,824 套" },
+    { "k": "DFP-5 评级", "v": "71.3 · 🍁×4", "em": "v3.1" },
+    { "k": "迪拜销售排名", "v": "第 8 位", "em": "按销售额" }
+  ],
+  "rating": {
+    "score": "71.3",
+    "leaves": 4,
+    "version": "DFP-5 v3.1",
+    "confidence": "Medium",
+    "coverage": "70%",
+    "ratedDate": "2026-07-09",
+    "verdict": "作为 OMNIYAT 集团旗下新晋高端品牌，超越地产销售动能强劲、在建规模可观，集团背景赋能品牌、资源与产品组织；但成立时间短、尚无已交付记录，长期交付履约与品质兑现仍需持续观察。",
+    "metrics": [
+      { "k": "迪拜市场排名", "v": "第 8 位" },
+      { "k": "在建规模", "v": "6,824 套" },
+      { "k": "近 12 月成交额", "v": "AED 6.7B" }
+    ],
+    "methodologyHref": "https://danfengproperties.com/developers/methodology",
+    "dims": [
+      { "k": "交付", "label": "a 交付履约", "v": null, "note": "新晋开发商暂无已交付项目" },
+      { "k": "市场", "label": "b 市场表现", "v": 79.1 },
+      { "k": "规模", "label": "c 开发规模", "v": 62.2 },
+      { "k": "合规", "label": "d 法律合规", "v": 100 },
+      { "k": "背景", "label": "e 公司背景", "v": 37.5 }
+    ],
+    "note": "来源：丹枫开发商数据库、迪拜土地局（DLD）。销售数据截至 2026-07-04；DFP-5 评级日期 2026-07-09。DFP-5 为丹枫五维十指标独立研究评级，权重公开至维度级，仅供参考，不构成投资建议，非信用违约评级。"
+  },
+  "overview": {
+    "title": "不同，",
+    "em": "源于设计",
+    "photo": "masterplan.webp",
+    "paras": [
+      "BEYOND 相信「不同源于设计」，以充满活力的全新社区，回应新一代品位人群的期待。",
+      "建筑从景观中有机生长——舒展的曲线、原生木材与纯粹石材，在建成环境与自然之间创造无缝流动。林荫大道穿行于无边泳池、露天餐厅与精品店之间，衔接工作、休憩与玩乐。",
+      "这不止是一个品牌，而是一场朝向更美好的运动：以连接、可持续与灵感塑造明天。我们打造有灵魂的场所，让从清晨第一口咖啡到深度安眠的每个日常，都被悉心提升。"
+    ],
+    "metrics": [
+      { "n": "5", "u": "品牌支柱", "p": "心仪地段 · 设计引领 · 社区营造 · 包容奢华 · 根植自然。" },
+      { "n": "10", "u": "在建项目", "p": "覆盖迪拜与哈伊马角。" },
+      { "n": "PSG", "u": "战略合作", "p": "文化 · 体育 · 设计的国际生活方式品牌。" },
+      { "n": "OMNIYAT", "u": "母集团", "p": "迪拜高端地产集团背书。" }
+    ]
+  },
+  "pillars": {
+    "title": "五个信条，",
+    "em": "贯穿每一处社区",
+    "photo": "siora.webp",
+    "items": [
+      { "n": "01", "en": "ENVIABLE LOCATIONS", "h": "心仪地段", "p": "脚踏细沙、心向天空——精选滨海与自然地段，让休憩、放松与焕活成为日常的脉搏。" },
+      { "n": "02", "en": "DESIGN LEADERS", "h": "设计引领", "p": "由世界级远见者演绎的建筑、创新与自然设计，室内外无缝过渡，让建成环境衬托而非扰动自然。" },
+      { "n": "03", "en": "COMMUNITY SHAPERS", "h": "社区营造", "p": "以人为本的社区，将购物、款待与相聚交织其中——真正的连结，让生活繁盛。" },
+      { "n": "04", "en": "INCLUSIVE LUXURY", "h": "包容奢华", "p": "在毫不费力的奢华之上坚守包容——安睡于价值与温度并存的居所。" },
+      { "n": "05", "en": "ROOTED IN NATURE", "h": "根植自然", "p": "绿意露台、遮阴步道与滨水长廊，将自然编织进每一处空间，促进生物多样性与可持续。" }
+    ]
+  },
+  "record": {
+    "logo": "beyond-logo.webp",
+    "devName": "BEYOND Developments 超越地产",
+    "devSub": "AN OMNIYAT GROUP COMPANY",
+    "intro": "超越地产（BEYOND）为 OMNIYAT 集团旗下高端地产品牌，2024 年成立，强调设计、自然与品质生活。作为新晋开发商，其销售动能强劲、在建规模可观；集团背景有助于品牌、资源与产品组织，但作为成立时间较短的主体，尚无交付记录，长期交付与品质兑现仍需持续观察。",
+    "facts": [
+      { "k": "2026 年销售额", "v": "AED 6.7B" },
+      { "k": "迪拜市场排名", "v": "第 8 位" },
+      { "k": "近 12 月成交", "v": "1,269 套" },
+      { "k": "在建规模", "v": "6,824 套" },
+      { "k": "在建项目", "v": "10 个" },
+      { "k": "已交付记录", "v": "0 个（新晋）" }
+    ],
+    "dims": [],
+    "bullets": [],
+    "bedMix": "销售户型结构（YTD）：1 居 49% / 2 居 32% / 3 居 10% / 其他合计 <10%。",
+    "note": "来源：丹枫开发商数据库、迪拜土地局（DLD）。销售数据截至 2026-07-04；DFP-5 评级日期 2026-07-09。资本增值与销售数据为历史市场事实，不构成收益承诺。"
+  },
+  "portfolio": {
+    "title": "从海事城到棕榈岛，",
+    "em": "四大滨海大盘",
+    "items": [
+      { "tag": "MASTERPLAN 01", "h": "Dubai Maritime City 大盘", "loc": "迪拜海事城 · 约 800 万平方英尺", "img": "masterplan.webp", "p": "介于城市与海洋之间的滨海综合区，以建筑流动性、公共空间与以人为本的规划为导向，强调步行性、健康与长期价值；下辖森林区与海湾区，Hado、Sensia、Talea、Aria 等塔楼坐落其间。" },
+      { "tag": "MASTERPLAN 02", "h": "SIORA · Dubai Islands", "loc": "迪拜群岛 · 逾 200 万平方英尺", "img": "siora.webp", "p": "BEYOND 首个海滨大盘，灵感源自 Ikigai（生之意义），以自然主导的设计与完整生活生态为核心；70% 空间献给绿意，6 公里海滩与 10 公里步道，营造平静、可持续的滨海社区。" },
+      { "tag": "MASTERPLAN 03", "h": "EVERMORE · Ras Al Khaimah", "loc": "哈伊马角 Marjan Beach · 逾 700 万平方英尺", "img": "evermore.webp", "p": "BEYOND 在哈伊马角 Marjan Beach 的首个全总规大盘，以法式古典规划与当代建筑演绎；由花园、长廊与开放公共空间构成的沉浸式片区，贯穿海滩、休闲、零售与住宅，重塑滨海连接式生活。" },
+      { "tag": "MASTERPLAN 04", "h": "THE YARDS · City of Arabia", "loc": "阿拉伯城 · 约 16.5 万平方米", "img": "proj-arancia-yards.webp", "p": "景观优先的目的地，超 70% 空间献给户外生活；遮阴林荫道与花园步道串联咖啡馆、广场、运动与农场餐桌，托儿所、学校、诊所与清真寺融入社区，Arancia Yards 为其首发地块。" }
+    ]
+  },
+  "projects": {
+    "title": "进入 BEYOND ",
+    "em": "在售项目落地页",
+    "moreHref": "https://danfengproperties.com/projects",
+    "cards": [
+      { "href": "https://danfengproperties.com/projects/arancia-yards", "img": "proj-arancia-yards.webp", "pill": "The Yards", "h": "Arancia Yards 阿兰恰庭苑", "p": "City of Arabia · 三栋低层环抱中央绿谷 · 1–3 居" },
+      { "href": "https://danfengproperties.com/projects/hado", "img": "proj-hado.webp", "pill": "Dubai Islands", "h": "HADO 哈朵", "p": "Siora 首发 · 三塔 21 层 · 日式禅意 · 1–4 居" },
+      { "href": "https://danfengproperties.com/projects/sensia", "img": "proj-sensia.webp", "pill": "Maritime City", "h": "SENSIA 森西娅", "p": "约 35 层 45° 旋转塔 · Art Deco · 1–3 居与顶层" },
+      { "href": "https://danfengproperties.com/projects/talea", "img": "proj-talea.webp", "pill": "Forest District", "h": "TALEA 塔莉亚", "p": "生物亲和绿意塔 · 41 层 · 1–4 居与双层顶层" },
+      { "href": "https://danfengproperties.com/projects/aria", "img": "proj-aria.webp", "pill": "Seafront", "h": "ARIA 艾瑞亚", "p": "滨海住宅 · 工作室至海滨联排与顶层" }
+    ]
+  },
+  "communities": {
+    "title": "BEYOND 主导开发的",
+    "em": "迪拜活跃社区",
+    "items": [
+      { "name": "Dubai Maritime City 迪拜海事城", "pill": "迪拜 · 3 个项目", "sub": "介于城市与海洋之间的滨海综合区 · Sensia · Talea · Aria", "img": "masterplan.webp", "href": "https://danfengproperties.com/communities/dubai-maritime-city" },
+      { "name": "Dubai Islands 迪拜群岛", "pill": "迪拜 · Siora 大盘", "sub": "自然主导的海滨生活生态 · Siora · Hado", "img": "siora.webp", "href": "https://danfengproperties.com/communities/dubai-islands" },
+      { "name": "City of Arabia 阿拉伯城", "pill": "迪拜 · The Yards", "sub": "景观优先的绿谷目的地 · The Yards · Arancia Yards", "img": "proj-arancia-yards.webp", "href": "https://danfengproperties.com/communities/city-of-arabia" }
+    ]
+  },
+  "special": {
+    "eyebrow": "BEYOND × PSG",
+    "h": "不止开发商，<br>更是国际生活方式品牌",
+    "p": "BEYOND 与巴黎圣日耳曼（PSG）的合作，将其定位于文化、体育与设计的交汇点——而非单纯的地产开发商。通过与这一全球最具影响力的足球俱乐部之一携手，BEYOND 连接起崇尚卓越、雄心、声望与表现的全球受众。"
+  }
+}

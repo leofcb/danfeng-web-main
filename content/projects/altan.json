@@ -1,0 +1,200 @@
+{
+ "slug": "altan",
+ "template": "v5",
+ "projectNumberDLD": "3608",
+ "name": "Altan",
+ "cn": "阿尔坦",
+ "tagline": "Serene Lifestyle, Boundless Discovery · 静谧栖居，无界探索",
+ "developer": "Emaar",
+ "community": "Dubai Creek Harbour",
+ "subCommunity": "Al Khairan First",
+ "emirate": "Dubai",
+ "country": "United Arab Emirates",
+ "hero": [
+  {
+   "src": "/img/projects/altan/hero-1.webp",
+   "alt": "Altan 迪拜河港滨水步道效果图",
+   "caption": "滨水生活 · 运河步道",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410869_hero_slide_0_f11daca164.jpg",
+   "credit": "Emaar 官方项目页"
+  },
+  {
+   "src": "/img/projects/altan/hero-2.webp",
+   "alt": "Altan 临河塔楼外观效果图",
+   "caption": "约 53 层塔楼 · 全景视野",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410846_hero_slide_1_50789c390a.jpg",
+   "credit": "Emaar 官方项目页"
+  },
+  {
+   "src": "/img/projects/altan/hero-3.webp",
+   "alt": "Altan 迪拜河与迪拜中心天际线效果图",
+   "caption": "迪拜河与天际线",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410854_hero_slide_2_748a9f51c4.jpg",
+   "credit": "Emaar 官方项目页"
+  },
+  {
+   "src": "/img/projects/altan/hero-4.webp",
+   "alt": "Altan 塔楼建筑立面外观效果图",
+   "caption": "建筑立面 · 现代克制",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410798_exterior_0_e427e4dbb2.jpg",
+   "credit": "Emaar 官方项目页"
+  },
+  {
+   "src": "/img/projects/altan/hero-5.webp",
+   "alt": "Altan 裙楼园景平台外观效果图",
+   "caption": "裙楼园景平台 Podium",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410806_exterior_1_4e94275838.jpg",
+   "credit": "Emaar 官方项目页"
+  },
+  {
+   "src": "/img/projects/altan/hero-6.webp",
+   "alt": "Altan 水岸段社区街景外观效果图",
+   "caption": "水岸段 · 社区街景",
+   "sourceUrl": "https://uae-cms.emaar.com/uploads/410814_exterior_2_caf4577e2e.jpg",
+   "credit": "Emaar 官方项目页"
+  }
+ ],
+ "intro": "Altan 由艾玛尔（Emaar）打造，坐落于迪拜河港（Dubai Creek Harbour）核心水岸，是一座约 53 层的临河公寓塔楼，提供 1–3 居公寓及少量 3 居联排。项目以运河步道、园景平台与全景水景为特色，将现代建筑语言与自然生态相融；紧邻克里克码头，5 分钟可达拉斯阿尔霍野生动物保护区，15 分钟抵迪拜中心与哈利法塔。预计 2029 年交付，采用 10/70/20 付款结构，永久产权。",
+ "thesis": [
+  {
+   "label": "DCH 旗舰体量",
+   "num": "7.4",
+   "unit": "百万㎡",
+   "desc": "Dubai Creek Harbour 由艾玛尔（Emaar）按“Downtown 2.0”整体规划，住宅空间约 7.4 百万㎡、公园与开放空间约 50 万㎡。临河岸线是一次性稀缺资源，Altan 踞其核心水岸段，稀缺性由片区结构而非营销叙事支撑。"
+  },
+  {
+   "label": "三向可达",
+   "num": "15",
+   "unit": "分钟",
+   "desc": "约 15 分钟抵哈利法塔与迪拜中心、10 分钟迪拜国际机场、5 分钟拉斯阿尔霍野生动物保护区；规划中的迪拜河地铁站与水上巴士接驳，形成机场—CBD—自然三向通达的区位结构。"
+  },
+  {
+   "label": "交付窗口 · 永久产权",
+   "num": "2029",
+   "unit": "Q3",
+   "desc": "采用 10/70/20 递进付款，预计 2029 年第三季度交付，建造期资金节奏平缓；Freehold 永久产权，较大户型可覆盖黄金签证配置门槛，兼顾自住与身份配置。"
+  }
+ ],
+ "highlights": [
+  "艾玛尔旗舰社区 Dubai Creek Harbour（业界称 “Downtown 2.0”）核心水岸地段，稀缺临河资源",
+  "约 53 层塔楼，1–3 居公寓 + 少量 3 居联排，户型约 750–4,170 sq.ft.，兼顾自住与配置",
+  "5 分钟达拉斯阿尔霍野生动物保护区（火烈鸟栖息地），紧邻克里克码头 Creek Marina",
+  "10 分钟迪拜国际机场、15 分钟迪拜中心与哈利法塔；规划迪拜河地铁站与水上巴士接驳",
+  "10/70/20 付款结构，2029 年交付；Freehold 永久产权，较大户型可满足黄金签证门槛",
+  "顶级配套：无边泳池、室内外健身、园景平台、Padel 球场、联合办公与 Rikas 餐饮概念"
+ ],
+ "unitTypes": [
+  {
+   "type": "1 居公寓",
+   "sizeMinSqft": 750,
+   "sizeMaxSqft": 780,
+   "unitCount": 211,
+   "startFromAED": 1810000,
+   "startFromLabel": "AED 1,810,000 起（开盘起价 · 非实时报价）"
+  },
+  {
+   "type": "2 居公寓",
+   "sizeMinSqft": 1180,
+   "sizeMaxSqft": 1450,
+   "unitCount": 210,
+   "startFromAED": 2710000,
+   "startFromLabel": "AED 2,710,000 起（开盘起价 · 非实时报价）"
+  },
+  {
+   "type": "3 居公寓 / 联排",
+   "sizeMinSqft": 1850,
+   "sizeMaxSqft": 4170,
+   "unitCount": 58,
+   "startFromAED": 4110000,
+   "startFromLabel": "AED 4,110,000 起（开盘起价 · 非实时报价）"
+  }
+ ],
+ "productDetails": [
+  {
+   "title": "建筑与自然的相融",
+   "body": "约 53 层临河塔楼以水景与挑高大堂开启，落地全景窗将迪拜河与拉斯阿尔霍野生动物保护区的自然生态引入室内；室内以定制衣柜、精装收口与暖调材料语言收束，建筑语言现代克制，与运河步道、园景平台形成连续的水岸叙事。",
+   "image": { "src": "/img/projects/altan/detail-1.webp", "alt": "Altan 室内精装与落地全景窗采光效果图", "caption": "精装内饰 · 自然引入室内" }
+  },
+  {
+   "title": "园景平台与宁静绿洲",
+   "body": "园景平台（Podium Deck）串联无边泳池、室内外健身与滨水步道，营造闹中取静的宁静绿洲；材料、五金与每一处收口细节均以当代精致生活为标尺考究打磨。",
+   "image": { "src": "/img/projects/altan/detail-3.webp", "alt": "Altan 园景平台休闲设施与裙楼效果图", "caption": "园景平台 Podium Deck" }
+  }
+ ],
+ "unitNote": "户型面积与开盘起价为开发商公布示意口径（非实时报价）；实时可售房态与价格以丹枫持牌顾问确认为准。",
+ "payment": {
+  "structure": "10 / 70 / 20",
+  "milestones": [
+   {
+    "stage": "预订时",
+    "percent": "10%",
+    "note": "首付 Down Payment"
+   },
+   {
+    "stage": "建造期间",
+    "percent": "70%",
+    "note": "分期支付 During Construction"
+   },
+   {
+    "stage": "交付时",
+    "percent": "20%",
+    "note": "On Handover"
+   }
+  ],
+  "note": "付款结构为示意，具体比例与节点以开发商正式方案为准。"
+ },
+ "handover": "2029（预计 Q3 2029）",
+ "location": {
+  "distances": [
+   "拉斯阿尔霍野生动物保护区 · 约 5 分钟",
+   "迪拜国际机场（DXB）· 约 10 分钟",
+   "哈利法塔与迪拜中心 · 约 15 分钟",
+   "迪拜码头 Dubai Marina · 约 25 分钟",
+   "阿勒马克图姆国际机场（DWC）· 约 40 分钟"
+  ],
+  "connectivity": [
+   "紧邻克里克码头 Creek Marina（游艇泊位）",
+   "规划中的迪拜河地铁站与水上巴士接驳"
+  ]
+ },
+ "amenities": [
+  "无边泳池 · 成人及儿童泳池",
+  "室内外健身中心",
+  "瑜伽平台",
+  "多功能厅",
+  "儿童游乐区",
+  "园景平台 Podium Deck",
+  "多功能运动场 · Padel 球场",
+  "烧烤 BBQ 区",
+  "联合办公空间",
+  "滨水步道与克里克码头",
+  "零售与餐饮（Rikas 餐饮概念）",
+  "24 小时安保"
+ ],
+ "views": [
+  "迪拜河与水岸",
+  "迪拜中心与哈利法塔",
+  "拉斯阿尔霍野生动物保护区",
+  "克里克码头 Creek Marina"
+ ],
+ "communityFacts": [
+  "服务式公寓用地约 711,399 ㎡",
+  "住宅空间约 7.4 百万㎡",
+  "公园与开放空间约 500,000 ㎡"
+ ],
+ "brochureUrl": "",
+ "video": "",
+ "meta": {
+  "sources": [
+   "开发商官方项目页 Emaar（文案 + 效果图源）：https://www.emaar.com/en/properties/altan-at-dubai-creek-harbour",
+   "项目库 Monday「Projects: Off-Plan」board 3916277144（DLD 项目号 3608）：结构化字段权威源",
+   "子项库 board 4048926548：户型/面积/开盘起价（不含任何 PSF/现价/去化字段）",
+   "Property Finder（交叉补充：楼层数/联排/施工节点/配套/连通性）"
+  ],
+  "updated": "2026-07",
+  "priceNote": "本页仅展示开盘起价示意口径；任何单价(PSF)、现价、去化率、可售套数均不入本文件、不上前端、不入 AI 上下文。具体价格以丹枫持牌顾问确认为准。",
+  "imageNote": "本页图片为 Emaar 官方效果图，经分类感知素材管线（scripts/sync-assets.mjs）按文件名语义前缀落位并压为站内本地 webp：首屏图集=hero_carousel+exterior（/img/projects/altan/hero-1..6.webp）、产品细节章=interior/feature_block（detail-1/detail-3.webp）、地段/社区章=attraction_district（manifest areaImages，area-1..5.webp）。sourceUrl 保留 Emaar 原图直链以备核验；生产环境仅用站内 /img re-host，禁止热链开发商图床。",
+  "videoNote": "未在 Emaar 官方 YouTube 频道确认到 Altan 官方视频（现有均为第三方经纪频道），按 SOP 留空。",
+  "brochureNote": "楼书下载功能 2026-07-10 起下架（LEO 指令）：内部 Dropbox 资料库链接不得进入前端数据层，且合规楼书资料尚未备好。brochureUrl 暂置空，SHOW_BROCHURE=false 时按钮隐藏；资料就绪后接入非 Dropbox 的合规托管源再恢复。"
+ }
+}

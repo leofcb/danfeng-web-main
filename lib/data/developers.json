@@ -1,0 +1,6759 @@
+[
+ {
+  "name": "Omniyat",
+  "cn": "奥姆尼亚特",
+  "ownership": "Private",
+  "founded": 2005,
+  "devNumber": "393",
+  "website": "https://www.omniyat.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 7,
+   "transactionsYtd": 236,
+   "salesValueBn": 6.7,
+   "capitalGainPct": 27.75,
+   "absorptionPct": 58.15,
+   "ucProjects": 9,
+   "ucUnits": 1393,
+   "deliveredProjects": 3,
+   "deliveredUnits": 394,
+   "bedMix": "Sales YTD: Commercial 87% / 2BR 8% / 3BR 3% / 4BR 3%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Omniyat - https://dxbinteract.com/top-property-developers-in-dubai/omniyat"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 60.5,
+   "leaves": 3.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 28,
+    "b": 83.3,
+    "c": 46.6,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 82.5,
+   "a2Samples": 8,
+   "a2bOntimeRefPct": 80,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2005; ultra-luxury / branded-residence developer (Omniyat)\n• Flagship works: One at Palm Jumeirah, The Lana (Dorchester Collection), AVA, ORLA\n• DXB (since 2012): 3 projects / 394 units delivered; 9 projects / 1,393 units under construction\n• 2026 YTD: 236 transactions, AED 6.7B sales value (very high AED/unit); 26% capital gain\n• Boutique volume, record-setting price points; among Dubai's most exclusive branded developers",
+  "blurbCn": "奥姆尼亚特（Omniyat）为迪拜顶级超豪华与品牌住宅开发商，2005年成立，代表作包括棕榈岛One、The Lana（Dorchester Collection）、AVA、ORLA等。交付量小而精，2026年迄今仅成交236套但销售额高达约67亿迪拉姆，单套均价冠绝全市，资本增值率26%。定位金字塔尖客群，稀缺性与品牌溢价极强，属超高净值资产配置标的。"
+ },
+ {
+  "name": "Emaar",
+  "cn": "伊玛尔",
+  "ownership": "Public Listed",
+  "founded": 1997,
+  "devNumber": "555",
+  "website": "https://www.emaar.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 1,
+   "transactionsYtd": 5422,
+   "salesValueBn": 30.1,
+   "capitalGainPct": 30.61,
+   "absorptionPct": 92.47,
+   "ucProjects": 141,
+   "ucUnits": 73520,
+   "deliveredProjects": 182,
+   "deliveredUnits": 114497,
+   "bedMix": "Inventory since 2012 (all-time, 188,017u): 2BR 27% (52,991) / 1BR 27% (52,380) / 3BR 21% (40,962) / 4BR 13% (24,691) / Studio 5% (10,285) / 5BR 5% (10,241) / PH 161 / 8BR+ 74",
+   "asOf": "2026-07-06",
+   "link": "DXB - Emaar - https://dxbinteract.com/top-property-developers-in-dubai/emaar-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 95.2,
+   "leaves": 5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 89.4,
+    "b": 97,
+    "c": 98.1,
+    "d": 98.8,
+    "e": 97.5
+   },
+   "a2MedianMonths": 41.4,
+   "a2Samples": 166,
+   "a2bOntimeRefPct": 93.1,
+   "d1EscrowPct": 98.8
+  },
+  "trackRecord": "• Founded 1997; flagship listed on DFM (EMAAR); development arm Emaar Development PJSC\n• Developer of Burj Khalifa, Dubai Mall, Dubai Marina, Downtown Dubai\n• DXB (since 2012): 182 projects / 114,497 units delivered; 141 projects / 73,520 units under construction\n• 2026 YTD: 5,415 transactions, AED 30B sales value, ~AED 5.6B capital gain — #1 developer by sales in Dubai\n• Strong on-time delivery record and best-in-market resale liquidity",
+  "blurbCn": "迪拜最大上市开发商（DFM 代码 EMAAR），1997 年成立，哈利法塔与迪拜购物中心的缔造者。旗下社区涵盖迪拜市中心、迪拜溪港、迪拜山庄、海滨新城等标杆片区，累计交付 180+ 项目、11 万+ 套，2026 年迄今以约 300 亿迪拉姆销售额居迪拜市场第一。交付记录稳健，品牌溢价与二手流动性市场领先。"
+ },
+ {
+  "name": "Meraas",
+  "cn": "美睿斯",
+  "ownership": "Government",
+  "founded": 2007,
+  "devNumber": "1510",
+  "website": "https://www.meraas.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 4,
+   "transactionsYtd": 946,
+   "salesValueBn": 7.6,
+   "capitalGainPct": 33.54,
+   "absorptionPct": 91.96,
+   "ucProjects": 37,
+   "ucUnits": 12693,
+   "deliveredProjects": 36,
+   "deliveredUnits": 11420,
+   "bedMix": "Sales YTD: 1BR 32% / 2BR 28% / 3BR 25% / 5BR 8%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Meraas - https://dxbinteract.com/top-property-developers-in-dubai/meraas"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 85.3,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 76.6,
+    "b": 96.8,
+    "c": 71.6,
+    "d": 100,
+    "e": 90
+   },
+   "a2MedianMonths": 36.8,
+   "a2Samples": 36,
+   "a2bOntimeRefPct": 83.3,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2007; Dubai Holding's premium lifestyle developer (government-owned)\n• Iconic destinations: City Walk, Bluewaters Island (Ain Dubai), La Mer, Port de la Mer, Jumeirah\n• DXB (since 2012): 36 projects / 11,420 units delivered; 37 projects / 12,693 units under construction\n• 2026 YTD: 946 transactions, AED 7.6B sales value, ~AED 1.7B capital gain; 33.3% capital gain, 92% absorption\n• Prime waterfront and central-Dubai locations with strong lifestyle branding",
+  "blurbCn": "美拉斯隶属迪拜控股集团，为政府背景的高端生活方式开发商，2007年成立。以City Walk、蓝水岛（迪拜眼）、La Mer海滨、Port de la Mer、朱美拉等标志性目的地闻名，项目多位于市中心与滨海黄金地段。累计交付36个项目、1.1万余套，2026年迄今销售额约76亿迪拉姆，资本增值率超33%，去化率约92%，品牌溢价与稀缺地段属性突出。"
+ },
+ {
+  "name": "Sobha",
+  "cn": "首霸",
+  "ownership": "Public Listed",
+  "founded": 1976,
+  "employees": 3000,
+  "devNumber": "966",
+  "website": "https://www.sobharealty.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 10,
+   "transactionsYtd": 1683,
+   "salesValueBn": 5.2,
+   "capitalGainPct": 6.42,
+   "absorptionPct": 90.47,
+   "ucProjects": 21,
+   "ucUnits": 34941,
+   "deliveredProjects": 15,
+   "deliveredUnits": 12350,
+   "bedMix": "Sales YTD: 1BR 58% / 2BR 31%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Sobha - https://dxbinteract.com/top-property-developers-in-dubai/sobha-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 78.9,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 73.5,
+    "b": 75.8,
+    "c": 73.5,
+    "d": 96.3,
+    "e": 97.5
+   },
+   "a2MedianMonths": 41.9,
+   "a2Samples": 15,
+   "a2bOntimeRefPct": 93.3,
+   "d1EscrowPct": 96.3
+  },
+  "trackRecord": "• Founded 1998 (Sobha Realty, part of Sobha Group); PNC Menon's flagship\n• Known for in-house 'backward integration' construction and Sobha Hartland / Hartland II master communities\n• DXB (since 2012): 15 projects / 12,350 units delivered; 21 projects / 34,941 units under construction\n• 2026 YTD: 1,675 transactions, AED 5.2B sales value; 6.5% capital gain, 90% absorption\n• Reputation for premium build quality and vertically integrated delivery",
+  "blurbCn": "索巴（Sobha Realty）隶属索巴集团，1998年由PNC Menon创立，以自建自控的垂直一体化施工体系和顶级建造品质著称。代表社区为Sobha Hartland及Hartland II。当前在建21个项目、逾3.4万套，2026年迄今销售额约52亿迪拉姆，去化率约90%。产品以高品质精装与临水地段为卖点，适合注重工程质量的投资者。"
+ },
+ {
+  "name": "Nakheel",
+  "cn": "纳克希尔",
+  "ownership": "Government",
+  "founded": 2003,
+  "devNumber": "103",
+  "website": "https://www.nakheel.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 12,
+   "transactionsYtd": 653,
+   "salesValueBn": 3.5,
+   "capitalGainPct": 31.94,
+   "absorptionPct": 89.16,
+   "ucProjects": 13,
+   "ucUnits": 8437,
+   "deliveredProjects": 27,
+   "deliveredUnits": 8900,
+   "bedMix": "Sales YTD: Studio 30% / 1BR 29% / 2BR 18% / 3BR 7%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Nakheel - https://dxbinteract.com/top-property-developers-in-dubai/nakheel"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 83.3,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 78.8,
+    "b": 95.7,
+    "c": 58.5,
+    "d": 100,
+    "e": 92.5
+   },
+   "a2MedianMonths": 29.2,
+   "a2Samples": 46,
+   "a2bOntimeRefPct": 88.5,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2000; government-owned (Dubai Holding) master developer\n• Creator of Palm Jumeirah, Palm Jebel Ali, The World, Deira Islands, Jumeirah Village\n• DXB (since 2012): 27 projects / 8,900 units delivered; 13 projects / 8,437 units under construction\n• 2026 YTD: 653 transactions, AED 3.5B sales value, ~AED 2.8B capital gain; 32% capital gain, 89% absorption\n• Iconic waterfront land bank; among the highest capital-gain records in the market",
+  "blurbCn": "纳赫勒为迪拜控股旗下政府背景大型总体开发商，2000年成立，缔造了棕榈朱美拉、棕榈杰贝阿里、世界群岛、迪拜环等标志性填海项目。累计交付27个项目、约8,900套，2026年迄今销售额约35亿迪拉姆，资本增值约28亿、增值率超32%，去化率约89%。稀缺海景地块储备丰富，长期资本增值表现居市场前列。"
+ },
+ {
+  "name": "Dubai Properties",
+  "cn": "迪拜地产",
+  "ownership": "Government",
+  "founded": 2002,
+  "devNumber": "850",
+  "website": "https://www.dp.ae/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 35,
+   "transactionsYtd": 131,
+   "salesValueBn": 0.45,
+   "capitalGainPct": 35.14,
+   "absorptionPct": 95.07,
+   "ucProjects": 6,
+   "ucUnits": 2600,
+   "deliveredProjects": 30,
+   "deliveredUnits": 18001,
+   "bedMix": "Sales YTD: 3BR 47% / 4BR 32% / 2BR 11% / 1BR 5%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Dubai Properties - https://dxbinteract.com/top-property-developers-in-dubai/dubai-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 75,
+   "leaves": 4,
+   "coverage": 72,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 72.5,
+    "b": 98,
+    "c": 33.2,
+    "e": 92.5
+   }
+  },
+  "trackRecord": "• Dubai Properties (now part of Dubai Holding Real Estate); government-owned master developer\n• Developer of JBR, Business Bay, Dubailand, Villanova, Mudon, Serena communities\n• DXB (since 2012): 30 projects / 18,001 units delivered; 6 projects / 2,600 units under construction\n• 2026 YTD: 131 transactions, AED 451.6M sales value, ~AED 990.8M capital gain; 35% capital gain, 95% absorption\n• Mature community land bank; high absorption and strong long-term capital appreciation",
+  "blurbCn": "迪拜地产（Dubai Properties，现并入迪拜控股房地产）为政府背景大型社区总体开发商，缔造JBR、Business Bay、Dubailand及Villanova、Mudon、Serena等成熟社区。累计交付30个项目、约1.8万套，在建规模较小。2026年迄今销售额约4.5亿迪拉姆，资本增值率35%、去化率高达95%。成熟社区储备丰富，长线资本增值与租赁稳定性突出，属稳健型政府开发商。"
+ },
+ {
+  "name": "Beyond",
+  "cn": "超越地产",
+  "ownership": "Private",
+  "founded": 2024,
+  "devNumber": "2324",
+  "website": "beyonddevelopments.ae - https://beyonddevelopments.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 8,
+   "transactionsYtd": 1269,
+   "salesValueBn": 6.7,
+   "capitalGainPct": 14.73,
+   "absorptionPct": 67.54,
+   "ucProjects": 10,
+   "ucUnits": 6824,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Sales YTD: 1BR 49% / 2BR 32% / 3BR 10% / Studio/4BR/5BR/6BR/Commercial <10% combined",
+   "asOf": "2026-07-04",
+   "link": "DXB - Beyond - https://dxbinteract.com/top-property-developers-in-dubai/beyond-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 71.3,
+   "leaves": 4,
+   "coverage": 70,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 79.1,
+    "c": 62.2,
+    "d": 100,
+    "e": 37.5
+   },
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "超越地产（Beyond）为迪拜私营开发商，2024年成立。据DXB市场数据，当前在建10个项目、尚无交付记录，2026年迄今销售额约67亿迪拉姆，为销售表现强劲的新晋开发商。丹枫置业 DFP-5 评级4枫叶。"
+ },
+ {
+  "name": "Ellington",
+  "cn": "艾灵顿",
+  "ownership": "Private",
+  "founded": 2014,
+  "devNumber": "1117",
+  "website": "https://ellingtonproperties.ae/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 6,
+   "transactionsYtd": 2437,
+   "salesValueBn": 7.1,
+   "capitalGainPct": 21.25,
+   "absorptionPct": 81.78,
+   "ucProjects": 30,
+   "ucUnits": 14270,
+   "deliveredProjects": 20,
+   "deliveredUnits": 5499,
+   "bedMix": "Sales YTD: 1BR 45% / 2BR 40% / 3BR 11%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Ellington - https://dxbinteract.com/top-property-developers-in-dubai/ellington"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 79.4,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 69.1,
+    "b": 92.7,
+    "c": 75.3,
+    "d": 100,
+    "e": 57.5
+   },
+   "a2MedianMonths": 32.5,
+   "a2Samples": 18,
+   "a2bOntimeRefPct": 78.3,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2014; design-led boutique developer (Ellington Properties)\n• Known for architectural quality, art-inspired lobbies and communities in Palm Jumeirah, MBR City, JVC\n• DXB (since 2012): 20 projects / 5,499 units delivered; 30 projects / 14,270 units under construction\n• 2026 YTD: 2,422 transactions (#6 by volume), AED 7B sales value; 21% capital gain, 82% absorption\n• Strong resale premium and end-user appeal from design-first positioning",
+  "blurbCn": "埃灵顿（Ellington Properties）为设计驱动型精品开发商，2014年成立，以建筑美学、艺术化公共空间和高品质精装著称，社区分布于棕榈朱美拉、MBR City、JVC等地。累计交付20个项目、约5,500套，在建30个项目、逾1.4万套。2026年迄今成交2,422套居全市第六，销售额约70亿迪拉姆，资本增值率21%。设计溢价与自住客群偏好突出，二手抗跌性强。"
+ },
+ {
+  "name": "Binghatti",
+  "cn": "宾加蒂",
+  "ownership": "Family",
+  "founded": 2008,
+  "employees": 3700,
+  "devNumber": "1051",
+  "website": "binghatti.com - https://www.binghatti.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 3,
+   "transactionsYtd": 4927,
+   "salesValueBn": 7.7,
+   "capitalGainPct": 22.84,
+   "absorptionPct": 77.31,
+   "ucProjects": 37,
+   "ucUnits": 38805,
+   "deliveredProjects": 39,
+   "deliveredUnits": 12051,
+   "bedMix": "Sales YTD: Studio 60% / 1BR 26% / 2BR 11%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Binghatti - https://dxbinteract.com/top-property-developers-in-dubai/binghatti"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 88,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 89.1,
+    "b": 90.9,
+    "c": 84.6,
+    "d": 93.3,
+    "e": 77.5
+   },
+   "a2MedianMonths": 14.7,
+   "a2Samples": 30,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 93.3
+  },
+  "trackRecord": "• Founded 2008; family-owned private developer known for hyper-fast delivery\n• Signature architecture and branded towers (Bugatti Residences, Mercedes-Benz Places)\n• DXB (since 2012): 39 projects / 12,051 units delivered; 37 projects / 38,805 units under construction\n• 2026 YTD: 4,927 transactions (#4 by volume), AED 7.6B sales value; 23% capital gain, 76% absorption\n• High-velocity launches concentrated in JVC and central districts; strong studio/1BR investor demand",
+  "blurbCn": "宾加蒂为家族私营开发商，2008年成立，以极快的交付速度与标志性外立面设计著称，并推出Bugatti Residences、Mercedes-Benz Places等品牌联名塔楼。累计交付39个项目、逾1.2万套，在建规模近3.9万套。2026年迄今成交4,927套居全市第四，销售额约76亿迪拉姆，资本增值率23%。主打Studio及1房，投资门槛低、租赁需求旺盛。"
+ },
+ {
+  "name": "Iman",
+  "cn": "伊曼",
+  "ownership": "Private",
+  "founded": 2016,
+  "devNumber": "1178",
+  "website": "imandevelopers.com - https://www.imandevelopers.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 21,
+   "transactionsYtd": 599,
+   "salesValueBn": 0.89,
+   "capitalGainPct": 20,
+   "absorptionPct": 86.88,
+   "ucProjects": 8,
+   "ucUnits": 3331,
+   "deliveredProjects": 5,
+   "deliveredUnits": 780,
+   "bedMix": "Sales YTD: 1BR 37% / Studio 32% / 2BR 25%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Iman - https://dxbinteract.com/top-property-developers-in-dubai/iman-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 74.3,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 71.5,
+    "b": 94.8,
+    "c": 46,
+    "d": 100,
+    "e": 52.5
+   },
+   "a2MedianMonths": 21.1,
+   "a2Samples": 8,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Iman Developers, founded 2016; private mid-market developer\n• Known for the 'Oxford' branded series in JVC and Arjan\n• DXB (since 2012): 5 projects / 780 units delivered; 8 projects / 3,331 units under construction\n• 2026 YTD: 593 transactions, AED 877.1M sales value; 20% capital gain, 87% absorption\n• Value-segment apartments with strong sell-through velocity",
+  "blurbCn": "Iman Developers为私营中端开发商，2016年成立，以JVC、Arjan等地的\"Oxford\"系列品牌产品著称。迪拜口径累计交付5个项目、约780套，在建8个项目、逾3,300套。2026年迄今销售额约8.8亿迪拉姆，资本增值率20%、去化率87%。主打平价公寓，去化速度快，适合追求高租金回报的入门投资者。"
+ },
+ {
+  "name": "Damac",
+  "cn": "达马克",
+  "ownership": "Public Listed",
+  "founded": 2002,
+  "employees": 2000,
+  "devNumber": "954",
+  "website": "https://www.damacproperties.com/en/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 2,
+   "transactionsYtd": 6031,
+   "salesValueBn": 16.1,
+   "capitalGainPct": 12.89,
+   "absorptionPct": 82.57,
+   "ucProjects": 105,
+   "ucUnits": 57989,
+   "deliveredProjects": 106,
+   "deliveredUnits": 50550,
+   "bedMix": "Sales YTD: 4BR 37% / 5BR 19% / 1BR 18% / Studio 13%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Damac - https://dxbinteract.com/top-property-developers-in-dubai/damac-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 85.2,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 71.9,
+    "b": 82.4,
+    "c": 96,
+    "d": 100,
+    "e": 97.5
+   },
+   "a2MedianMonths": 49.4,
+   "a2Samples": 130,
+   "a2bOntimeRefPct": 82.5,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2002 by Hussain Sajwani; listed (returned to DFM), luxury-focused developer\n• Known for branded residences (Cavalli, de GRISOGONO, Versace) and DAMAC Hills, DAMAC Lagoons\n• DXB (since 2012): 106 projects / 50,550 units delivered; 105 projects / 57,989 units under construction\n• 2026 YTD: 6,009 transactions (#1 by volume), AED 16B sales value; 12.9% capital gain, 82% absorption\n• Largest private luxury developer by transaction count in Dubai",
+  "blurbCn": "达马克由Hussain Sajwani于2002年创立，为迪拜领先的豪华地产开发商（DFM上市）。以Cavalli、Versace、de GRISOGONO等品牌联名住宅及DAMAC Hills、DAMAC Lagoons社区闻名。累计交付106个项目、逾5万套，2026年迄今成交量6,009套居全市首位，销售额约160亿迪拉姆。定位高端奢华，产品线广、付款计划灵活，为规模最大的私营豪宅开发商。"
+ },
+ {
+  "name": "Tiger",
+  "cn": "泰格集团",
+  "ownership": "Private",
+  "founded": 1976,
+  "employees": 105,
+  "devNumber": "581",
+  "website": "tigergrupe.net - https://www.tigergrupe.net",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 42,
+   "transactionsYtd": 324,
+   "salesValueBn": 0.37,
+   "capitalGainPct": 18.92,
+   "absorptionPct": 55.21,
+   "ucProjects": 12,
+   "ucUnits": 8348,
+   "deliveredProjects": 12,
+   "deliveredUnits": 4970,
+   "bedMix": "Sales YTD: Studio 51% / 1BR 31% / 2BR 17%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Tiger - https://dxbinteract.com/top-property-developers-in-dubai/tiger-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 73.2,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 73.7,
+    "b": 80.5,
+    "c": 45.7,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 42.4,
+   "a2Samples": 11,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Tiger Properties (Tiger Group), long-established private developer (group since 1976)\n• Value-segment high-rise apartments in Al Nahda, Arjan, JVC, Liwan\n• DXB (since 2012): 12 projects / 4,970 units delivered; 12 projects / 8,348 units under construction\n• 2026 YTD: 324 transactions, AED 371.2M sales value; 19% capital gain, 55% absorption\n• Affordable studio/1BR focus; long operating history in the mid-market",
+  "blurbCn": "Tiger Properties隶属Tiger集团（集团成立于1976年），为经营历史悠久的私营开发商，主打Al Nahda、Arjan、JVC、Liwan等地的平价高层公寓。迪拜口径累计交付12个项目、约4,970套，在建12个项目。2026年迄今销售额约3.7亿迪拉姆，去化率55%。以Studio及1房平价产品为主，品牌历史长，适合低总价投资入门。"
+ },
+ {
+  "name": "Reportage",
+  "cn": "雷波塔奇",
+  "ownership": "Private",
+  "founded": 2014,
+  "employees": 350,
+  "devNumber": "1936",
+  "website": "https://reportageuae.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 17,
+   "transactionsYtd": 1381,
+   "salesValueBn": 1.7,
+   "capitalGainPct": 16.17,
+   "absorptionPct": 44.8,
+   "ucProjects": 15,
+   "ucUnits": 8279,
+   "deliveredProjects": 1,
+   "deliveredUnits": 378,
+   "bedMix": "Sales YTD: 2BR 29% / 1BR 21% / 3BR 21% / 4BR 16%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Reportage - https://dxbinteract.com/top-property-developers-in-dubai/reportage-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 63.2,
+   "leaves": 3.5,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 72.2,
+    "c": 60.1,
+    "d": 100,
+    "e": 57.5
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Reportage Properties (Abu Dhabi-based private developer, active in Dubai)\n• High-volume affordable launches in Dubailand, DIP, Al Furjan; interest-free payment plans\n• DXB (since 2012): 1 project / 378 units delivered; 15 projects / 8,279 units under construction\n• 2026 YTD: 1,381 transactions, AED 1.7B sales value; 16% capital gain, 45% absorption\n• Aggressive value-segment launch strategy; early-stage delivery record in Dubai",
+  "blurbCn": "Reportage Properties为阿布扎比背景私营开发商，近年在迪拜大举扩张，项目集中于Dubailand、DIP、Al Furjan等地，主打平价产品与免息付款计划。迪拜口径累计交付1个项目，在建15个项目、逾8,200套。2026年迄今销售额约17亿迪拉姆，去化率45%（偏低）。以高发盘量的平价投资产品为主，迪拜交付记录尚处早期，适合低总价入门型买家。"
+ },
+ {
+  "name": "Danube",
+  "cn": "多瑙河",
+  "ownership": "Family",
+  "founded": 1993,
+  "employees": 740,
+  "devNumber": "1009",
+  "website": "danubeproperties.ae - https://www.danubeproperties.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 13,
+   "transactionsYtd": 1617,
+   "salesValueBn": 3.5,
+   "capitalGainPct": 12.12,
+   "absorptionPct": 86.45,
+   "ucProjects": 21,
+   "ucUnits": 22233,
+   "deliveredProjects": 19,
+   "deliveredUnits": 12279,
+   "bedMix": "Sales YTD: Commercial 36% / Studio 28% / 1BR 24%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Danube - https://dxbinteract.com/top-property-developers-in-dubai/danube-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 82.8,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 85.7,
+    "b": 82.8,
+    "c": 69.9,
+    "d": 100,
+    "e": 82.5
+   },
+   "a2MedianMonths": 32.4,
+   "a2Samples": 17,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 1993; part of Danube Group (building materials + real estate), private\n• Known for affordable 1% monthly payment plans and fully-furnished units\n• DXB (since 2012): 19 projects / 12,279 units delivered; 21 projects / 22,233 units under construction\n• 2026 YTD: 1,615 transactions, AED 3.5B sales value; 12% capital gain, 86% absorption\n• Value-segment leader with strong absorption and investor-friendly payment terms",
+  "blurbCn": "多瑙（Danube Properties）隶属Danube集团（建材+地产），1993年成立，以\"1%月供\"平价付款计划及全屋精装交付著称。累计交付19个项目、逾1.2万套，在建规模逾2.2万套。2026年迄今销售额约35亿迪拉姆，去化率86%。定位平价刚需与投资入门市场，付款门槛低、去化快，适合追求现金流与低总价的买家。"
+ },
+ {
+  "name": "MAG",
+  "cn": "迈格",
+  "ownership": "Family",
+  "founded": 1978,
+  "employees": 142,
+  "devNumber": "1164",
+  "website": "magpd.com - https://www.magpd.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 44,
+   "transactionsYtd": 123,
+   "salesValueBn": 0.33,
+   "capitalGainPct": 25.72,
+   "absorptionPct": 49.97,
+   "ucProjects": 6,
+   "ucUnits": 1671,
+   "deliveredProjects": 7,
+   "deliveredUnits": 7268,
+   "bedMix": "Sales YTD: 1BR 38% / Studio 30% / 2BR 22%",
+   "asOf": "2026-07-06",
+   "link": "DXB - MAG - https://dxbinteract.com/top-property-developers-in-dubai/mag"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 62.9,
+   "leaves": 3.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 48.9,
+    "b": 80,
+    "c": 30,
+    "d": 100,
+    "e": 82.5
+   },
+   "a2MedianMonths": 44.3,
+   "a2Samples": 4,
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• MAG (Moafaq Al Gaddah Group); property arm of a diversified UAE conglomerate\n• Projects in Meydan (MAG City), Dubai South, plus wellness-branded Keturah Reserve\n• DXB (since 2012): 7 projects / 7,268 units delivered; 6 projects / 1,671 units under construction\n• 2026 YTD: 122 transactions, AED 315.1M sales value; 26% capital gain, 50% absorption\n• Spans affordable to ultra-luxury (Keturah); moderate current absorption",
+  "blurbCn": "MAG（Moafaq Al Gaddah集团）为阿联酋多元化集团旗下地产板块，项目涵盖Meydan（MAG City）、迪拜南城及养生豪宅品牌Keturah Reserve。累计交付7个项目、逾7,200套，在建6个项目。2026年迄今销售额约3.2亿迪拉姆，资本增值率26%、去化率50%。产品线从平价延伸至超豪华（Keturah），当前去化中等，品牌跨度较大。"
+ },
+ {
+  "name": "Object One",
+  "cn": "奥布杰壹号",
+  "ownership": "Private",
+  "founded": 2021,
+  "devNumber": "1579",
+  "website": "object-1.com - https://www.object-1.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 32,
+   "transactionsYtd": 457,
+   "salesValueBn": 0.54,
+   "capitalGainPct": 0.88,
+   "absorptionPct": 65.87,
+   "ucProjects": 22,
+   "ucUnits": 5315,
+   "deliveredProjects": 1,
+   "deliveredUnits": 146,
+   "bedMix": "Sales YTD: 1BR 50% / Studio 29% / 2BR 17%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Object One - https://dxbinteract.com/top-property-developers-in-dubai/object-one-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 51.8,
+   "leaves": 3,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 57.7,
+    "c": 50.6,
+    "d": 86.7,
+    "e": 40
+   },
+   "d1EscrowPct": 86.7
+  },
+  "trackRecord": "• Object 1 (Object One Real Estate Development), founded 2021; private developer with European (DDA Group) roots\n• Contemporary mid-market apartments in JVC, JVT, Al Furjan\n• DXB (since 2012): 1 project / 146 units delivered; 22 projects / 5,315 units under construction\n• 2026 YTD: 450 transactions, AED 528.3M sales value; 66% absorption\n• Young, fast-launching brand; delivery record still early-stage",
+  "blurbCn": "Object 1（Object One）为2021年成立的私营开发商，具欧洲（DDA集团）背景，主打JVC、JVT、Al Furjan等地的现代中端公寓。迪拜口径累计交付1个项目，在建22个项目、逾5,300套，发盘迅速。2026年迄今销售额约5.3亿迪拉姆，去化率66%。品牌年轻、扩张快，但交付记录尚处早期，适合看重新兴片区平价产品的买家。"
+ },
+ {
+  "name": "LEOS",
+  "cn": "里奥斯",
+  "ownership": "Private",
+  "founded": 2012,
+  "devNumber": "1494",
+  "website": "leosuk.com - https://www.leosuk.com",
+  "dxb": {
+   "rank": 29,
+   "transactionsYtd": 527,
+   "salesValueBn": 0.6907,
+   "capitalGainPct": 6.03,
+   "absorptionPct": 89.33,
+   "ucProjects": 8,
+   "ucUnits": 1649,
+   "deliveredProjects": 1,
+   "deliveredUnits": 219,
+   "bedMix": "Studio41%(763)·1B35%(649)·2B14%(264)·3B6%(117)·4B2%(46)·5B1%(18)·6B0%(5)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/leos-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 60.6,
+   "leaves": 3.5,
+   "coverage": 90,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 37.7,
+    "b": 74.8,
+    "c": 41.5,
+    "d": 100,
+    "e": 62.5
+   },
+   "a2bOntimeRefPct": 85.7,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "里奥斯（LEOS）为迪拜私营开发商，2012年成立。据DXB市场数据，累计交付1个项目、当前在建8个项目，2026年迄今销售额约6.9亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Al Habtoor",
+  "cn": "阿尔哈布图尔",
+  "ownership": "Family",
+  "founded": 1970,
+  "devNumber": "1673",
+  "website": "habtoor.com - https://www.habtoor.com/en/",
+  "dxb": {
+   "rank": 23,
+   "transactionsYtd": 157,
+   "salesValueBn": 0.7978,
+   "capitalGainPct": 8.08,
+   "absorptionPct": 82.28,
+   "ucProjects": 4,
+   "ucUnits": 3162,
+   "deliveredProjects": 1,
+   "deliveredUnits": 3098,
+   "bedMix": "1B41%(1971)·2B35%(1673)·3B11%(539)·Studio11%(540)·4B2%(73)·5B0%(4)·7B0%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/al-habtoor-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 60.9,
+   "leaves": 3.5,
+   "coverage": 80,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 54.9,
+    "b": 75,
+    "c": 34.8,
+    "e": 82.5
+   },
+   "a2bOntimeRefPct": 100
+  },
+  "blurbCn": "阿尔哈布图尔（Al Habtoor）为迪拜家族背景开发商，成立于1970年，经营历史悠久。据DXB市场数据，累计交付1个项目、当前在建4个项目，2026年迄今销售额约8.0亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Azizi",
+  "cn": "阿齐兹",
+  "ownership": "Private",
+  "founded": 2007,
+  "employees": 3000,
+  "devNumber": "1002",
+  "website": "azizidevelopments.com - https://www.azizidevelopments.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 9,
+   "transactionsYtd": 6619,
+   "salesValueBn": 6.1,
+   "capitalGainPct": 9.85,
+   "absorptionPct": 36.42,
+   "ucProjects": 44,
+   "ucUnits": 52185,
+   "deliveredProjects": 89,
+   "deliveredUnits": 23250,
+   "bedMix": "Sales YTD: Studio 66% / 1BR 27%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Azizi - https://dxbinteract.com/top-property-developers-in-dubai/azizi-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 73.5,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 71.2,
+    "b": 59.3,
+    "c": 87.2,
+    "d": 93.9,
+    "e": 75
+   },
+   "a2MedianMonths": 57.9,
+   "a2Samples": 84,
+   "a2bOntimeRefPct": 96.4,
+   "d1EscrowPct": 93.9
+  },
+  "trackRecord": "• Founded 1989; large private developer (Azizi Developments)\n• Concentrated in Al Furjan, MBR City, Dubai Healthcare City; mega-project Azizi Riviera and Burj Azizi\n• DXB (since 2012): 89 projects / 23,250 units delivered; 44 projects / 52,185 units under construction\n• 2026 YTD: 6,470 transactions (highest volume on list), AED 5.8B sales value; 9.8% capital gain, 36% absorption\n• Very high launch volume of studios/1BR; large under-construction pipeline",
+  "blurbCn": "阿齐兹（Azizi Developments）为大型私营开发商，1989年成立，项目集中于Al Furjan、MBR City、迪拜医疗城等地，旗舰大盘Azizi Riviera及超高层Burj Azizi。累计交付89个项目、逾2.3万套，在建规模高达5.2万套。2026年迄今成交6,470套为全榜之最，销售额约58亿迪拉姆。主打Studio及1房、供应量大，去化率相对偏低（36%），适合看重低总价与租赁市场的投资者。"
+ },
+ {
+  "name": "Samana",
+  "cn": "萨马纳",
+  "ownership": "Private",
+  "founded": 2016,
+  "employees": 125,
+  "devNumber": "1229",
+  "website": "samana-group.com - https://www.samana-group.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 16,
+   "transactionsYtd": 1692,
+   "salesValueBn": 1.9,
+   "capitalGainPct": 0.1,
+   "absorptionPct": 90.58,
+   "ucProjects": 42,
+   "ucUnits": 15197,
+   "deliveredProjects": 6,
+   "deliveredUnits": 1350,
+   "bedMix": "Sales YTD: 1BR 41% / Studio 37% / 2BR 13%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Samana - https://dxbinteract.com/top-property-developers-in-dubai/samana-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65.1,
+   "leaves": 3.5,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 34.8,
+    "b": 66.4,
+    "c": 70.3,
+    "d": 100,
+    "e": 52.5
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2016; fast-growing private developer (Samana Developers)\n• Known for private-pool apartments and resort-style amenities in JVC, Dubailand, Arjan\n• DXB (since 2012): 6 projects / 1,350 units delivered; 42 projects / 15,197 units under construction\n• 2026 YTD: 1,664 transactions, AED 1.9B sales value; 90% absorption (strong sell-through)\n• High-volume value segment; heavy studio/1BR launch pipeline",
+  "blurbCn": "萨马纳（Samana Developers）为快速崛起的私营开发商，2016年成立，以\"户户私人泳池\"及度假式配套著称，项目集中于JVC、Dubailand、Arjan等地。当前在建42个项目、逾1.5万套，交付6个项目。2026年迄今销售额约19亿迪拉姆，去化率高达90%。主打Studio及1房平价投资产品，去化速度快，适合追求高租金回报的入门投资者。"
+ },
+ {
+  "name": "Wasl",
+  "cn": "瓦斯尔",
+  "ownership": "Government",
+  "founded": 2008,
+  "employees": 690,
+  "website": "https://www.wasl.ae/en",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 14,
+   "transactionsYtd": 628,
+   "salesValueBn": 3.3,
+   "capitalGainPct": 12.58,
+   "absorptionPct": 63.09,
+   "ucProjects": 11,
+   "ucUnits": 6137,
+   "deliveredProjects": 3,
+   "deliveredUnits": 3073,
+   "bedMix": "Sales YTD: 2BR 37% / 1BR 24% / 4BR 14% / 3BR 10%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Wasl - https://dxbinteract.com/top-property-developers-in-dubai/wasl-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 64.1,
+   "leaves": 3.5,
+   "coverage": 72,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 33.6,
+    "b": 74.1,
+    "c": 55.8,
+    "e": 87.5
+   }
+  },
+  "trackRecord": "• wasl (Dubai Real Estate Corp), government-owned; asset-management and development arm of the Dubai government\n• Major landlord and developer of wasl1, wasl Gate, Za'abeel and city-centre communities\n• DXB (since 2012): 3 projects / 3,073 units delivered; 11 projects / 6,137 units under construction\n• 2026 YTD: 620 transactions, AED 3.3B sales value; 13% capital gain, 63% absorption\n• Prime central-Dubai land holdings; long-term hold and rental-income orientation",
+  "blurbCn": "瓦斯尔（wasl，隶属迪拜房地产总公司）为迪拜政府资产管理与开发平台，是市中心大型业主与开发商，代表项目包括wasl1、wasl Gate、Za'abeel等。当前在建11个项目、逾6,000套，2026年迄今销售额约33亿迪拉姆，资本增值率13%。地段多位于城市核心黄金地带，长期持有与租金收益属性突出，背靠政府信用稳健。"
+ },
+ {
+  "name": "Sankari",
+  "ownership": "Family",
+  "founded": 2023,
+  "devNumber": "1698",
+  "website": "https://www.sankariproperties.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "absorptionPct": 2.3,
+   "ucProjects": 1,
+   "ucUnits": 60,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "3B67%(37)·4B27%(15)·5B5%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/sankari-properties"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Imtiaz",
+  "cn": "伊姆蒂亚兹",
+  "ownership": "Private",
+  "founded": 2014,
+  "devNumber": "1641",
+  "website": "imtiazdevelopments.com - https://www.imtiazdevelopments.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 15,
+   "transactionsYtd": 1455,
+   "salesValueBn": 2.6,
+   "capitalGainPct": 23.46,
+   "absorptionPct": 80.11,
+   "ucProjects": 31,
+   "ucUnits": 7181,
+   "deliveredProjects": 9,
+   "deliveredUnits": 1447,
+   "bedMix": "Sales YTD: 1BR 47% / Studio 28% / 2BR 16%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Imtiaz - https://dxbinteract.com/top-property-developers-in-dubai/imtiaz-real-estate-investment-and-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 74.8,
+   "leaves": 4,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 39.8,
+    "b": 92,
+    "c": 65.9,
+    "d": 100,
+    "e": 57.5
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Private developer (Imtiaz Developments); design-focused mid-market brand\n• Active in JVC, Dubai Islands, Meydan with fully-furnished branded projects\n• DXB (since 2012): 9 projects / 1,447 units delivered; 31 projects / 7,181 units under construction\n• 2026 YTD: 1,454 transactions, AED 2.6B sales value; 24% capital gain, 80% absorption\n• Rapidly scaling launch pipeline with strong studio/1BR investor demand",
+  "blurbCn": "Imtiaz Developments为设计导向的私营中端开发商，项目集中于JVC、迪拜群岛、Meydan等地，多为全屋精装品牌产品。累计交付9个项目，在建31个项目、逾7,000套，扩张迅速。2026年迄今销售额约26亿迪拉姆，资本增值率24%、去化率80%。主打Studio及1房投资产品，性价比与精装标准较高，投资门槛适中。"
+ },
+ {
+  "name": "Dar Global",
+  "cn": "达尔环球",
+  "ownership": "Public Listed",
+  "founded": 2017,
+  "devNumber": "1221",
+  "website": "darglobal.co.uk - https://www.darglobal.co.uk",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 63,
+   "transactionsYtd": 37,
+   "salesValueBn": 0.2176,
+   "capitalGainPct": 7.69,
+   "absorptionPct": 79.79,
+   "ucProjects": 4,
+   "ucUnits": 1405,
+   "deliveredProjects": 1,
+   "deliveredUnits": 483,
+   "bedMix": "Sales YTD: 5BR 49% / 1BR 35% / 2BR 8% / 3BR 5% / Commercial 3%",
+   "asOf": "2026-07-04",
+   "link": "DXB - DarGlobal - https://dxbinteract.com/top-property-developers-in-dubai/dar-global"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 57,
+   "leaves": 3,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 73.5,
+    "c": 26.5,
+    "d": 100,
+    "e": 70
+   },
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "DarGlobal（Dar Global PLC）成立于2017年，是沙特最大上市地产商Dar Al Arkan集团的国际豪宅开发平台，2023年在伦敦证券交易所（LSE）上市。主打全球顶级品牌联名豪宅，代表项目包括迪拜Trump International Hotel & Tower（与特朗普集团合作）、Business Bay的Urban Oasis by Missoni，并与Aston Martin、Lamborghini等品牌合作打造限量豪宅。定位超高净值品牌溢价市场，产品稀缺性强，适合追求国际品牌背书的投资者。"
+ },
+ {
+  "name": "OCTA",
+  "cn": "奥克塔",
+  "ownership": "Private",
+  "founded": 2021,
+  "employees": 71,
+  "devNumber": "2087",
+  "website": "OCTA - https://www.octaproperties.com/",
+  "dxb": {
+   "rank": 76,
+   "transactionsYtd": 40,
+   "salesValueBn": 0.1506,
+   "absorptionPct": 92.08,
+   "ucProjects": 2,
+   "ucUnits": 518,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "2B60%(217)·1B25%(89)·3B15%(54)·4B1%(2)·5B0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/octa-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 61.7,
+   "leaves": 3.5,
+   "coverage": 60,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 92.1,
+    "c": 20,
+    "d": 100,
+    "e": 40
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "奥克塔（OCTA）为迪拜私营开发商，2021年成立。据DXB市场数据，当前在建2个项目、尚无交付记录，2026年迄今销售额约1.5亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Nshama",
+  "cn": "恩莎玛",
+  "ownership": "Private",
+  "founded": 2014,
+  "employees": 150,
+  "devNumber": "1162",
+  "website": "nshama.ae - https://www.nshama.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 26,
+   "transactionsYtd": 495,
+   "salesValueBn": 0.77,
+   "capitalGainPct": 32.13,
+   "absorptionPct": 85.81,
+   "ucProjects": 25,
+   "ucUnits": 5157,
+   "deliveredProjects": 22,
+   "deliveredUnits": 13836,
+   "bedMix": "Sales YTD: 2BR 55% / 1BR 38% / 3BR 7%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Nshama - https://dxbinteract.com/top-property-developers-in-dubai/nshama"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 80.7,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 86.7,
+    "b": 94.3,
+    "c": 53,
+    "d": 100,
+    "e": 57.5
+   },
+   "a2MedianMonths": 30,
+   "a2Samples": 11,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2014; private developer of the Town Square Dubai master community\n• Focus on affordable townhouses and apartments for end-users\n• DXB (since 2012): 22 projects / 13,836 units delivered; 25 projects / 5,157 units under construction\n• 2026 YTD: 494 transactions, AED 762.8M sales value, ~AED 266M capital gain; 32% capital gain, 86% absorption\n• Value-oriented community developer with strong end-user demand",
+  "blurbCn": "Nshama为私营社区开发商，2014年成立，核心项目为Town Square Dubai大型社区，主打平价联排别墅与公寓，面向自住客群。累计交付22个项目、逾1.3万套，在建25个项目。2026年迄今销售额约7.6亿迪拉姆，资本增值率32%、去化率86%。定位刚需社区市场，配套完善、性价比高，适合自住与稳健长线持有。"
+ },
+ {
+  "name": "Evolution",
+  "ownership": "Private",
+  "founded": 2023,
+  "employees": 300,
+  "website": "https://evolutions.ae/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Refine",
+  "ownership": "Private",
+  "website": "refinedubai.com - https://refinedubai.com",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Peak Summit",
+  "ownership": "Private",
+  "founded": 2023,
+  "devNumber": "1476",
+  "website": "theorchardplace.ae - https://theorchardplace.ae",
+  "dxb": {
+   "rank": 110,
+   "transactionsYtd": 33,
+   "salesValueBn": 0.0371,
+   "capitalGainPct": 0.7,
+   "absorptionPct": 36.49,
+   "ucProjects": 3,
+   "ucUnits": 1628,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Peak Summit - https://dxbinteract.com/top-property-developers-in-dubai/peak-summit-real-estate-development-llc"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Muraba",
+  "ownership": "Family",
+  "founded": 2014,
+  "devNumber": "1032",
+  "website": "muraba.ae - https://www.muraba.ae",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Palma",
+  "cn": "帕尔玛",
+  "ownership": "Private",
+  "founded": 1998,
+  "employees": 42,
+  "devNumber": "1068",
+  "website": "palmaholding.com - https://www.palmaholding.com",
+  "dxb": {
+   "rank": 45,
+   "transactionsYtd": 95,
+   "salesValueBn": 0.3295,
+   "capitalGainPct": 32.35,
+   "absorptionPct": 54.1,
+   "ucProjects": 2,
+   "asOf": "2026-07-04",
+   "link": "DXB - Palma - https://dxbinteract.com/top-property-developers-in-dubai/palma"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 60.3,
+   "leaves": 3.5,
+   "coverage": 80,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 81.6,
+    "c": 20,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "帕尔玛（Palma）为迪拜私营开发商，1998年成立。据DXB市场数据，当前在建2个项目，2026年迄今销售额约3.3亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Heart of Europe",
+  "ownership": "Private",
+  "employees": 1200,
+  "website": "thoe.com - https://thoe.com",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "DEYAAR",
+  "cn": "迪亚尔",
+  "ownership": "Public Listed",
+  "founded": 2002,
+  "devNumber": "15",
+  "website": "https://www.deyaar.ae/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 19,
+   "transactionsYtd": 691,
+   "salesValueBn": 1.2,
+   "capitalGainPct": 17.32,
+   "absorptionPct": 91.93,
+   "ucProjects": 10,
+   "ucUnits": 4461,
+   "deliveredProjects": 16,
+   "deliveredUnits": 8663,
+   "bedMix": "Sales YTD: 1BR 49% / Studio 10%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Deyaar - https://dxbinteract.com/top-property-developers-in-dubai/deyaar"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 81.1,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 78.2,
+    "b": 92.8,
+    "c": 50.3,
+    "d": 100,
+    "e": 97.5
+   },
+   "a2MedianMonths": 41.1,
+   "a2Samples": 24,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Founded 2002; listed on DFM (DEYAAR), backed by Dubai Islamic Bank\n• Projects in Business Bay, Al Barsha, DIP; brands include Midtown and Regalia\n• DXB (since 2012): 16 projects / 8,663 units delivered; 10 projects / 4,461 units under construction\n• 2026 YTD: 691 transactions, AED 1.2B sales value; 17% capital gain, 92% absorption\n• Established listed developer with steady mid-market delivery track record",
+  "blurbCn": "Deyaar为迪拜上市开发商（DFM代码DEYAAR），2002年成立，背靠迪拜伊斯兰银行。项目分布于Business Bay、Al Barsha、DIP等地，旗下品牌包括Midtown、Regalia等。累计交付16个项目、逾8,600套，在建10个项目。2026年迄今销售额约12亿迪拉姆，资本增值率17%、去化率92%。为交付记录稳健的成熟上市中端开发商。"
+ },
+ {
+  "name": "Majid Al Futtaim",
+  "cn": "马吉德·阿尔·富塔伊姆",
+  "ownership": "Family",
+  "founded": 1992,
+  "employees": 43000,
+  "devNumber": "1461",
+  "website": "majidalfuttaimproperties.com - https://www.majidalfuttaimproperties.com/en",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 24,
+   "transactionsYtd": 275,
+   "salesValueBn": 0.79,
+   "capitalGainPct": 53.71,
+   "absorptionPct": 96.63,
+   "ucProjects": 10,
+   "ucUnits": 4030,
+   "deliveredProjects": 3,
+   "deliveredUnits": 2993,
+   "bedMix": "Sales YTD: 1BR 49% / 2BR 39% / 3BR 11%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Majid Al Futtaim - https://dxbinteract.com/top-property-developers-in-dubai/majid-al-futtaim"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 70.2,
+   "leaves": 4,
+   "coverage": 72,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 33.4,
+    "b": 98.7,
+    "c": 43.6,
+    "e": 82.5
+   }
+  },
+  "trackRecord": "• Majid Al Futtaim (private conglomerate); Mall of the Emirates / Carrefour operator, real-estate arm develops Tilal Al Ghaf\n• Flagship community Tilal Al Ghaf; also City Centre-anchored mixed-use developments\n• DXB (since 2012): 3 projects / 2,993 units delivered; 10 projects / 4,030 units under construction\n• 2026 YTD: 275 transactions, AED 788M sales value, ~AED 440.8M capital gain; 52% capital gain (highest on list), 97% absorption\n• Best-in-class capital appreciation and absorption from premium master-community positioning",
+  "blurbCn": "马吉德·阿尔·福塔伊姆（Majid Al Futtaim）为私营综合集团，旗下运营阿联酋购物中心与家乐福，其地产板块开发旗舰社区Tilal Al Ghaf及City Centre综合体。累计交付3个项目、近3,000套，在建10个项目。2026年迄今销售额约7.9亿迪拉姆，资本增值率高达52%（全榜最高）、去化率97%。凭借高端总体社区定位，资本增值与去化表现冠绝全榜。"
+ },
+ {
+  "name": "Select Group",
+  "cn": "精选集团",
+  "ownership": "Private",
+  "founded": 2002,
+  "employees": 650,
+  "devNumber": "972",
+  "website": "select-group.ae - https://www.select-group.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 25,
+   "transactionsYtd": 192,
+   "salesValueBn": 0.77,
+   "capitalGainPct": 18.97,
+   "absorptionPct": 89.66,
+   "ucProjects": 7,
+   "ucUnits": 3607,
+   "deliveredProjects": 12,
+   "deliveredUnits": 7690,
+   "bedMix": "Sales YTD: 2BR 53% / 1BR 30% / 3BR 14%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Select Group - https://dxbinteract.com/top-property-developers-in-dubai/select-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 76.7,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 76,
+    "b": 94.3,
+    "c": 39.2,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 41.5,
+   "a2Samples": 8,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Select Group, founded 2002; private developer focused on Dubai Marina and Business Bay\n• Known for waterfront towers: Marina Gate, Peninsula, Six Senses Residences The Palm\n• DXB (since 2012): 12 projects / 7,690 units delivered; 7 projects / 3,607 units under construction\n• 2026 YTD: 192 transactions, AED 765.2M sales value; 19% capital gain, 90% absorption\n• Premium waterfront positioning with strong delivery track record",
+  "blurbCn": "Select Group为私营开发商，2002年成立，专注于迪拜码头与Business Bay的临水高层项目，代表作包括Marina Gate、Peninsula及棕榈岛Six Senses Residences。累计交付12个项目、逾7,600套，在建7个项目。2026年迄今销售额约7.7亿迪拉姆，资本增值率19%、去化率90%。定位高端滨水市场，交付记录扎实，产品稀缺性与二手流动性较好。"
+ },
+ {
+  "name": "Prescott",
+  "cn": "普雷斯科特",
+  "ownership": "Private",
+  "founded": 2006,
+  "devNumber": "1207",
+  "website": "prescott-developers.com - https://www.prescott-developers.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 70,
+   "transactionsYtd": 70,
+   "salesValueBn": 0.16,
+   "capitalGainPct": 23.56,
+   "absorptionPct": 84.72,
+   "ucProjects": 6,
+   "ucUnits": 1466,
+   "deliveredProjects": 6,
+   "deliveredUnits": 848,
+   "bedMix": "Sales YTD: 1BR 50% / Studio 11%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Prescott - https://dxbinteract.com/top-property-developers-in-dubai/prescott-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 73.4,
+   "leaves": 4,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 72.6,
+    "b": 93.9,
+    "c": 28.8,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 31.8,
+   "a2Samples": 4,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Prescott Developers, private mid-market developer active in JVC, Arjan, Dubai Studio City\n• DXB (since 2012): 6 projects / 848 units delivered; 6 projects / 1,466 units under construction\n• 2026 YTD: 70 transactions, AED 156.9M sales value; 24% capital gain, 85% absorption\n• Small-scale value developer with steady absorption",
+  "blurbCn": "Prescott Developers为私营中端开发商，项目分布于JVC、Arjan、Dubai Studio City等地。迪拜口径累计交付6个项目、约848套，在建6个项目、约1,466套。2026年迄今销售额约1.6亿迪拉姆，资本增值率24%、去化率85%。为规模较小的平价开发商，去化稳定，主打1房投资产品。"
+ },
+ {
+  "name": "Dubai South",
+  "cn": "迪拜南城",
+  "ownership": "Government",
+  "founded": 2006,
+  "devNumber": "1142",
+  "website": "dubaisouth.ae - https://www.dubaisouth.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 18,
+   "transactionsYtd": 459,
+   "salesValueBn": 1.3,
+   "capitalGainPct": 42.87,
+   "absorptionPct": 92.17,
+   "ucProjects": 14,
+   "ucUnits": 4291,
+   "deliveredProjects": 13,
+   "deliveredUnits": 4665,
+   "bedMix": "Sales YTD: 2BR 32% / 1BR 31% / 3BR 15% / 4BR 9%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Dubai South - https://dxbinteract.com/top-property-developers-in-dubai/dubai-south"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 82.7,
+   "leaves": 4.5,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 81,
+    "b": 96.9,
+    "c": 50.4,
+    "d": 100,
+    "e": 92.5
+   },
+   "a2MedianMonths": 35.9,
+   "a2Samples": 13,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Dubai South (government master developer around Al Maktoum Intl Airport / Expo City)\n• Master-plans the Residential District, Golf District and aviation/logistics zones\n• DXB (since 2012): 13 projects / 4,665 units delivered; 14 projects / 4,291 units under construction\n• 2026 YTD: 458 transactions, AED 1.3B sales value; 43% capital gain (highest-growth zone), 92% absorption\n• Strategic growth corridor tied to DWC airport expansion; strong appreciation upside",
+  "blurbCn": "迪拜南城（Dubai South）为政府总体开发商，围绕阿勒马克图姆国际机场（DWC）与世博城规划住宅区、高尔夫区及航空物流园区。累计交付13个项目、约4,665套，在建14个项目。2026年迄今销售额约13亿迪拉姆，资本增值率高达43%（全市增长最快片区之一）、去化率92%。受益于新机场扩建的战略增长走廊，长线升值潜力显著。"
+ },
+ {
+  "name": "Taraf Holding",
+  "ownership": "Private",
+  "founded": 2022,
+  "employees": 30,
+  "devNumber": "1549",
+  "website": "https://www.tarafholding.com/",
+  "dxb": {
+   "ucProjects": 6,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Founded 2022 as the real estate arm of Yas Holding (UAE investment conglomerate); privately held\n- Notable projects: Luce (Palm Jumeirah), Terrazzo Residences (JVC), Karl Lagerfeld Villas (Meydan/MBR City), Terra Golf Collection (Jumeirah Golf Estates), Solea (Saadiyat Island, Abu Dhabi)\n- Backed by Yas Holding's balance sheet, providing strong completion assurance versus smaller independent developers\n- Positioning: ultra-luxury, design-led branded residences targeting high-net-worth buyers",
+  "blurbCn": "Taraf Holding是阿联酋大型综合投资集团Yas Holding旗下的房地产开发板块，成立于2022年，专注棕榈岛、迪拜山庄高尔夫庄园（Jumeirah Golf Estates）及JVC等区域的高端住宅项目。旗舰项目包括棕榈岛豪华公寓Luce、JVC的Terrazzo Residences，以及与卡尔拉格斐（Karl Lagerfeld）联名打造的迈丹别墅项目。背靠Yas Holding雄厚资本实力，为投资者提供较强的项目交付保障，定位服务高净值及超高净值买家。"
+ },
+ {
+  "name": "H&H",
+  "cn": "H&H地产",
+  "ownership": "Private",
+  "founded": 2007,
+  "employees": 231,
+  "devNumber": "1751",
+  "website": "h-h.ae - https://www.h-h.ae",
+  "dxb": {
+   "rank": 5,
+   "transactionsYtd": 247,
+   "salesValueBn": 7.5,
+   "capitalGainPct": 17.03,
+   "absorptionPct": 65.66,
+   "ucProjects": 6,
+   "ucUnits": 1755,
+   "deliveredProjects": 1,
+   "deliveredUnits": 109,
+   "asOf": "2026-07-04",
+   "link": "DXB - H&H - https://dxbinteract.com/top-property-developers-in-dubai/hh-development-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65.4,
+   "leaves": 3.5,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 81.8,
+    "c": 46,
+    "d": 100,
+    "e": 75
+   },
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "H&H地产（H&H Development）为迪拜私营开发商，2007年成立。据DXB市场数据，累计交付1个项目、当前在建6个项目，2026年迄今销售额约75亿迪拉姆，销售表现居中端开发商前列。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Matrix",
+  "ownership": "Private",
+  "devNumber": "1743",
+  "website": "matrixdevelopment.ae - https://matrixdevelopment.ae",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Devmark",
+  "ownership": "Private",
+  "founded": 2018,
+  "employees": 90,
+  "website": "devmark.com - https://devmark.com",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Acube",
+  "ownership": "Private",
+  "devNumber": "1403",
+  "website": "acubedevelopments.com - https://acubedevelopments.com",
+  "dxb": {
+   "ucProjects": 3,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Seven Tides",
+  "ownership": "Private",
+  "website": "seventides.com - https://www.seventides.com",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "AYS",
+  "ownership": "Private",
+  "founded": 2003,
+  "devNumber": "1269",
+  "website": "aysdevelopers.ae - https://aysdevelopers.ae",
+  "dxb": {
+   "rank": 108,
+   "transactionsYtd": 47,
+   "salesValueBn": 0.039,
+   "capitalGainPct": 20.27,
+   "absorptionPct": 42.56,
+   "ucProjects": 3,
+   "ucUnits": 720,
+   "deliveredProjects": 1,
+   "deliveredUnits": 310,
+   "bedMix": "Sales YTD Unit Mix: Studio 51% / 1BR 43% / 2BR 4% / 3BR 2%",
+   "asOf": "2026-07-04",
+   "link": "DXB - Ays - https://dxbinteract.com/top-property-developers-in-dubai/ays-property-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ardee",
+  "ownership": "Private",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Saba Properties",
+  "ownership": "Private",
+  "founded": 2003,
+  "employees": 30,
+  "devNumber": "269",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Kasco",
+  "cn": "卡斯科",
+  "ownership": "Private",
+  "devNumber": "1764",
+  "dxb": {
+   "rank": 94,
+   "transactionsYtd": 36,
+   "salesValueBn": 0.0762,
+   "capitalGainPct": 14.22,
+   "absorptionPct": 84.57,
+   "ucProjects": 2,
+   "ucUnits": 486,
+   "deliveredProjects": 1,
+   "deliveredUnits": 73,
+   "asOf": "2026-07-04",
+   "link": "DXB - Kasco - https://dxbinteract.com/top-property-developers-in-dubai/kasco"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 62,
+   "leaves": 3.5,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 52,
+    "b": 85.2,
+    "c": 20,
+    "d": 100,
+    "e": 55
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "卡斯科（Kasco）为迪拜私营开发商。据DXB市场数据，累计交付1个项目、当前在建2个项目，2026年迄今销售额约7,600万迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "City View",
+  "cn": "城景地产",
+  "ownership": "Private",
+  "devNumber": "1805",
+  "dxb": {
+   "rank": 72,
+   "transactionsYtd": 76,
+   "salesValueBn": 0.1543,
+   "capitalGainPct": 0,
+   "absorptionPct": 49.17,
+   "ucProjects": 2,
+   "ucUnits": 659,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed 55%(361)/Studio 22%(144)/2Beds 20%(129)/3Beds 2%(15)/4Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/city-view"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54.4,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 49.7,
+    "c": 20.1,
+    "d": 100,
+    "e": 55
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "城景地产（City View）为迪拜私营开发商。据DXB市场数据，当前在建2个项目、尚无交付记录，2026年迄今销售额约1.5亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Meydan",
+  "cn": "迈丹",
+  "ownership": "Government",
+  "founded": 2007,
+  "employees": 314,
+  "devNumber": "1181",
+  "dxb": {
+   "absorptionPct": 100,
+   "ucProjects": 4,
+   "ucUnits": 2731,
+   "deliveredProjects": 42,
+   "deliveredUnits": 5604,
+   "bedMix": "1B 22%(1540)/2B 17%(1165)/3B 6%(435)/4B 30%(2094)/5B 17%(1222)/6B 7%(463)/7B 2%(106)/8+ 0%(12)",
+   "asOf": "2026-07-06",
+   "link": "DXB - Meydan - https://dxbinteract.com/top-property-developers-in-dubai/meydan-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 59,
+   "leaves": 3,
+   "coverage": 100,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-04",
+   "version": "DFP-5 v2.1 (run3c)",
+   "dims": {
+    "a": 27.9,
+    "b": 100,
+    "c": 44,
+    "d": 100,
+    "e": 90
+   },
+   "a2MedianMonths": 78,
+   "a2Samples": 4,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Meydan Group; government-linked master developer chaired by Sheikh Mohammed's Meydan\n• Master developer of Meydan City, District One (Mohammed Bin Rashid Al Maktoum City), Meydan One\n• DXB (since 2012): 42 projects / 5,604 units delivered; 4 projects / 2,731 units under construction\n• 2026 YTD: sales value/capital gain not separately reported on leaderboard; 100% absorption on current pipeline\n• Prime central land bank; frequently partners with third-party developers (e.g. Sobha, Nakheel) on sub-plots",
+  "blurbCn": "Meydan集团为政府关联的大型总体开发商，由谢赫穆罕默德旗下Meydan主导，是Meydan City、District One（穆罕默德·本·拉希德城）、Meydan One等大盘的土地方与总体开发商。累计交付42个项目、逾5,600套，当前在建管线去化率100%。地段位于城市核心黄金地带，常与索巴、纳赫勒等第三方开发商就子地块合作开发。DXB榜单未单列其销售额，属稀缺地段总体开发商。"
+ },
+ {
+  "name": "Prestige One",
+  "cn": "普瑞斯提基",
+  "ownership": "Private",
+  "founded": 2023,
+  "employees": 30,
+  "devNumber": "2257",
+  "website": "prestigeone.ae - https://prestigeone.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 39,
+   "transactionsYtd": 187,
+   "salesValueBn": 0.4,
+   "capitalGainPct": 6.56,
+   "absorptionPct": 75.78,
+   "ucProjects": 12,
+   "ucUnits": 1945,
+   "deliveredProjects": 2,
+   "deliveredUnits": 238,
+   "bedMix": "Sales YTD: 1BR 34% / Commercial 23% / Studio 20% / 2BR 18%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Prestige One - https://dxbinteract.com/top-property-developers-in-dubai/prestige-One-Developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54.5,
+   "leaves": 3,
+   "coverage": 82,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 70.2,
+    "c": 37.3,
+    "d": 100,
+    "e": 37.5
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Prestige One Developments, founded 2023; young private developer\n• Projects in JVC, Dubai Sports City, Dubai Islands\n• DXB (since 2012): 2 projects / 238 units delivered; 12 projects / 1,945 units under construction\n• 2026 YTD: 186 transactions, AED 400.6M sales value; 6% capital gain, 76% absorption\n• Early-stage brand with rapid launch pipeline",
+  "blurbCn": "Prestige One Developments为2023年成立的年轻私营开发商，项目分布于JVC、Dubai Sports City、迪拜群岛等地。迪拜口径累计交付2个项目、约238套，在建12个项目、约1,945套。2026年迄今销售额约4亿迪拉姆，去化率76%。品牌成立时间短、发盘节奏快，交付记录仍处早期，适合关注新兴平价片区的投资者。"
+ },
+ {
+  "name": "The First Group",
+  "cn": "第一集团",
+  "ownership": "Private",
+  "founded": 1995,
+  "employees": 750,
+  "website": "thefirstgroup.com - https://www.thefirstgroup.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 82,
+   "transactionsYtd": 182,
+   "salesValueBn": 0.12,
+   "capitalGainPct": 0,
+   "absorptionPct": 87.67,
+   "ucProjects": 2,
+   "ucUnits": 981,
+   "deliveredProjects": 10,
+   "deliveredUnits": 7320,
+   "bedMix": "Sales YTD: Studio 89% / 1BR 11%",
+   "asOf": "2026-07-06",
+   "link": "DXB - The First Group - https://dxbinteract.com/top-property-developers-in-dubai/the-first-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 52.7,
+   "leaves": 3,
+   "coverage": 72,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 52.8,
+    "b": 65.1,
+    "c": 21.7,
+    "e": 77.5
+   }
+  },
+  "trackRecord": "• The First Group, founded 1995; hospitality-focused private developer\n• Specialises in branded hotel apartments (TRYP by Wyndham, Ciel Dubai Marina)\n• DXB (since 2012): 10 projects / 7,320 units delivered; 2 projects / 981 units under construction\n• 2026 YTD: 177 transactions, AED 116.3M sales value; 87% absorption\n• Hotel-apartment / serviced-residence niche, predominantly studios",
+  "blurbCn": "The First Group为专注酒店业态的私营开发商，1995年成立，主打品牌酒店式公寓（如TRYP by Wyndham、Ciel Dubai Marina）。迪拜口径累计交付10个项目、逾7,300套，在建2个项目。2026年迄今销售额约1.2亿迪拉姆，去化率87%，成交近九成为Studio。定位酒店式公寓与服务式住宅细分市场，主打租金托管与短租收益产品。"
+ },
+ {
+  "name": "Diamond",
+  "cn": "钻石开发",
+  "ownership": "Private",
+  "founded": 2003,
+  "employees": 125,
+  "devNumber": "1214",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 120,
+   "transactionsYtd": 17,
+   "salesValueBn": 0.02,
+   "capitalGainPct": 36.56,
+   "ucProjects": 0,
+   "ucUnits": 0,
+   "deliveredProjects": 11,
+   "deliveredUnits": 1321,
+   "bedMix": "Sales YTD: Commercial 82% / 4BR 12% / 2BR 6%",
+   "asOf": "2026-07-06",
+   "link": "DXB - Diamond - https://dxbinteract.com/top-property-developers-in-dubai/diamond-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 85.5,
+   "leaves": 4.5,
+   "coverage": 62,
+   "confidence": "Low",
+   "ratedDate": "2026-07-05",
+   "version": "DFP-5 v2.1 (run3c)",
+   "dims": {
+    "a": 44.7,
+    "b": 100,
+    "c": 10.9,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2bOntimeRefPct": 85.7,
+   "d1EscrowPct": 7.1
+  },
+  "trackRecord": "• Diamond Developers, founded 2003; private developer behind The Sustainable City\n• Pioneer of sustainability-led master communities (net-zero focus)\n• DXB (since 2012): 11 projects / 1,321 units delivered; no active under-construction pipeline tracked\n• 2026 YTD: 17 transactions, AED 16.6M sales value; 37% capital gain\n• Niche sustainability brand; low transaction volume, strong appreciation on delivered stock",
+  "blurbCn": "Diamond Developers为私营开发商，2003年成立，是迪拜可持续之城（The Sustainable City）的缔造者，专注可持续/净零碳总体社区开发。累计交付11个项目、约1,321套，当前无在建管线跟踪。2026年迄今仅成交17套、销售额约1,660万迪拉姆，但已交付房产资本增值率达37%。属可持续细分市场的小众品牌，成交量低但成熟社区增值稳健。"
+ },
+ {
+  "name": "Jag Development",
+  "cn": "杰格",
+  "founded": 1999,
+  "devNumber": "1233",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 36,
+   "transactionsYtd": 279,
+   "salesValueBn": 0.4462,
+   "capitalGainPct": 32.76,
+   "absorptionPct": 72.74,
+   "ucProjects": 12,
+   "ucUnits": 1959,
+   "deliveredProjects": 3,
+   "deliveredUnits": 1394,
+   "bedMix": "Sales YTD: 2BR 52% / 1BR 27% / Studio 14% / 3BR 8%",
+   "asOf": "2026-07-04",
+   "link": "DXB - Jag Development - https://dxbinteract.com/top-property-developers-in-dubai/jag-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65,
+   "leaves": 3.5,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 40.4,
+    "b": 89.1,
+    "c": 39.8,
+    "d": 100,
+    "e": 100
+   },
+   "a2MedianMonths": 44.5,
+   "a2Samples": 3,
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded 1999; privately held; registered with Dubai Land Department as Developer No. 1233 (March 2018)\n- Notable projects: The Nook (Wasl Gate), South Garden A-E, Boulevard Park 1 & 2, Hillside Residences (all Jebel Ali / Wasl Gate community)\n- Delivery track record: 3 delivered projects / 1,394 units; 7 projects / 1,959 units under construction (per DXB Interact data)\n- Positioning: mid-market to end-user focused apartments, predominantly 1-2 bedroom mix (79% of YTD sales volume)",
+  "blurbCn": "JAG Development是迪拜本地私营地产开发商，1999年成立，2018年3月在迪拜土地局（DLD）正式注册为开发商（编号1233）。公司主要深耕Jebel Ali区域的Wasl Gate社区，代表项目包括The Nook、South Garden系列及Boulevard Park系列公寓。据DXB市场数据，该开发商在建项目7个、在建单位约1,959套，已交付项目3个、单位1,394套，2026年至今销售额约4.46亿迪拉姆。产品定位以刚需及中端公寓为主，1-2居室占主力户型。"
+ },
+ {
+  "name": "Peace Homes",
+  "cn": "和平家园",
+  "devNumber": "1745",
+  "dxb": {
+   "rank": 50,
+   "transactionsYtd": 289,
+   "salesValueBn": 0.292,
+   "capitalGainPct": 0,
+   "absorptionPct": 48.28,
+   "ucProjects": 8,
+   "ucUnits": 3161,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 53%(1642)/1Bed 33%(1013)/2Beds 13%(395)/3Beds 1%(34)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/peace-homes-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54,
+   "leaves": 3,
+   "coverage": 60,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 49.3,
+    "c": 38.1,
+    "d": 100
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded 2012/2013 by Ahsaan Rasheed; privately held; headquartered in JVC, Dubai\n- Umbrella brand with multiple related entities (Peace Homes Development, Horizon, Elite, International, Global, Signatures)\n- Notable projects: Peace Lagoons & Phase 2 (DLRC), Sky Living, Sky Vista, Empire Suites/Residence, Peace Avenue (Jebel Ali), Natuzzi Harmony Residences (Dubai Islands, in partnership with Italian furniture brand Natuzzi)\n- Positioning: mid-market, accessible-luxury apartments focused on JVC and DLRC; reported ~AED 3.3B cumulative sales across 12+ launched projects by 2024",
+  "blurbCn": "Peace Homes（又称Peace Homes Group / Developments）是迪拜本土私营地产开发商，由创始人Ahsaan Rasheed于2012/2013年创立，总部位于JVC，主攻JVC与Dubai Land Residence Complex（DLRC）两大高活跃度社区的中端刚需公寓。旗下品牌矩阵较大，包含Peace Homes Development、Horizon、Elite、International、Global、Signatures等多家关联公司，代表项目有Peace Lagoons、Sky Living、Sky Vista、Empire Suites及迪拜岛的Natuzzi Harmony Residences（意大利家具品牌联名公寓）。截至2024年该集团已推出超12个项目，累计销售额约33亿迪拉姆。"
+ },
+ {
+  "name": "AG Properties",
+  "cn": "AG地产",
+  "devNumber": "1398",
+  "dxb": {
+   "rank": 91,
+   "transactionsYtd": 122,
+   "salesValueBn": 0.0889,
+   "capitalGainPct": 8.12,
+   "absorptionPct": 96.03,
+   "ucProjects": 7,
+   "ucUnits": 1487,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Sales YTD Unit Mix: Studio 54% / 1BR 30% / 2BR 14% / 3BR 2% / 4BR 0%",
+   "asOf": "2026-07-04",
+   "link": "DXB - AG Properties - https://dxbinteract.com/top-property-developers-in-dubai/ag-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 66.9,
+   "leaves": 3.5,
+   "coverage": 60,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 80.6,
+    "c": 29.7,
+    "d": 100
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Trading name Arabian Gulf Properties; headquartered in Business Bay, Dubai\n- Focus on mid-market residential apartments (mainly studio and 1-bed) in Dubailand Residence Complex and Dubai Islands\n- Notable projects: AG Square, AG Central, AG Ark Tower, AUM Residence, Whitecliffs Residences\n- Per DXB Interact (2026 YTD): 122 transactions, AED 88.9M sales value, 7 under-construction projects totaling 1,487 units",
+  "blurbCn": "AG Properties（全称Arabian Gulf Properties）是迪拜本土房地产开发商，总部位于商业湾（Business Bay）。公司专注迪拜地产综合体（Dubailand Residence Complex）及迪拜群岛（Dubai Islands）等区域的中高端住宅开发，产品以Studio及一居公寓为主，配备智能家居系统。代表项目包括AG Square、AG Central、AUM Residence及Whitecliffs Residences。截至2026年，公司在建项目7个、在建单位约1487套，年内成交122笔，成交总额约8890万迪拉姆。"
+ },
+ {
+  "name": "Avenew",
+  "cn": "艾维纽",
+  "devNumber": "1511",
+  "dxb": {
+   "rank": 27,
+   "transactionsYtd": 347,
+   "salesValueBn": 0.7673,
+   "capitalGainPct": 6.22,
+   "absorptionPct": 68.25,
+   "ucProjects": 7,
+   "ucUnits": 1244,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed 44%(506)/2Beds 41%(472)/3Beds 13%(156)/Studio 2%(22)/4Beds 0%(4)/5Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/avenew-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 62.6,
+   "leaves": 3.5,
+   "coverage": 60,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 66.6,
+    "c": 37.9,
+    "d": 100
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded in Dubai, led by Rasha Hassan; registered with Dubai Land Department as Developer No. 1511\n- Focus on waterfront and community residential projects in Dubai Islands and Dubai South\n- Notable projects: Silena Residences, Rena, Shoaq Residences, Cheval Residences, Avenew 888\n- Recently entered branded residences segment with St. Regis Residences at Dubai Islands",
+  "blurbCn": "Avenew（全称AVENEW REAL ESTATE DEVELOPMENT L.L.C）是迪拜新兴房地产开发商，由Rasha Hassan创立，已在迪拜土地局（DLD）注册为开发商（编号1511）。公司主打迪拜群岛（Dubai Islands）及迪拜南部（Dubai South）区域的高端住宅与滨海社区项目，代表项目包括Silena Residences、Rena、Shoaq Residences及Avenew 888。公司近期首次进军品牌公寓领域，与万豪旗下瑞吉（St. Regis）在迪拜群岛合作打造品牌住宅项目。"
+ },
+ {
+  "name": "Expo City",
+  "cn": "世博城",
+  "ownership": "Government",
+  "devNumber": "1565",
+  "dxb": {
+   "rank": 71,
+   "transactionsYtd": 51,
+   "salesValueBn": 0.1557,
+   "capitalGainPct": 13.78,
+   "absorptionPct": 87.71,
+   "ucProjects": 6,
+   "ucUnits": 2539,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "2Beds 44%(1932) | 1Bed 34%(1492) | 3Beds 11%(485) | 4Beds 5%(201) | 5Beds 4%(174) | Studio 1%(62)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/expo-dubai-group"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65.8,
+   "leaves": 3.5,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 85.8,
+    "c": 31,
+    "e": 85
+   }
+  },
+  "trackRecord": "- Government-backed master developer on former Expo 2020 site; 6 UC projects/2,539 units tracked since 2012, 0 delivered, 87.71% absorption\n- 2026 YTD: 51 transactions, AED 155.7M sales value, 13.78% capital gain\n- 8 DLD SPVs found by name match (Al Waha/Valley/Sidr/Mangrove/Sky Residences etc.) but none clearly = single 'Primary Dev#' — flagged, all linked for reference",
+  "blurbCn": "Expo City Dubai：政府主导的原世博园区总体开发商，在建6项目2539单位，2026年至今成交51宗、销售额1.557亿迪拉姆，资本增值13.78%。"
+ },
+ {
+  "name": "Pantheon",
+  "cn": "万神殿",
+  "devNumber": "1364",
+  "dxb": {
+   "rank": 48,
+   "transactionsYtd": 309,
+   "salesValueBn": 0.2976,
+   "capitalGainPct": 14.8,
+   "absorptionPct": 55.95,
+   "ucProjects": 6,
+   "ucUnits": 2309,
+   "deliveredProjects": 3,
+   "deliveredUnits": 978,
+   "bedMix": "Studio 47%(1467)/1B 45%(1408)/2B 8%(235)/3B 0%(12)/4B 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Pantheon - https://dxbinteract.com/top-property-developers-in-dubai/pantheon-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 67.3,
+   "leaves": 3.5,
+   "coverage": 90,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 70.1,
+    "b": 74.6,
+    "c": 35.7,
+    "d": 100
+   },
+   "a2MedianMonths": 36,
+   "a2Samples": 1,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded 2016 in Dubai by Kalpesh Kinariwala; privately held boutique developer headquartered in Business Bay\n- Specializes in mid-to-upper residential communities in JVC, JVT, and Ras Al Khaimah; notable projects include Pantheon Elysee I/II/III, Maison Elysee series, Elysee Heights, and Boulevard\n- Known locally as \"The Delivery Man of JVC\" (2024 recognition) reflecting a track record of completed handovers in the JVC district\n- Currently expanding with under-construction projects VOXA (JVT), One RAK Central and Omya Residences (Al Wasl Gate/RAK), positioning itself in the boutique/niche luxury-affordable segment",
+  "blurbCn": "Pantheon Development（万神殿地产）成立于2016年，由创始人Kalpesh Kinariwala领导，总部位于迪拜Business Bay。公司专注于迪拜Jumeirah Village Circle（JVC）、Jumeirah Village Triangle（JVT）及阿联酋哈伊马角（Ras Al Khaimah）等区域的中高端住宅开发，代表项目包括Pantheon Elysee系列（I/II/III）、Maison Elysee系列、Elysee Heights、Boulevard及在建的VOXA、One RAK Central、Omya Residences等。品牌定位为「精品级」本地开发商，以JVC区域高交付效率著称，曾获多项行业奖项，包括2025年最佳交付付款计划开发商等荣誉。"
+ },
+ {
+  "name": "Mr Eight",
+  "cn": "八号地产",
+  "ownership": "Private",
+  "devNumber": "2022",
+  "dxb": {
+   "rank": 37,
+   "transactionsYtd": 94,
+   "salesValueBn": 0.4382,
+   "absorptionPct": 58.31,
+   "ucProjects": 6,
+   "ucUnits": 391,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Inventory Bed Mix: 1BR 26% (100) / 2BR 49% (191) / 3BR 16% (62) / 4BR 8% (32) / 5BR 2% (6)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Mr Eight - https://dxbinteract.com/top-property-developers-in-dubai/mr-eight-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 52.1,
+   "leaves": 3,
+   "coverage": 47,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 58.3,
+    "c": 23.8,
+    "d": 100,
+    "e": 55
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded 2021 by Latvian entrepreneur/designer Emils Daujats; boutique, privately-owned Dubai developer with 20+ years combined European luxury real estate experience\n- Full-cycle developer (land acquisition, design, marketing, construction, delivery in-house); notable projects include Villa del Gavi, Villa del Arte, Villa Del Garda, Villa Del Divos (Dubai Islands) and Interstellar Tower (JVT)\n- Winner, Luxury Lifestyle Award 2025 (Best Luxury Branded Residences) and Dubai Property Awards (Best Residential Property, Grand Entrance Design)\n- As of 2026 YTD: 94 sales transactions, ~AED 438.2M sales value, 4 under-construction projects (391 units), no delivered projects yet — early-stage boutique developer positioning on design-led luxury",
+  "blurbCn": "Mr Eight Development是迪拜精品房地产开发商，2021年由拉脱维亚企业家兼设计师Emils Daujats创立，团队拥有20余年欧洲高端地产经验。公司采用全周期开发模式，从拿地、方案设计、营销到施工交付均自主把控。代表项目包括迪拜岛（Dubai Islands）的Villa del Gavi、Villa del Arte、Villa Del Garda、Villa Del Divos，以及JVT的Interstellar Tower等精品住宅，曾获2025年Luxury Lifestyle Award及迪拜地产大奖。截至2026年内已录得94笔销售交易，在建项目4个、391套单位，销售总额约AED 4.38亿，定位于高端精品豪宅市场。"
+ },
+ {
+  "name": "Amis",
+  "founded": 2016,
+  "devNumber": "2334",
+  "dxb": {
+   "rank": 112,
+   "transactionsYtd": 19,
+   "salesValueBn": 0.0353,
+   "capitalGainPct": 0,
+   "absorptionPct": 43.64,
+   "ucProjects": 5,
+   "ucUnits": 291,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1B 45%(129)/2B 31%(90)/3B 12%(35)/5B 10%(30)/4B 1%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Amis - https://dxbinteract.com/top-property-developers-in-dubai/amis-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Founded 2016 as AMIS Real Estate Development LLC; boutique/privately-owned Dubai developer headquartered in Al Safa, Sheikh Zayed Road\n- Founder & CEO Neeraj Kumar Mishra, 15+ years in Dubai real estate\n- Notable projects: Woodland Residences, Woodland Terraces, Woodland Crest and Derby Heights (all District 11, Meydan); The Tides (Dubai Islands, delivery ~Q2 2028); Fleurs de Jardin — 25 luxury villas/mansions co-designed with Jacob & Co\n- Positioning: design-led boutique luxury developer emphasizing award-winning architects, sustainability features (solar, water-saving systems) and branded/limited-collection residences; reportedly secured MOU for up to AED 5bn investment from First APAC Fund VCC (Q4 2024)",
+  "blurbCn": "Amis Development（原名AMIS Real Estate Development）成立于2016年，是总部位于迪拜Al Safa谢赫扎耶德路的精品豪宅开发商，由创始人Neeraj Kumar Mishra领导，深耕迪拜地产市场逾十五年。品牌定位聚焦Meydan（迈丹）第11区及迪拜群岛（Dubai Islands）的高端住宅项目，代表作包括Woodland系列（Residences/Terraces/Crest）、Derby Heights，以及与著名珠宝腕表品牌Jacob & Co联名设计的别墅项目Fleurs de Jardin，强调建筑设计感与可持续理念。适合关注小众精品开发商、追求设计稀缺性的高净值投资者。"
+ },
+ {
+  "name": "HRE",
+  "cn": "HRE地产",
+  "ownership": "Private",
+  "devNumber": "1669",
+  "dxb": {
+   "rank": 30,
+   "transactionsYtd": 383,
+   "salesValueBn": 0.688,
+   "capitalGainPct": -18.42,
+   "absorptionPct": 54.54,
+   "ucProjects": 6,
+   "ucUnits": 7302,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Inventory Bed Mix: 1BR 49% (2,146) / Studio 38% (1,671) / 2BR 10% (458) / 3BR 2% (106) / 4BR 0% (16)",
+   "asOf": "2026-07-04",
+   "link": "DXB - HRE - https://dxbinteract.com/top-property-developers-in-dubai/hre-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 48.9,
+   "leaves": 2.5,
+   "coverage": 65,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 33.8,
+    "c": 44.3,
+    "d": 100,
+    "e": 55
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Founded 2003 in Sharjah as a construction company; evolved into a vertically integrated real estate developer with in-house construction arm (20+ years experience)\n- Notable projects: Skyhills Residences (Dubai Science Park, 1,142 units, JV with OCTA Properties), Celeste (Al Jaddaf)\n- 2026 YTD: 383 transactions, AED 688M total sales value, ~7,302 units under construction (per DXB Interact)\n- Positioning: mid-market to upper-mid apartment developer focused on Dubai Science Park and JVC-area communities",
+  "blurbCn": "HRE Real Estate Development（HRE地产开发）总部位于迪拜，前身为2003年成立于沙迦的建筑公司，拥有20余年建筑及地产开发经验，采用自有施工团队的垂直整合模式，确保质量与工期可控。旗下代表项目为迪拜科学园Skyhills Residences，提供录厅至三居户型，并在Al Jaddaf开发Celeste公寓项目。根据DXB Interact数据，2026年初至今该开发商已录得383宗交易，总成交额约6.88亿迪拉姆，在建单位逾7,300套，显示其在中端公寓市场具备稳定去化能力。"
+ },
+ {
+  "name": "GFS",
+  "devNumber": "2190",
+  "dxb": {
+   "rank": 116,
+   "transactionsYtd": 36,
+   "salesValueBn": 0.0261,
+   "capitalGainPct": 22.5,
+   "absorptionPct": 14.79,
+   "ucProjects": 5,
+   "ucUnits": 913,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 63%(796)/1B 32%(402)/2B 5%(57)",
+   "asOf": "2026-07-04",
+   "link": "DXB - GFS - https://dxbinteract.com/top-property-developers-in-dubai/GFS-real-estate"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Brand: GFS Developments (legal entity GFS Wonders Developers L.L.C / GFS Real Estate L.L.C); Chairman & Founder Irfan Wahid; HQ in Al Barsha, Dubai\n- Notable projects: Coventry Gardens, Coventry Gardens II, Coventry 66 (Dubailand Residence Complex, Dubai South, Dubai Industrial City)\n- Focus: affordable-to-mid-market studio/1BR/2BR apartment communities with flexible payment plans\n- Positioning: fast-growing private developer expanding regional footprint; no verifiable DXB transaction data available for this profile",
+  "blurbCn": "GFS Wonders Developers L.L.C（品牌名GFS Developments/GFS地产）总部位于迪拜Al Barsha，由董事长Irfan Wahid创立，据官网介绍其团队在地产及建筑领域拥有20余年经验。公司主打迪拜Dubailand Residence Complex、Dubai South及JVC等区域的中端公寓项目，代表项目为Coventry Gardens、Coventry Gardens II及Coventry 66，主力户型为录厅及一居公寓，注重高性价比与灵活付款方案。目前公司业务持续扩张，并在筹备进入英国及美国市场。"
+ },
+ {
+  "name": "BT Properties",
+  "cn": "BT地产",
+  "ownership": "Private",
+  "devNumber": "2254",
+  "dxb": {
+   "rank": 38,
+   "transactionsYtd": 346,
+   "salesValueBn": 0.4001,
+   "absorptionPct": 50.33,
+   "ucProjects": 6,
+   "ucUnits": 2907,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Sales YTD: Studio 48% / 1BR 33% / 2BR 3%",
+   "asOf": "2026-07-04",
+   "link": "DXB - BT Properties - https://dxbinteract.com/top-property-developers-in-dubai/bt-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56.2,
+   "leaves": 3,
+   "coverage": 47,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 50.3,
+    "c": 38.1,
+    "d": 100,
+    "e": 55
+   },
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- Established Jan 2025 in Dubai South as the international arm of Pakistan's Bahria Town group (founded by Malik Riaz Hussain, 30+ years in master-planned communities)\n- Flagship project: Waada (Bahria Town Dubai) — 20M+ sq ft gated community in Dubai South's Golf District, mixing apartments, townhouses and villas\n- Notable sub-projects: Cascada, Altura, Rayhan, District\n- 2026 YTD: 346 transactions, AED 400.1M total sales value, ~2,907 units under construction across 6 projects (per DXB Interact); no delivered projects yet — newcomer developer\n- Positioning: large-scale master-community developer targeting Dubai South, backed by an established South Asian parent brand",
+  "blurbCn": "BT Properties DWC LLC是巴基斯坦知名地产集团Bahria Town（由Malik Riaz Hussain创立，深耕南亚地产逾30年）在迪拜设立的国际发展平台，于2025年1月正式启动，总部位于迪拜南部Dubai South商务园区。旗舰项目Waada（原Bahria Town Dubai）位于迪拜南部Golf District，占地逾2000万平方英尺，涵盖公寓、联排别墅及独栋别墅，配套教育、医疗、零售及娱乐设施。代表子项目包括Cascada、Altura、Rayhan等。根据DXB Interact数据，2026年初至今该开发商已录得346宗交易，总成交额约4亿迪拉姆，在建单位近2,907套。"
+ },
+ {
+  "name": "Continental Investments",
+  "cn": "康迪纳投资",
+  "founded": 2011,
+  "devNumber": "958",
+  "dxb": {
+   "rank": 52,
+   "transactionsYtd": 222,
+   "salesValueBn": 0.2592,
+   "capitalGainPct": 45.23,
+   "absorptionPct": 97,
+   "ucProjects": 5,
+   "ucUnits": 2201,
+   "deliveredProjects": 5,
+   "deliveredUnits": 3139,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/continental-investments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 63.3,
+   "leaves": 3.5,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 34.1,
+    "b": 98.8,
+    "c": 32.4,
+    "d": 100,
+    "e": 75
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 77.8,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "康迪纳投资（Continental Investments）为迪拜开发商，2011年成立。据DXB市场数据，累计交付5个项目、当前在建5个项目，2026年迄今销售额约2.6亿迪拉姆，交付与在建规模均衡。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Fakhruddin",
+  "cn": "法赫鲁丁",
+  "ownership": "Private",
+  "founded": 2003,
+  "devNumber": "1415",
+  "dxb": {
+   "rank": 74,
+   "transactionsYtd": 62,
+   "salesValueBn": 0.1524,
+   "capitalGainPct": 7.27,
+   "absorptionPct": 80.1,
+   "ucProjects": 4,
+   "ucUnits": 2070,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed50%|2Bed28%|Studio15%|3Bed7%|4Bed1%",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/fakhruddin-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 61.8,
+   "leaves": 3.5,
+   "coverage": 78,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 37.5,
+    "b": 72.9,
+    "c": 28,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2bOntimeRefPct": 75,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "法赫鲁丁（Fakhruddin Properties）为迪拜私营开发商，2003年成立。据DXB市场数据，当前在建4个项目，2026年迄今销售额约1.5亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Al Helal Al Zahaby",
+  "cn": "金新月地产",
+  "founded": 2011,
+  "devNumber": "1124",
+  "dxb": {
+   "rank": 79,
+   "transactionsYtd": 121,
+   "salesValueBn": 0.1325,
+   "capitalGainPct": 15,
+   "absorptionPct": 52.91,
+   "ucProjects": 5,
+   "ucUnits": 858,
+   "deliveredProjects": 4,
+   "deliveredUnits": 324,
+   "bedMix": "1Bed54%|Studio24%|2Bed16%|3Bed5%|4Bed0%|5Bed0%",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/al-helal-al-zahaby-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54.4,
+   "leaves": 3,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 41.4,
+    "b": 73.7,
+    "c": 25.6,
+    "d": 83.3,
+    "e": 75
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 83.3
+  },
+  "blurbCn": "金新月地产（Al Helal Al Zahaby）为迪拜开发商，2011年成立。据DXB市场数据，累计交付4个项目、当前在建5个项目，2026年迄今销售额约1.3亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Reef",
+  "cn": "里夫地产",
+  "founded": 2004,
+  "devNumber": "1944",
+  "dxb": {
+   "rank": 43,
+   "transactionsYtd": 280,
+   "salesValueBn": 0.3331,
+   "capitalGainPct": 27.66,
+   "absorptionPct": 57.19,
+   "ucProjects": 5,
+   "ucUnits": 1329,
+   "deliveredProjects": 1,
+   "deliveredUnits": 397,
+   "bedMix": "1Bed44%|Studio30%|2Bed19%|3Bed6%|4Bed1%",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/reef-real-estate-investments-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 66.7,
+   "leaves": 3.5,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 52,
+    "b": 82.9,
+    "c": 32.3,
+    "d": 100,
+    "e": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "里夫地产（Reef）为迪拜开发商，2004年成立。据DXB市场数据，累计交付1个项目、当前在建5个项目，2026年迄今销售额约3.3亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Vision",
+  "cn": "愿景地产",
+  "ownership": "Private",
+  "devNumber": "1823",
+  "dxb": {
+   "rank": 28,
+   "transactionsYtd": 610,
+   "salesValueBn": 0.6965,
+   "capitalGainPct": 18.49,
+   "absorptionPct": 68.41,
+   "ucProjects": 5,
+   "ucUnits": 1203,
+   "deliveredProjects": 6,
+   "deliveredUnits": 577,
+   "bedMix": "1Bed47%|2Bed28%|Studio21%|3Bed4%|4Bed0%",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/clear-vision-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 63,
+   "leaves": 3.5,
+   "coverage": 90,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 44.8,
+    "b": 85.1,
+    "c": 38.5,
+    "d": 100
+   },
+   "a2MedianMonths": 18,
+   "a2Samples": 1,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "愿景地产（Vision Developments）为迪拜私营开发商。据DXB市场数据，累计交付6个项目、当前在建5个项目，2026年迄今销售额约7.0亿迪拉姆，交付记录较为成熟。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Wellington",
+  "cn": "威灵顿地产",
+  "founded": 2016,
+  "devNumber": "2076",
+  "dxb": {
+   "rank": 64,
+   "transactionsYtd": 41,
+   "salesValueBn": 0.2114,
+   "capitalGainPct": 13.04,
+   "absorptionPct": 59.54,
+   "ucProjects": 4,
+   "ucUnits": 173,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed33%(57)|2Bed34%(58)|3Bed8%(13)|4Bed13%(23)|5Bed9%(16)|6Bed3%(6)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/wellington-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54.9,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 73.4,
+    "c": 20,
+    "d": 100,
+    "e": 50
+   },
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "威灵顿地产（Wellington）为迪拜开发商，2016年成立。据DXB市场数据，当前在建4个项目、尚无交付记录，2026年迄今销售额约2.1亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Citi Developers",
+  "cn": "西提地产",
+  "founded": 2024,
+  "devNumber": "1610",
+  "dxb": {
+   "rank": 53,
+   "transactionsYtd": 142,
+   "salesValueBn": 0.2558,
+   "capitalGainPct": 3.03,
+   "absorptionPct": 80.79,
+   "ucProjects": 5,
+   "ucUnits": 984,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio15%(109)|1Bed50%(358)|2Bed23%(164)|3Bed10%(70)|4Bed2%(14)|5Bed0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/citi-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 60.9,
+   "leaves": 3.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 66.9,
+    "c": 26.8,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "西提地产（Citi Developers）为迪拜开发商，2024年成立。据DXB市场数据，当前在建5个项目、尚无交付记录，2026年迄今销售额约2.6亿迪拉姆，为发盘活跃的新晋开发商。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Vincitore",
+  "cn": "温琪多雷地产",
+  "founded": 2013,
+  "devNumber": "1118",
+  "dxb": {
+   "rank": 56,
+   "transactionsYtd": 193,
+   "salesValueBn": 0.2521,
+   "capitalGainPct": 20.75,
+   "absorptionPct": 59.57,
+   "ucProjects": 5,
+   "ucUnits": 3416,
+   "deliveredProjects": 3,
+   "deliveredUnits": 1551,
+   "bedMix": "Studio34%(1658)|1Bed49%(2393)|2Bed14%(670)|3Bed2%(121)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/vincitore-real-estate-development-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 53.1,
+   "leaves": 3,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 33.7,
+    "b": 83.8,
+    "c": 33.3,
+    "e": 65
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 83.3
+  },
+  "blurbCn": "温琪多雷地产（Vincitore）为迪拜开发商，2013年成立。据DXB市场数据，累计交付3个项目、当前在建5个项目，2026年迄今销售额约2.5亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "London Gate",
+  "cn": "伦敦门",
+  "founded": 2014,
+  "devNumber": "1596",
+  "dxb": {
+   "rank": 40,
+   "transactionsYtd": 205,
+   "salesValueBn": 0.3933,
+   "capitalGainPct": 29.77,
+   "absorptionPct": 97.92,
+   "ucProjects": 5,
+   "ucUnits": 2159,
+   "deliveredProjects": 4,
+   "deliveredUnits": 472,
+   "bedMix": "2Beds 37%(967)/Studio 29%(748)/1Bed 29%(755)/3Beds 4%(96)/4Beds 1%(29)/5Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - London Gate - https://dxbinteract.com/top-property-developers-in-dubai/london-gate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 70.8,
+   "leaves": 4,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 53.7,
+    "b": 99.2,
+    "c": 33.2,
+    "d": 100,
+    "e": 60
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "- London Gate, est. 2014; privately-positioned luxury developer blending London design aesthetic with Dubai\n- DXB (since 2012): 4 projects / 472 units delivered; 5 projects / 2,159 units under construction\n- 2026 YTD: 205 transactions, AED 393.3M sales value; 29.77% capital gain, 97.92% absorption\n- Notable projects: Franck Muller Yachting, Mi Casa, Vanguard by Frank Muller",
+  "blurbCn": "London Gate成立于2014年,豪宅开发商,融合伦敦设计美学与迪拜市场,代表项目包括Franck Muller Yachting、Mi Casa、Vanguard by Frank Muller等。累计交付4个项目472套,在建5个项目2159套。2026年迄今销售额约3.93亿迪拉姆,资本增值率29.77%,去化率97.92%。"
+ },
+ {
+  "name": "Sol Properties",
+  "cn": "索尔地产",
+  "devNumber": "999",
+  "dxb": {
+   "rank": 20,
+   "transactionsYtd": 295,
+   "salesValueBn": 1.1,
+   "capitalGainPct": 5.97,
+   "absorptionPct": 44.37,
+   "ucProjects": 3,
+   "ucUnits": 1341,
+   "deliveredProjects": 5,
+   "deliveredUnits": 1332,
+   "bedMix": "1Bed 48%(1,216); Studio 19%(469); 2Beds 21%(530); 3Beds 5%(124); 4Beds 4%(108); 5Beds 3%(77)",
+   "asOf": "2026-07-04",
+   "link": "DXB Sol Properties - https://dxbinteract.com/top-property-developers-in-dubai/sol-properties-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 53.1,
+   "leaves": 3,
+   "coverage": 90,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 46.4,
+    "b": 56.7,
+    "c": 34.4,
+    "d": 100
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "索尔地产（Sol Properties）为迪拜开发商。据DXB市场数据，累计交付5个项目、当前在建3个项目，2026年迄今销售额约11亿迪拉姆，交付记录较为成熟。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Mashriq Elite",
+  "cn": "马什里克精英",
+  "devNumber": "1542",
+  "dxb": {
+   "rank": 67,
+   "transactionsYtd": 147,
+   "salesValueBn": 0.1671,
+   "capitalGainPct": 26.17,
+   "absorptionPct": 79.26,
+   "ucProjects": 5,
+   "ucUnits": 916,
+   "deliveredProjects": 1,
+   "deliveredUnits": 206,
+   "bedMix": "1Bed 47%(528); Studio 40%(444); 2Beds 11%(122); 3Beds 2%(25)",
+   "asOf": "2026-07-04",
+   "link": "DXB Mashriq Elite - https://dxbinteract.com/top-property-developers-in-dubai/mashriq-elite-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 66.4,
+   "leaves": 3.5,
+   "coverage": 80,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 52,
+    "b": 91.7,
+    "c": 25.9,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "马什里克精英（Mashriq Elite）为迪拜开发商。据DXB市场数据，累计交付1个项目、当前在建5个项目，2026年迄今销售额约1.7亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Rabdan",
+  "cn": "拉布丹地产",
+  "ownership": "Private",
+  "devNumber": "2567",
+  "dxb": {
+   "rank": 65,
+   "transactionsYtd": 128,
+   "salesValueBn": 0.1975,
+   "capitalGainPct": 0,
+   "absorptionPct": 89.15,
+   "ucProjects": 5,
+   "ucUnits": 977,
+   "deliveredProjects": 1,
+   "deliveredUnits": 288,
+   "bedMix": "1Bed 43%(529); Studio 42%(525); 2Beds 14%(176); 3Beds 1%(10); 4Beds 0%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB Rabdan - https://dxbinteract.com/top-property-developers-in-dubai/rabdan-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 52,
+   "leaves": 3,
+   "coverage": 77,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 65.7,
+    "c": 26.2,
+    "d": 100,
+    "e": 55
+   },
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "拉布丹地产（Rabdan）为迪拜私营开发商。据DXB市场数据，累计交付1个项目、当前在建5个项目，2026年迄今销售额约2.0亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Wadan",
+  "cn": "瓦丹地产",
+  "devNumber": "2166",
+  "dxb": {
+   "rank": 41,
+   "transactionsYtd": 351,
+   "salesValueBn": 0.3705,
+   "absorptionPct": 71.83,
+   "ucProjects": 4,
+   "ucUnits": 639,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed 40%(253); Studio 38%(241); 2Beds 19%(117); 3Beds 2%(15)",
+   "asOf": "2026-07-04",
+   "link": "DXB Wadan - https://dxbinteract.com/top-property-developers-in-dubai/wadan-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65.1,
+   "leaves": 3.5,
+   "coverage": 50,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 71.8,
+    "c": 29.7,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "瓦丹地产（Wadan）为迪拜开发商。据DXB市场数据，当前在建4个项目，2026年迄今销售额约3.7亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "HMB Homes",
+  "cn": "HMB家园",
+  "founded": 2014,
+  "devNumber": "1267",
+  "dxb": {
+   "rank": 60,
+   "transactionsYtd": 228,
+   "salesValueBn": 0.2242,
+   "capitalGainPct": 0,
+   "absorptionPct": 51.78,
+   "ucProjects": 3,
+   "ucUnits": 844,
+   "deliveredProjects": 1,
+   "deliveredUnits": 108,
+   "bedMix": "Studio 46%(430)/1Bed 43%(404)/2Beds 11%(106)/3Beds 0%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - HMB Homes - https://dxbinteract.com/top-property-developers-in-dubai/hmb-homes"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 38.4,
+   "leaves": 2,
+   "coverage": 67,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 50.7,
+    "c": 25.6,
+    "e": 60
+   }
+  },
+  "trackRecord": "- HMB Homes, est. 2014; Dubai residential developer\n- DXB (since 2012): 1 project / 108 units delivered; 3 projects / 844 units under construction\n- 2026 YTD: 228 transactions, AED 224.2M sales value; 0% capital gain, 51.78% absorption\n- Notable projects: Beverly Grande, One Beverly (Arjan), Beverly Park (Wadi Al Safa 5)\n- DLD board: no exact name match found (checked AA and Hmb Real Estate Development — separate entity) → Primary Dev# left blank",
+  "blurbCn": "HMB Homes成立于2014年,迪拜住宅开发商,代表项目包括Beverly Grande、One Beverly(Arjan)、Beverly Park(Wadi Al Safa 5)。累计交付1个项目108套,在建3个项目844套。2026年迄今销售额约2.24亿迪拉姆,资本增值率0%,去化率51.78%。DLD开发商板未找到精确同名匹配,Primary Dev#留空待人裁。"
+ },
+ {
+  "name": "Dubai Holding",
+  "ownership": "Government",
+  "founded": 2004,
+  "dxb": {
+   "absorptionPct": 100,
+   "ucProjects": 2,
+   "ucUnits": 570,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1Bed 46%(498) | 2Beds 35%(380) | 3Beds 16%(170) | 4Beds 4%(39)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/dubai-holding"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Dubai govt-owned investment holding (est. 2004), umbrella over Dubai Properties, TECOM, Jumeirah Group, Emirates Int'l Telecom\n- DXB tracks 2 UC projects / 570 units since 2012, 0 delivered, 100% absorption rate\n- No Sales Value/Txn/CapGain% data on DXB (holding co., not a transacting brand itself)",
+  "blurbCn": "迪拜控股：迪拜政府投资控股集团(2004年成立)，旗下含Dubai Properties、TECOM、Jumeirah等业务板块，非独立开发商法人，DLD无单一对应注册号。"
+ },
+ {
+  "name": "Meteora",
+  "founded": 2008,
+  "devNumber": "1543",
+  "dxb": {
+   "rank": 121,
+   "transactionsYtd": 16,
+   "salesValueBn": 0.0196,
+   "capitalGainPct": 8.39,
+   "absorptionPct": 38.1,
+   "ucProjects": 4,
+   "ucUnits": 861,
+   "deliveredProjects": 1,
+   "deliveredUnits": 121,
+   "bedMix": "1Bed 82%(791)/Studio 11%(105)/2Beds 5%(50)/3Beds 1%(13)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Meteora - https://dxbinteract.com/top-property-developers-in-dubai/meteora-developers"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Meteora Real Estate Development, est. 2008; Dubai developer, JVC-focused\n- DXB (since 2012): 1 project / 121 units delivered; 4 projects / 861 units under construction\n- 2026 YTD: 16 transactions, AED 19.6M sales value; 8.39% capital gain, 38.1% absorption\n- Notable projects: Vivanti Residences, The East Crest (both JVC)\n- DLD dev#1543 (Meteora Real Estate Development, exact name match), total 4 projects all ACTIVE (0 finished); SPV Meteora Elite (dev#1841) also linked",
+  "blurbCn": "Meteora Real Estate Development成立于2008年,主攻JVC区域,代表项目Vivanti Residences、The East Crest。累计交付1个项目121套,在建4个项目861套。2026年迄今销售额约1960万迪拉姆,资本增值率8.39%,去化率38.1%。DLD dev#1543,登记4个项目均在建(0个完工)。"
+ },
+ {
+  "name": "Royal Centurion",
+  "cn": "皇家百夫长",
+  "ownership": "Private",
+  "devNumber": "1007",
+  "dxb": {
+   "rank": 46,
+   "transactionsYtd": 100,
+   "salesValueBn": 0.3127,
+   "capitalGainPct": 0,
+   "absorptionPct": 72.69,
+   "ucProjects": 3,
+   "ucUnits": 864,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 4%(10) | 1Bed 37%(95) | 2Beds 51%(133) | 3Beds 8%(22)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/royal-centurion-real-estate-development-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 48.1,
+   "leaves": 2.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 55.6,
+    "b": 59.1,
+    "c": 23.1,
+    "e": 55
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100
+  },
+  "trackRecord": "- Private developer; DXB tracks 3 UC projects/864 units since 2012, 0 delivered, 72.69% absorption\n- 2026 YTD: 100 transactions, AED 312.7M sales value, 0% capital gain\n- DLD dev#1007 (ROYAL CENTURION REAL ESTATE DEVELOPMENT L.L.C, exact match): 1 registered project, FINISHED on-time -> A2=100/A3=0/D2=0",
+  "blurbCn": "Royal Centurion：迪拜私营地产开发商，在建3项目864单位，2026年至今成交100宗、销售额3.127亿迪拉姆。DLD登记1个已完工按时交付项目。"
+ },
+ {
+  "name": "Kleindienst",
+  "ownership": "Private",
+  "devNumber": "663",
+  "dxb": {
+   "rank": 117,
+   "transactionsYtd": 7,
+   "salesValueBn": 0.0226,
+   "absorptionPct": 50.56,
+   "ucProjects": 4,
+   "ucUnits": 623,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 69%(1421) | 1Bed 29%(593) | 5Beds 1%(15) | 7Beds 1%(11) | 2Beds 0%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/kleindienst"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "- Private (Austrian-origin, 30+ yrs in Dubai); DXB tracks 4 UC projects/623 units since 2012, 0 delivered, 50.56% absorption\n- 2026 YTD: 7 transactions, AED 22.6M sales value, 57.89% capital gain\n- DLD dev#663 (KLEINDIENST PROPERTIES, exact match): 0 projects registered in DLD register -> A2/A3/D2 left blank (no data, not zero)",
+  "blurbCn": "Kleindienst：欧洲(奥地利)背景私营开发商，迪拜深耕30余年，在建4项目623单位，2026年至今成交7宗、资本增值57.89%。DLD登记册暂无该编号项目记录。"
+ },
+ {
+  "name": "Marquis Point",
+  "cn": "马奎斯地产",
+  "founded": 2018,
+  "devNumber": "1262",
+  "dxb": {
+   "rank": 61,
+   "transactionsYtd": 203,
+   "salesValueBn": 0.2219,
+   "capitalGainPct": 7.17,
+   "absorptionPct": 73.06,
+   "ucProjects": 4,
+   "ucUnits": 1006,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 30%(306)·1BR 51%(517)·2BR 16%(163)·3BR 2%(20)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/marquis-point-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 52.6,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 55.6,
+    "b": 70,
+    "c": 27.1,
+    "e": 40
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100
+  },
+  "blurbCn": "马奎斯地产（Marquis Point）为迪拜开发商，2018年成立。据DXB市场数据，当前在建4个项目、尚无交付记录，2026年迄今销售额约2.2亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Tanmiyat",
+  "cn": "坦米亚特地产",
+  "ownership": "Private",
+  "founded": 2005,
+  "devNumber": "287",
+  "dxb": {
+   "rank": 31,
+   "transactionsYtd": 110,
+   "salesValueBn": 0.5998,
+   "capitalGainPct": 31.83,
+   "absorptionPct": 73.71,
+   "ucProjects": 4,
+   "ucUnits": 4766,
+   "deliveredProjects": 4,
+   "deliveredUnits": 428,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/tanmiyat"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 61.5,
+   "leaves": 3.5,
+   "coverage": 67,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 22.2,
+    "b": 89.5,
+    "c": 33.6,
+    "e": 100
+   },
+   "a2MedianMonths": 44.5,
+   "a2Samples": 5,
+   "a2bOntimeRefPct": 83.3
+  },
+  "blurbCn": "坦米亚特地产（Tanmiyat）为迪拜私营开发商，2005年成立。据DXB市场数据，累计交付4个项目、当前在建4个项目，2026年迄今销售额约6.0亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "AHS Canal",
+  "cn": "AHS运河地产",
+  "founded": 2021,
+  "devNumber": "1491",
+  "dxb": {
+   "rank": 80,
+   "transactionsYtd": 4,
+   "salesValueBn": 0.1288,
+   "capitalGainPct": 12.5,
+   "absorptionPct": 86.23,
+   "ucProjects": 3,
+   "ucUnits": 138,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "3BR 50%(69)·4BR 22%(31)·5BR 18%(25)·6BR 9%(13)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/ahs-canal-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 57.3,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 83.2,
+    "c": 20,
+    "d": 100,
+    "e": 25
+   },
+   "a2bOntimeRefPct": 0,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "AHS运河地产（AHS Canal）为迪拜开发商，2021年成立。据DXB市场数据，当前在建3个项目、尚无交付记录，2026年迄今销售额约1.3亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Arabian Gulf",
+  "cn": "阿拉伯湾地产",
+  "founded": 1978,
+  "devNumber": "1013",
+  "dxb": {
+   "rank": 96,
+   "transactionsYtd": 79,
+   "salesValueBn": 0.0747,
+   "capitalGainPct": 11.92,
+   "absorptionPct": 82.26,
+   "ucProjects": 4,
+   "ucUnits": 558,
+   "deliveredProjects": 6,
+   "deliveredUnits": 1002,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/arabian-gulf-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56.5,
+   "leaves": 3,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 33,
+    "b": 80.8,
+    "c": 22.7,
+    "d": 100,
+    "e": 100
+   },
+   "a2MedianMonths": 83.33,
+   "a2bOntimeRefPct": 80,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "阿拉伯湾地产（Arabian Gulf）为迪拜开发商，1978年成立，经营历史悠久。据DXB市场数据，累计交付6个项目、当前在建4个项目，2026年迄今销售额约7,500万迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Zoya",
+  "cn": "佐雅地产",
+  "founded": 2024,
+  "devNumber": "1816",
+  "dxb": {
+   "rank": 78,
+   "transactionsYtd": 171,
+   "salesValueBn": 0.1461,
+   "capitalGainPct": 95.93,
+   "absorptionPct": 47.93,
+   "ucProjects": 4,
+   "ucUnits": 482,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/zoya-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 64.6,
+   "leaves": 3.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 79.2,
+    "c": 22.2,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "佐雅地产（Zoya Developments）为迪拜开发商，2024年成立。据DXB市场数据，当前在建4个项目、尚无交付记录，2026年迄今销售额约1.5亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Karma Realty",
+  "cn": "卡玛地产",
+  "founded": 2013,
+  "devNumber": "1645",
+  "dxb": {
+   "rank": 88,
+   "transactionsYtd": 76,
+   "salesValueBn": 0.0996,
+   "capitalGainPct": 0,
+   "absorptionPct": 84.57,
+   "ucProjects": 4,
+   "ucUnits": 927,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1BR 59%(547)·2BR 30%(280)·3BR 5%(48)·Studio 5%(50)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/karma-realty"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 62.1,
+   "leaves": 3.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 63.8,
+    "c": 24.8,
+    "d": 100,
+    "e": 65
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "卡玛地产（Karma Realty）为迪拜开发商，2013年成立。据DXB市场数据，当前在建4个项目，2026年迄今销售额约1.0亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "IRTH",
+  "cn": "伊尔斯地产",
+  "founded": 2019,
+  "devNumber": "2434",
+  "dxb": {
+   "rank": 22,
+   "transactionsYtd": 226,
+   "salesValueBn": 0.8313,
+   "capitalGainPct": 4,
+   "absorptionPct": 92.77,
+   "ucProjects": 4,
+   "ucUnits": 2256,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/irth"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 55.9,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 73.1,
+    "c": 35.5,
+    "d": 20,
+    "e": 35
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 0
+  },
+  "blurbCn": "伊尔斯地产（IRTH）为迪拜开发商，2019年成立。据DXB市场数据，当前在建4个项目、尚无交付记录，2026年迄今销售额约8.3亿迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Empire Developments",
+  "cn": "帝国地产",
+  "founded": 2016,
+  "devNumber": "1794",
+  "dxb": {
+   "rank": 59,
+   "transactionsYtd": 199,
+   "salesValueBn": 0.229,
+   "capitalGainPct": 0,
+   "absorptionPct": 80.27,
+   "ucProjects": 4,
+   "ucUnits": 1409,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/empire-real-estate-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 61.4,
+   "leaves": 3.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 62.1,
+    "c": 28.5,
+    "d": 100,
+    "e": 50
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "帝国地产（Empire Developments）为迪拜开发商，2016年成立。据DXB市场数据，当前在建4个项目，2026年迄今销售额约2.3亿迪拉姆。丹枫置业 DFP-5 评级3.5枫叶。"
+ },
+ {
+  "name": "Roz Development",
+  "founded": 2024,
+  "devNumber": "2093",
+  "dxb": {
+   "rank": 107,
+   "transactionsYtd": 33,
+   "salesValueBn": 0.044,
+   "absorptionPct": 36.71,
+   "ucProjects": 3,
+   "ucUnits": 286,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1BR 44%(122)·2BR 32%(88)·Studio 24%(68)·3BR 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/roz-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "DHG",
+  "cn": "DHG地产",
+  "founded": 2022,
+  "devNumber": "1619",
+  "dxb": {
+   "rank": 92,
+   "transactionsYtd": 37,
+   "salesValueBn": 0.0792,
+   "capitalGainPct": 0,
+   "absorptionPct": 59.93,
+   "ucProjects": 3,
+   "ucUnits": 604,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/dhg-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 54.1,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 54,
+    "c": 21.6,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "DHG地产为迪拜开发商，2022年成立。据DXB市场数据，当前在建3个项目、尚无交付记录，2026年迄今销售额约7,900万迪拉姆。丹枫置业 DFP-5 评级3枫叶。"
+ },
+ {
+  "name": "Stamn",
+  "founded": 2024,
+  "devNumber": "1943",
+  "dxb": {
+   "rank": 103,
+   "transactionsYtd": 34,
+   "salesValueBn": 0.0552,
+   "absorptionPct": 51.32,
+   "ucProjects": 3,
+   "ucUnits": 228,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 33%(75) / 1 Bed 39%(89) / 2 Beds 13%(30) / 3 Beds 14%(33) / 4 Beds 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Stamn - https://dxbinteract.com/top-property-developers-in-dubai/stamn-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Qube Development",
+  "cn": "库贝地产",
+  "founded": 2023,
+  "devNumber": "1692",
+  "website": "Qube Development - https://www.qbd.ae",
+  "dxb": {
+   "rank": 85,
+   "transactionsYtd": 101,
+   "salesValueBn": 0.112,
+   "capitalGainPct": -21.09,
+   "absorptionPct": 45.87,
+   "ucProjects": 3,
+   "ucUnits": 1439,
+   "deliveredProjects": 1,
+   "deliveredUnits": 72,
+   "bedMix": "Studio 14%(156) / 1 Bed 57%(616) / 2 Beds 22%(242) / 3 Beds 4%(39) / 4 Beds 2%(24)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Qube Development - https://dxbinteract.com/top-property-developers-in-dubai/qube-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 34.3,
+   "leaves": 2,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 30.3,
+    "c": 25.1,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "库贝地产（Qube Development）为迪拜开发商，2023年成立。据DXB市场数据，累计交付1个项目、当前在建3个项目，2026年迄今销售额约1.1亿迪拉姆。丹枫置业 DFP-5 评级2枫叶。"
+ },
+ {
+  "name": "Crystal Bay",
+  "devNumber": "2491",
+  "dxb": {
+   "rank": 104,
+   "transactionsYtd": 29,
+   "salesValueBn": 0.0539,
+   "capitalGainPct": 5.26,
+   "absorptionPct": 45.03,
+   "ucProjects": 3,
+   "ucUnits": 322,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 29%(93) / 1 Bed 52%(166) / 2 Beds 10%(33) / 3 Beds 7%(22) / 4 Beds 1%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Crystal Bay - https://dxbinteract.com/top-property-developers-in-dubai/Crystal-Bay-Development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "MGS Development",
+  "cn": "MGS 置业",
+  "founded": 2013,
+  "dxb": {
+   "rank": 89,
+   "transactionsYtd": 37,
+   "salesValueBn": 0.0939,
+   "capitalGainPct": 13.39,
+   "absorptionPct": 55.76,
+   "ucProjects": 3,
+   "asOf": "2026-07-04",
+   "link": "DXB - MGS Development - https://dxbinteract.com/top-property-developers-in-dubai/mgs-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 52.7,
+   "leaves": 3,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 72.4,
+    "c": 20,
+    "e": 65
+   }
+  },
+  "blurbCn": "MGS Development（MGS 置业）是一家总部位于迪拜的私营房地产开发商，成立于 2013 年。目前在迪拜有 3 个在建项目。在丹枫置业 DFP-5 开发商评级体系中获 52.7 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Jad Global",
+  "cn": "杰德环球",
+  "founded": 2024,
+  "devNumber": "1901",
+  "dxb": {
+   "rank": 69,
+   "transactionsYtd": 118,
+   "salesValueBn": 0.1623,
+   "capitalGainPct": 0,
+   "absorptionPct": 39.78,
+   "ucProjects": 3,
+   "ucUnits": 734,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 12%(62) / 1 Bed 71%(353) / 2 Beds 17%(84) / 4 Beds 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Jad Global - https://dxbinteract.com/top-property-developers-in-dubai/jad-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 51,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 45.9,
+    "c": 22.4,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Jad Global（杰德环球）是一家迪拜新兴房地产开发商，成立于 2024 年。目前在迪拜有 3 个在建项目，尚无已交付项目。在丹枫置业 DFP-5 开发商评级体系中获 51 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Nabni",
+  "founded": 2022,
+  "devNumber": "951",
+  "dxb": {
+   "rank": 106,
+   "transactionsYtd": 28,
+   "salesValueBn": 0.0441,
+   "capitalGainPct": 15.93,
+   "absorptionPct": 87.98,
+   "ucProjects": 3,
+   "ucUnits": 366,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 7%(59) / 1 Bed 44%(391) / 2 Beds 43%(379) / 3 Beds 7%(59)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Nabni - https://dxbinteract.com/top-property-developers-in-dubai/nabni-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Meraki Developers",
+  "cn": "美拉基",
+  "ownership": "Private",
+  "founded": 1991,
+  "devNumber": "1230",
+  "dxb": {
+   "rank": 83,
+   "transactionsYtd": 86,
+   "salesValueBn": 0.1153,
+   "capitalGainPct": 24.13,
+   "absorptionPct": 52.02,
+   "ucProjects": 3,
+   "ucUnits": 794,
+   "deliveredProjects": 2,
+   "deliveredUnits": 688,
+   "bedMix": "Studio 24%(275) / 1 Bed 43%(497) / 2 Beds 31%(359) / 3 Beds 1%(11) / 4 Beds 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Meraki Developers - https://dxbinteract.com/top-property-developers-in-dubai/meraki-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 58.9,
+   "leaves": 3,
+   "coverage": 100,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 41.3,
+    "b": 80.8,
+    "c": 22.7,
+    "d": 100,
+    "e": 77.5
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Meraki Developers（美拉基）是一家总部位于迪拜的私营房地产开发商，成立于 1991 年。已交付 2 个项目，另有 3 个项目在建。在丹枫置业 DFP-5 开发商评级体系中获 58.9 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Dugasta",
+  "cn": "杜加斯塔",
+  "founded": 1997,
+  "devNumber": "1157",
+  "dxb": {
+   "rank": 55,
+   "transactionsYtd": 380,
+   "salesValueBn": 0.2538,
+   "capitalGainPct": 90.62,
+   "absorptionPct": 53.54,
+   "ucProjects": 3,
+   "ucUnits": 536,
+   "deliveredProjects": 3,
+   "deliveredUnits": 1128,
+   "bedMix": "Studio 62%(926) / 1 Bed 22%(320) / 2 Beds 16%(235) / 3 Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Dugasta - https://dxbinteract.com/top-property-developers-in-dubai/dugasta-Properties-Development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 58.4,
+   "leaves": 3,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 35.5,
+    "b": 81.4,
+    "c": 26.8,
+    "d": 100,
+    "e": 100
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 87.5,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Dugasta（杜加斯塔）是一家总部位于迪拜的房地产开发商，成立于 1997 年。已交付 3 个项目，另有 3 个项目在建。在丹枫置业 DFP-5 开发商评级体系中获 58.4 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Zimaya",
+  "devNumber": "1718",
+  "dxb": {
+   "rank": 113,
+   "transactionsYtd": 16,
+   "salesValueBn": 0.0334,
+   "capitalGainPct": 4.65,
+   "absorptionPct": 87.53,
+   "ucProjects": 3,
+   "ucUnits": 377,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 20%(74) / 1 Bed 43%(160) / 2 Beds 25%(92) / 3 Beds 11%(39) / 4 Beds 1%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Zimaya - https://dxbinteract.com/top-property-developers-in-dubai/zimaya-properties"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Skyline Builders",
+  "cn": "天际线建筑",
+  "founded": 2022,
+  "devNumber": "1603",
+  "dxb": {
+   "rank": 99,
+   "transactionsYtd": 64,
+   "salesValueBn": 0.0739,
+   "absorptionPct": 58.62,
+   "ucProjects": 3,
+   "ucUnits": 551,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 26%(140) / 1 Bed 62%(337) / 2 Beds 12%(65) / 3 Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Skyline Builders - https://dxbinteract.com/top-property-developers-in-dubai/skyline-builders-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 55.1,
+   "leaves": 3,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 58.6,
+    "c": 21.3,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Skyline Builders（天际线建筑）是一家迪拜新兴房地产开发商，成立于 2022 年。目前在迪拜有 3 个在建项目。在丹枫置业 DFP-5 开发商评级体系中获 55.1 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Golden Wood",
+  "cn": "金木地产",
+  "founded": 2013,
+  "devNumber": "1201",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 115,
+   "transactionsYtd": 24,
+   "salesValueBn": 0.0276,
+   "capitalGainPct": 25,
+   "absorptionPct": 74.68,
+   "ucProjects": 3,
+   "ucUnits": 319,
+   "deliveredProjects": 2,
+   "deliveredUnits": 118,
+   "bedMix": "1Bed 66%(179)/2Beds 20%(55)/Studio 12%(34)/3Beds 2%(5)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/golden-wood-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Golden Wood Real Estate Development, est. 2013. 5 projects/437 properties tracked since 2012. 2026 YTD: 24 txns, AED 27.6M value. 3 UC projects (319 units), 2 delivered (118 units). Absorption 74.68%, CapGain 25%.",
+  "blurbCn": "金木地产（Golden Wood Real Estate Development）成立于2013年，专注住宅、商业及综合用途项目。目前3个在建项目（319套），2个已交付项目（118套），去化率74.68%，资本增值25%。"
+ },
+ {
+  "name": "LIV",
+  "cn": "LIV地产",
+  "ownership": "Private",
+  "founded": 2000,
+  "devNumber": "1137",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 33,
+   "transactionsYtd": 104,
+   "salesValueBn": 0.4569,
+   "capitalGainPct": 27.19,
+   "absorptionPct": 93.55,
+   "ucProjects": 3,
+   "ucUnits": 605,
+   "deliveredProjects": 2,
+   "deliveredUnits": 443,
+   "bedMix": "1Bed 51%(523)/2Beds 34%(350)/3Beds 9%(96)/Studio 3%(34)/4Beds 1%(15)/5Beds 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/l-i-v-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 61.4,
+   "leaves": 3.5,
+   "coverage": 67,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 97.4,
+    "c": 22.6,
+    "e": 100
+   }
+  },
+  "trackRecord": "L I V Real Estate Development, est. 2000. 5 projects/1,048 properties tracked since 2012. 2026 YTD: 104 txns, AED 456.9M value. 3 UC projects (605 units), 2 delivered (443 units). Absorption 93.55%, CapGain 27.19%.",
+  "blurbCn": "LIV地产（L I V Real Estate Development）成立于2000年，专注高品质住宅开发。目前3个在建项目（605套），2个已交付项目（443套），去化率93.55%，资本增值27.19%。"
+ },
+ {
+  "name": "Saeed Tarrad",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "ucProjects": 3,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tabeer",
+  "cn": "塔比尔地产",
+  "founded": 2014,
+  "devNumber": "1062",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 73,
+   "transactionsYtd": 144,
+   "salesValueBn": 0.1528,
+   "capitalGainPct": 17.12,
+   "absorptionPct": 64.61,
+   "ucProjects": 3,
+   "ucUnits": 486,
+   "deliveredProjects": 4,
+   "deliveredUnits": 543,
+   "bedMix": "1Bed 48%(547)/Studio 34%(391)/2Beds 14%(164)/3Beds 3%(38)/SingleRoom 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/tabeer-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 50.6,
+   "leaves": 3,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 21.6,
+    "b": 81.5,
+    "c": 20.8,
+    "d": 100,
+    "e": 60
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Tabeer Real Estate Development, est. 2014. 7 projects/1,029 properties tracked since 2012. 2026 YTD: 144 txns, AED 152.8M value. 3 UC projects (486 units), 4 delivered (543 units). Absorption 64.61%, CapGain 17.12%.",
+  "blurbCn": "塔比尔地产（Tabeer Real Estate Development）成立于2014年，专注住宅、商业及综合用途项目。目前3个在建项目（486套），4个已交付项目（543套），去化率64.61%，资本增值17.12%。"
+ },
+ {
+  "name": "Aura Infinite",
+  "cn": "极光无限地产",
+  "founded": 2023,
+  "devNumber": "1676",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 81,
+   "transactionsYtd": 78,
+   "salesValueBn": 0.1279,
+   "capitalGainPct": 24.78,
+   "absorptionPct": 74.15,
+   "ucProjects": 3,
+   "ucUnits": 205,
+   "deliveredProjects": 1,
+   "deliveredUnits": 109,
+   "bedMix": "2Beds 63%(166)/3Beds 19%(50)/1Bed 18%(48)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/aura-infinite-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 55.6,
+   "leaves": 3,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 27,
+    "b": 89.7,
+    "c": 20,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 75,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Aura Infinite Real Estate Development, est. 2023. 4 projects/314 properties tracked since 2012. 2026 YTD: 78 txns, AED 127.9M value. 3 UC projects (205 units), 1 delivered (109 units). Absorption 74.15%, CapGain 24.78%.",
+  "blurbCn": "极光无限地产（Aura Infinite Real Estate Development）成立于2023年，专注高端住宅及商业开发。目前3个在建项目（205套），1个已交付项目（109套），去化率74.15%，资本增值24.78%。"
+ },
+ {
+  "name": "Mira",
+  "cn": "米拉地产",
+  "founded": 2020,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 62,
+   "transactionsYtd": 44,
+   "salesValueBn": 0.2206,
+   "capitalGainPct": 2.13,
+   "absorptionPct": 29.82,
+   "ucProjects": 3,
+   "ucUnits": 969,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 41%(211)/1Bed 33%(170)/2Beds 18%(90)/5Beds 7%(36)/3Beds 1%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/mira-developments-llc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 35.9,
+   "leaves": 2,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 45.1,
+    "c": 23.5,
+    "e": 30
+   }
+  },
+  "trackRecord": "Mira Developments, est. 2020 (originally a real estate broker). 3 projects/969 properties tracked since 2012. 2026 YTD: 44 txns, AED 220.6M value. 3 UC projects (969 units), 0 delivered. Absorption 29.82%, CapGain 2.13%.",
+  "blurbCn": "米拉地产（Mira Developments）2020年由房产经纪公司转型为开发商，专注住宅及商业地产开发。目前3个在建项目（969套），尚无已交付项目，去化率29.82%，资本增值2.13%。"
+ },
+ {
+  "name": "Dubai Investments",
+  "cn": "迪拜投资地产",
+  "ownership": "Public Listed",
+  "founded": 1995,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 49,
+   "transactionsYtd": 157,
+   "salesValueBn": 0.2954,
+   "capitalGainPct": 9.22,
+   "absorptionPct": 31.89,
+   "ucProjects": 3,
+   "ucUnits": 1248,
+   "deliveredProjects": 5,
+   "deliveredUnits": 3946,
+   "bedMix": "Studio 29%(1619)/1Bed 24%(1352)/2Beds 22%(1224)/3Beds 13%(731)/4Beds 11%(609)/5Beds 1%(41)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/dubai-investment-properties"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 51.1,
+   "leaves": 3,
+   "coverage": 72,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 40.6,
+    "b": 56.6,
+    "c": 26.2,
+    "e": 97.5
+   }
+  },
+  "trackRecord": "Dubai Investments (Properties), est. 1994/95. Notable projects: Twin Towers, Dubai Marine Beach Resort, The Palm Strip Mall. 8 projects/5,194 properties tracked since 2012. 2026 YTD: 157 txns, AED 295.4M value. 3 UC projects (1,248 units), 5 delivered (3,946 units). Absorption 31.89%, CapGain 9.22%.",
+  "blurbCn": "迪拜投资地产（Dubai Investments）成立于1994/95年，为迪拜老牌私营地产开发商，代表项目包括双子塔、迪拜海洋海滩度假村等。目前3个在建项目（1,248套），5个已交付项目（3,946套），去化率31.89%，资本增值9.22%。"
+ },
+ {
+  "name": "Riviera Developments",
+  "cn": "里维埃拉地产",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "absorptionPct": 86.36,
+   "ucProjects": 3,
+   "ucUnits": 132,
+   "deliveredProjects": 2,
+   "deliveredUnits": 234,
+   "bedMix": "1Bed 69%(389)/2Beds 22%(122)/4Beds 4%(21)/Studio 2%(10)/5Beds 2%(10)/6Beds 1%(7)/3Beds 0%(2)/7Beds 0%(2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/riviera-properties-developments"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Riviera Property Development, private developer. 5 projects/366 properties tracked since 2012. No 2026 YTD transactions recorded. 3 UC projects (132 units), 2 delivered (234 units). Absorption 86.36%.",
+  "blurbCn": "里维埃拉地产（Riviera Property Development）为私营开发商，专注住宅及商业项目。目前3个在建项目（132套），2个已交付项目（234套），去化率86.36%；2026年至今无新增成交记录。"
+ },
+ {
+  "name": "Al Mizan",
+  "cn": "米赞地产",
+  "founded": 1998,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 98,
+   "transactionsYtd": 65,
+   "salesValueBn": 0.0741,
+   "capitalGainPct": 35.49,
+   "absorptionPct": 68.14,
+   "ucProjects": 1,
+   "ucUnits": 226,
+   "deliveredProjects": 1,
+   "deliveredUnits": 684,
+   "bedMix": "2Beds 39%(241)/1Bed 29%(178)/Studio 27%(165)/3Beds 5%(28)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/al-mizan-property-developer"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56.1,
+   "leaves": 3,
+   "coverage": 67,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 87.3,
+    "c": 20,
+    "e": 100
+   }
+  },
+  "trackRecord": "Al Mizan Property Developer, est. 1998. 2 projects/910 properties tracked since 2012. 2026 YTD: 65 txns, AED 74.1M value. 1 UC project (226 units), 1 delivered (684 units). Absorption 68.14%, CapGain 35.49%.",
+  "blurbCn": "米赞地产（Al Mizan Property Developer）成立于1998年，专注住宅及商业开发。目前1个在建项目（226套），1个已交付项目（684套），去化率68.14%，资本增值35.49%。"
+ },
+ {
+  "name": "Anax",
+  "cn": "阿纳克斯地产",
+  "founded": 2023,
+  "devNumber": "1455",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 57,
+   "transactionsYtd": 65,
+   "salesValueBn": 0.2419,
+   "absorptionPct": 51.49,
+   "ucProjects": 3,
+   "ucUnits": 402,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 39%(156)/2Beds 29%(115)/1Bed 21%(84)/3Beds 11%(44)/4Beds 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/anax-developments"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 53.1,
+   "leaves": 3,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 51.5,
+    "c": 20,
+    "d": 100,
+    "e": 20
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Anax Developments, est. 2023. 3 projects/402 properties tracked since 2012. 2026 YTD: 65 txns, AED 241.9M value. 3 UC projects (402 units), 0 delivered. Absorption 51.49%.",
+  "blurbCn": "阿纳克斯地产（Anax Developments）成立于2023年，专注住宅、商业及综合用途开发。目前3个在建项目（402套），尚无已交付项目，去化率51.49%。"
+ },
+ {
+  "name": "Aum One",
+  "cn": "奥姆壹",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 101,
+   "transactionsYtd": 66,
+   "salesValueBn": 0.0568,
+   "absorptionPct": 40.74,
+   "ucProjects": 2,
+   "ucUnits": 162,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 31%(50) · 1Bed 49%(80) · 2Bed 20%(32)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Aum One - https://dxbinteract.com/top-property-developers-in-dubai/aum-one-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Dubai-based boutique developer focused on refined, lifestyle-driven residential design\n• DXB (since 2012): 2 projects / 162 units under construction; 0 delivered\n• 2026 YTD: 66 transactions, AED 56.8M sales value; absorption 40.74%; capital gain % not yet available (thin resale history)",
+  "blurbCn": "迪拜精品开发商，专注于精致设计与生活方式导向的住宅项目。目前在建2个项目共162套单位，尚无交付记录。2026年迄今成交66笔，销售额约5680万迪拉姆，去化率40.74%，二手数据尚少故资本增值率暂缺。"
+ },
+ {
+  "name": "Abou Eid",
+  "cn": "阿布伊德",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 90,
+   "transactionsYtd": 87,
+   "salesValueBn": 0.0929,
+   "capitalGainPct": 8.93,
+   "absorptionPct": 66.15,
+   "ucProjects": 3,
+   "ucUnits": 455,
+   "deliveredProjects": 1,
+   "deliveredUnits": 111,
+   "bedMix": "Studio 46%(256) · 1Bed 42%(233) · 2Bed 11%(62)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Abou Eid - https://dxbinteract.com/top-property-developers-in-dubai/abou-eid-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 44.3,
+   "leaves": 2.5,
+   "coverage": 62,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 69.9,
+    "c": 20.5
+   }
+  },
+  "trackRecord": "• Real estate developer covering residential, commercial and mixed-use projects, emphasizing value and customer experience\n• DXB (since 2012): 3 projects / 455 units under construction; 1 project / 111 units delivered\n• 2026 YTD: 87 transactions, AED 92.9M sales value, ~AED 1M capital gain (8.93%); absorption 66.15%",
+  "blurbCn": "迪拜地产开发商，专注住宅、商业及综合体项目，强调性价比与客户体验。目前在建3个项目455套，已交付1个项目111套。2026年迄今成交87笔，销售额约9290万迪拉姆，资本增值约8.93%，去化率66.15%。"
+ },
+ {
+  "name": "City Properties",
+  "cn": "城市地产",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 111,
+   "transactionsYtd": 41,
+   "salesValueBn": 0.0368,
+   "capitalGainPct": 3.67,
+   "absorptionPct": 81.34,
+   "ucProjects": 3,
+   "ucUnits": 584,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 58%(336) · 1Bed 29%(168) · 2Bed 11%(65) · 3Bed 3%(15)",
+   "asOf": "2026-07-04",
+   "link": "DXB - City Properties - https://dxbinteract.com/top-property-developers-in-dubai/city-properties"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Development arm of City Tower Real Estate (CTRE), a UAE property management group with 20+ years in leasing/maintenance\n• DXB (since 2012): 3 projects / 584 units under construction; 0 delivered\n• 2026 YTD: 41 transactions, AED 36.8M sales value, ~AED 19.5K capital gain (3.67%); absorption 81.34%",
+  "blurbCn": "阿联酋物业管理集团City Tower Real Estate（CTRE，20余年租赁维保经验）旗下开发品牌。目前在建3个项目584套，尚无交付记录。2026年迄今成交41笔，销售额约3680万迪拉姆，资本增值约3.67%，去化率高达81.34%。"
+ },
+ {
+  "name": "Segrex",
+  "cn": "赛格雷斯",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 118,
+   "transactionsYtd": 14,
+   "salesValueBn": 0.0225,
+   "capitalGainPct": 15.05,
+   "absorptionPct": 96.77,
+   "ucProjects": 2,
+   "ucUnits": 248,
+   "deliveredProjects": 3,
+   "deliveredUnits": 410,
+   "bedMix": "1Bed 57%(408) · Studio 35%(252) · 2Bed 5%(39) · 3Bed 2%(15)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Segrex - https://dxbinteract.com/top-property-developers-in-dubai/segrex-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Segrex Development — Dubai residential developer\n• DXB (since 2012): 2 projects / 248 units under construction; 3 projects / 410 units delivered\n• 2026 YTD: 14 transactions, AED 22.5M sales value, ~AED 5.7M capital gain (15.05%); absorption 96.77% (near-sold-out UC supply)",
+  "blurbCn": "迪拜住宅开发商Segrex Development。目前在建2个项目248套，已交付3个项目410套。2026年迄今成交14笔，销售额约2250万迪拉姆，资本增值约15.05%，去化率高达96.77%（在建库存接近售罄）。"
+ },
+ {
+  "name": "Holm Avenue",
+  "cn": "霍尔姆大道",
+  "devNumber": "2428",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 34,
+   "transactionsYtd": 337,
+   "salesValueBn": 0.4538,
+   "absorptionPct": 78.27,
+   "ucProjects": 2,
+   "ucUnits": 428,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 60%(258) · 1Bed 34%(145) · 2Bed 6%(25)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Holm Avenue - https://dxbinteract.com/top-property-developers-in-dubai/holm-avenue-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 65.5,
+   "leaves": 3.5,
+   "coverage": 50,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 78.3,
+    "c": 26.9,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Holm Avenue Real Estate Development LLC — Dubai developer focused on modern residential & mixed-use projects\n• DXB (since 2012): 2 projects / 428 units under construction; 0 delivered\n• 2026 YTD: 337 transactions, AED 453.8M sales value; absorption 78.27%; capital gain % not yet available\n• DLD dev#2428, 1 registered project, ACTIVE status (no cancellations/delays on record)",
+  "blurbCn": "迪拜开发商Holm Avenue Real Estate Development LLC，专注现代住宅与综合体项目。目前在建2个项目428套，尚无交付记录。2026年迄今成交337笔，销售额约4.538亿迪拉姆，去化率78.27%；资本增值率暂缺。DLD登记1个项目，状态ACTIVE，无取消/延期记录。"
+ },
+ {
+  "name": "Kappa Acca",
+  "cn": "卡帕阿卡",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 102,
+   "transactionsYtd": 58,
+   "salesValueBn": 0.0555,
+   "capitalGainPct": 15.07,
+   "absorptionPct": 71.37,
+   "ucProjects": 2,
+   "ucUnits": 716,
+   "deliveredProjects": 2,
+   "deliveredUnits": 286,
+   "bedMix": "Studio 44%(384) · 1Bed 36%(307) · 2Bed 16%(136) · 3Bed 2%(18) · 4Bed 2%(15) · 6Bed 0%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Kappa Acca - https://dxbinteract.com/top-property-developers-in-dubai/kappa-acca-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Kappa Acca Real Estate Development — Dubai developer targeting urban luxury and functional living spaces\n• DXB (since 2012): 2 projects / 716 units under construction; 2 projects / 286 units delivered\n• 2026 YTD: 58 transactions, AED 55.5M sales value, ~AED 33.6M capital gain (15.07%); absorption 71.37%",
+  "blurbCn": "迪拜开发商Kappa Acca Real Estate Development，致力于提升城市面貌，兼顾奢华与实用性。目前在建2个项目716套，已交付2个项目286套。2026年迄今成交58笔，销售额约5550万迪拉姆，资本增值约15.07%，去化率71.37%。"
+ },
+ {
+  "name": "Valores",
+  "cn": "瓦洛雷斯",
+  "devNumber": "2260",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 123,
+   "transactionsYtd": 30,
+   "salesValueBn": 0.0177,
+   "absorptionPct": 54.72,
+   "ucProjects": 1,
+   "ucUnits": 106,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 75%(79) · 1Bed 22%(23) · 2Bed 4%(4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Valores - https://dxbinteract.com/top-property-developers-in-dubai/valores-property-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Valores Property Development — Dubai developer focused on modern, value-driven living spaces\n• DXB (since 2012): 1 project / 106 units under construction; 0 delivered\n• 2026 YTD: 30 transactions, AED 17.7M sales value; absorption 54.72%; capital gain % not yet available\n• DLD dev#2260, 3 registered projects (2 pending, 1 not started), no cancellations on record",
+  "blurbCn": "迪拜开发商Valores Property Development，专注现代化、注重长期价值的居住空间。目前在建1个项目106套，尚无交付记录。2026年迄今成交30笔，销售额约1770万迪拉姆，去化率54.72%；资本增值率暂缺。DLD登记3个项目（2个待定、1个未开工），无取消记录。"
+ },
+ {
+  "name": "Zaya",
+  "cn": "扎亚",
+  "devNumber": "2422",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 11,
+   "transactionsYtd": 367,
+   "salesValueBn": 4.5,
+   "capitalGainPct": 39.68,
+   "absorptionPct": 64.53,
+   "ucProjects": 2,
+   "ucUnits": 592,
+   "deliveredProjects": 1,
+   "deliveredUnits": 504,
+   "bedMix": "4Bed 54%(583) · 1Bed 18%(193) · 2Bed 14%(153) · Studio 9%(98) · 3Bed 3%(34) · 6Bed 2%(26) · 8+ 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - Zaya - https://dxbinteract.com/top-property-developers-in-dubai/zaya"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 66.8,
+   "leaves": 3.5,
+   "coverage": 80,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 52,
+    "b": 85.8,
+    "c": 36.4,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "• Zaya — UAE developer known for innovative luxury residential/commercial design\n• DXB (since 2012): 2 projects / 592 units under construction; 1 project / 504 units delivered\n• 2026 YTD: 367 transactions, AED 4.5B sales value (materially higher than the board's prior blank reading — top-15 by 2026 sales value); ~AED 107.9K capital gain (39.68% — highest CapGain% in this batch); absorption 64.53%\n• DLD dev#2422, 1 registered project, ACTIVE status",
+  "blurbCn": "阿联酋开发商Zaya，以创新奢华住宅/商业设计著称。目前在建2个项目592套，已交付1个项目504套。2026年迄今成交367笔，销售额高达45亿迪拉姆（此前板上此列为空，本轮首次录入，跻身迪拜销售额前列），资本增值约39.68%（本轮最高），去化率64.53%。DLD登记1个项目，状态ACTIVE。"
+ },
+ {
+  "name": "Jumeirah Luxury Living",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Alyakka Developer",
+  "cn": "阿尔雅卡",
+  "founded": 2010,
+  "devNumber": "2237",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 84,
+   "salesValueBn": 0.1147,
+   "capitalGainPct": 0,
+   "absorptionPct": 72.66,
+   "ucProjects": 1,
+   "ucUnits": 128,
+   "deliveredProjects": 1,
+   "deliveredUnits": 71,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/al-yakka-developer"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 46.7,
+   "leaves": 2.5,
+   "coverage": 85,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 59.1,
+    "c": 20,
+    "d": 100,
+    "e": 80
+   },
+   "a2bOntimeRefPct": 66.7,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Alyakka Developer（阿尔雅卡）是一家总部位于迪拜的房地产开发商，成立于 2010 年。已交付 1 个项目，另有 1 个项目在建。在丹枫置业 DFP-5 开发商评级体系中获 46.7 分，对应 2.5 枚枫叶。"
+ },
+ {
+  "name": "Signature Developers",
+  "founded": 2006,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 122,
+   "salesValueBn": 0.0182,
+   "absorptionPct": 63.9,
+   "ucProjects": 2,
+   "ucUnits": 205,
+   "deliveredProjects": 2,
+   "deliveredUnits": 133,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/signature-estates"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "AA and Hmb Real Estate Development",
+  "founded": 2023,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 105,
+   "salesValueBn": 0.047,
+   "absorptionPct": 86.3,
+   "ucProjects": 3,
+   "ucUnits": 606,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/aa-and-hmb-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Oksa Developer",
+  "founded": 2024,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 128,
+   "salesValueBn": 0.0102,
+   "absorptionPct": 68.57,
+   "ucProjects": 1,
+   "ucUnits": 70,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/oksa-developer"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Swank Development",
+  "founded": 2024,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "absorptionPct": 100,
+   "ucProjects": 1,
+   "ucUnits": 37,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/swank-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Gulfland",
+  "cn": "海湾之地",
+  "founded": 2014,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 47,
+   "salesValueBn": 0.3113,
+   "absorptionPct": 44.8,
+   "ucProjects": 1,
+   "ucUnits": 1058,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/gulfland-property-developers"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 33.4,
+   "leaves": 2,
+   "coverage": 37,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 44.8,
+    "c": 20,
+    "e": 60
+   }
+  },
+  "blurbCn": "Gulfland（海湾之地）是一家总部位于迪拜的房地产开发商，成立于 2014 年。目前在迪拜有 1 个在建项目。在丹枫置业 DFP-5 开发商评级体系中获 33.4 分，对应 2 枚枫叶。"
+ },
+ {
+  "name": "Deniz",
+  "founded": 2020,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 114,
+   "salesValueBn": 0.0279,
+   "absorptionPct": 51.28,
+   "ucProjects": 2,
+   "ucUnits": 234,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB Profile - https://dxbinteract.com/top-property-developers-in-dubai/deniz-real-estate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "One Development",
+  "cn": "万象地产",
+  "founded": 2024,
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 93,
+   "transactionsYtd": 67,
+   "salesValueBn": 0.0792,
+   "capitalGainPct": 0,
+   "absorptionPct": 17.24,
+   "ucProjects": 2,
+   "ucUnits": 3376,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/one-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 32.3,
+   "leaves": 2,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "b": 38,
+    "c": 26.7,
+    "e": 20
+   }
+  },
+  "trackRecord": "Est. 2024. Dubai-based developer focused on residential, commercial and mixed-use projects blending modern architecture with sustainability. Flagship: Laguna Residence (City of Arabia), DO Hotels & Residences (Dubai Islands).",
+  "blurbCn": "成立于2024年，迪拜地产开发商，专注住宅、商业及综合体项目，代表项目包括城市阿拉伯亚Laguna Residence及迪拜群岛DO Hotels & Residences。"
+ },
+ {
+  "name": "Laraix",
+  "cn": "拉瑞克斯开发商",
+  "founded": 2016,
+  "devNumber": "2127",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 127,
+   "transactionsYtd": 18,
+   "salesValueBn": 0.0136,
+   "absorptionPct": 25.76,
+   "ucProjects": 2,
+   "ucUnits": 132,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 34%(44)·1BR 38%(49)·2BR 26%(34)·3BR 2%(3)",
+   "asOf": "2026-07-04",
+   "link": "DXB Laraix - https://dxbinteract.com/top-property-developers-in-dubai/laraix-developers"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Laraix Developers, EST.2016 Dubai. 2 UC projects/132 units, 0 delivered. Sales YTD: 18 txns, AED 13.6M. Absorption 25.76%. DLD dev#2127='LARAIX DEVELOPERS L.L.C', DLD registry: 2 projects, 0 finished/cancelled/abnormal (ontime not yet eligible).",
+  "blurbCn": "拉瑞克斯开发商，成立于2016年，迪拜。目前2个在建项目/132套单位，尚无交付项目。2026年至今成交18笔，总额约1360万迪拉姆，吸纳率25.76%。DLD登记2个项目，无取消/异常记录。"
+ },
+ {
+  "name": "Main Realty",
+  "cn": "曼瑞地产",
+  "founded": 2003,
+  "devNumber": "1836",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 109,
+   "transactionsYtd": 14,
+   "salesValueBn": 0.0377,
+   "absorptionPct": 77.21,
+   "ucProjects": 2,
+   "ucUnits": 136,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1BR 53%(71)·2BR 37%(49)·3BR 10%(14)",
+   "asOf": "2026-07-04",
+   "link": "DXB Main Realty - https://dxbinteract.com/top-property-developers-in-dubai/main-realty-real-estate"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Main Realty Real Estate, EST.2003(US)/迪拜2016年设立. Flagship: Flow Residences(Dubai Islands). 2 UC projects/136 units, 0 delivered. Sales YTD:14 txns, AED37.7M. Absorption 77.21%. CEO Aamir Siddiq. DLD dev#1836='MAIN REALTY REAL ESTATE L.L.C', DLD registry: 3 projects, 0 finished/cancelled/abnormal.",
+  "blurbCn": "曼瑞地产,2003年成立于美国,2016年进军迪拜市场。旗舰项目Flow Residences(迪拜群岛)。目前2个在建项目/136套单位,尚无交付。2026年至今成交14笔,总额约3770万迪拉姆,吸纳率77.21%。DLD登记3个项目,无取消/异常记录。"
+ },
+ {
+  "name": "Metrical",
+  "cn": "美创地产",
+  "founded": 2016,
+  "devNumber": "1283",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 87,
+   "transactionsYtd": 95,
+   "salesValueBn": 0.1004,
+   "capitalGainPct": 24.66,
+   "absorptionPct": 91.65,
+   "ucProjects": 2,
+   "ucUnits": 491,
+   "deliveredProjects": 7,
+   "deliveredUnits": 1000,
+   "bedMix": "1 Bed 78% (1112); 2 Beds 9% (124); Studio 7% (98); 4 Beds 6% (85); 3 Beds 0% (2)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/metrical-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 62.8,
+   "leaves": 3.5,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 47.1,
+    "b": 96.7,
+    "c": 20,
+    "d": 100,
+    "e": 50
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Est. 2016. Dubai developer known for luxury residential projects; winner of 9 International Property Awards. Flagship: Leven Residences (JVT).",
+  "blurbCn": "成立于2016年，迪拜豪宅开发商，曾获9项国际地产大奖，代表项目Leven Residences（迪拜三角村）。"
+ },
+ {
+  "name": "Al Seeb",
+  "cn": "艾尔西卜地产",
+  "founded": 1989,
+  "devNumber": "1014",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 97,
+   "transactionsYtd": 35,
+   "salesValueBn": 0.0746,
+   "capitalGainPct": 3.8,
+   "absorptionPct": 53.02,
+   "ucProjects": 2,
+   "ucUnits": 447,
+   "deliveredProjects": 5,
+   "deliveredUnits": 1045,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/al-seeb-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 46.4,
+   "leaves": 2.5,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 26.6,
+    "b": 56.9,
+    "c": 20,
+    "d": 100,
+    "e": 100
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 71.4,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Est. 1989. Dubai developer focused on studio/1-2BR apartments. Flagship: Royal Regency & Royal Regency Suites (Business Bay).",
+  "blurbCn": "成立于1989年，迪拜地产开发商，专注开间及一至两居公寓，代表项目Royal Regency系列（商业湾）。"
+ },
+ {
+  "name": "TownX",
+  "cn": "唐克斯地产",
+  "founded": 2017,
+  "devNumber": "1213",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 51,
+   "transactionsYtd": 182,
+   "salesValueBn": 0.2656,
+   "capitalGainPct": 27.41,
+   "absorptionPct": 34.12,
+   "ucProjects": 2,
+   "ucUnits": 1187,
+   "deliveredProjects": 4,
+   "deliveredUnits": 1831,
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/townx-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56,
+   "leaves": 3,
+   "coverage": 95,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 46.4,
+    "b": 73.6,
+    "c": 24.5,
+    "d": 100,
+    "e": 45
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Est. 2017. Dubai developer focused on innovative, sustainable residential/commercial/mixed-use projects. Flagship: Luma Park Views (JVC). Note: high SalesVal (AED 265.6M YTD) despite prior blank record — flagged for LEO re: sort order.",
+  "blurbCn": "成立于2017年，迪拜地产开发商，专注创新可持续住宅商业综合项目，代表项目Luma Park Views（迪拜生活村）。"
+ },
+ {
+  "name": "East & West",
+  "cn": "东西地产",
+  "founded": 1993,
+  "devNumber": "1724",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 119,
+   "transactionsYtd": 2,
+   "salesValueBn": 0.0201,
+   "capitalGainPct": 13.27,
+   "absorptionPct": 98.91,
+   "ucProjects": 1,
+   "ucUnits": 552,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1 Bed 51% (256); 2 Beds 33% (165); 3 Beds 11% (54); Studio 3% (14); 4 Beds 2% (11); 5 Beds 1% (3)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/east-west-international-group"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Est. 1993. Dubai developer (East & West International Group). Flagship: 25h Heimat (Downtown Dubai).",
+  "blurbCn": "成立于1993年，迪拜地产开发商（东西国际集团），代表项目25h Heimat（迪拜市中心）。"
+ },
+ {
+  "name": "True Future",
+  "cn": "真未来地产",
+  "founded": 2014,
+  "devNumber": "1926",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 86,
+   "transactionsYtd": 60,
+   "salesValueBn": 0.1065,
+   "absorptionPct": 64.02,
+   "ucProjects": 2,
+   "ucUnits": 328,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1 Bed 60% (141); 2 Beds 38% (89); 3 Beds 2% (4)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/true-future-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 59.4,
+   "leaves": 3,
+   "coverage": 55,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 64,
+    "c": 20,
+    "d": 100,
+    "e": 60
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Est. 2014. Dubai developer focused on innovative sustainable residential/commercial projects. Flagship: Future Residence (Bukadra). No resale/CapGain% data yet (all-primary sales, no data on DXB).",
+  "blurbCn": "成立于2014年，迪拜地产开发商，专注创新可持续住宅商业项目，代表项目Future Residence（Bukadra）。"
+ },
+ {
+  "name": "Gfh",
+  "cn": "GFH地产",
+  "founded": 2016,
+  "devNumber": "1199",
+  "website": "gfhre.com - https://www.gfhre.com",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 77,
+   "transactionsYtd": 92,
+   "salesValueBn": 0.1476,
+   "capitalGainPct": 43.77,
+   "absorptionPct": 63.37,
+   "ucProjects": 2,
+   "ucUnits": 587,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "1BR14%(84)·2BR46%(266)·3BR34%(196)·4BR5%(28)·5BR1%(8)",
+   "asOf": "2026-07-04",
+   "link": "DXB GFH - https://dxbinteract.com/top-property-developers-in-dubai/gfh-real-estate"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 59.9,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 20,
+    "b": 85.3,
+    "c": 20,
+    "d": 100,
+    "e": 50
+   },
+   "a2bOntimeRefPct": 50,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "GFH Real Estate, subsidiary of GFH Financial Group(Bahrain). DLD license registered 2016-10-04. Flagship: California Residences/Village(Wadi Al Safa 4). 2 UC projects/587 units, 0 delivered. Sales YTD:92 txns,AED147.6M. CapGain 10.8M(43.77%). Absorption 63.37%. DLD dev#1199='GFH REAL ESTATE L.L.C',website gfhre.com. DLD registry:2 projects,0 finished/cancelled/abnormal.",
+  "blurbCn": "GFH地产,巴林GFH金融集团旗下地产子公司,迪拜牌照注册于2016年。旗舰项目California Residences/Village(Wadi Al Safa 4区)。目前2个在建项目/587套单位,尚无交付。2026年至今成交92笔,总额约1.476亿迪拉姆,资本增值10.8M(43.77%),吸纳率63.37%。DLD登记2个项目,无取消/异常记录。"
+ },
+ {
+  "name": "Amirah Living",
+  "cn": "阿米拉生活地产",
+  "devNumber": "2001",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Amirah Living Developer — not listed on dxbinteract Search-by-Developer (confirmed no card after retry). DLD dev#2001='AMIRAH LIVING DEVELOPER L.L.C', license issued 2024-07-10 (young entity). DLD registry: 2 projects (NOT_STARTED/PENDING), 0 finished/cancelled/abnormal.",
+  "blurbCn": "阿米拉生活地产——dxbinteract搜索无卡片(已二次确认非漏检)。DLD dev#2001='AMIRAH LIVING DEVELOPER L.L.C'，牌照签发于2024-07-10(较新公司)。DLD登记2个项目(未开工/待定状态)，无取消/异常记录。"
+ },
+ {
+  "name": "Alta",
+  "cn": "阿尔塔地产",
+  "founded": 2020,
+  "devNumber": "1300",
+  "website": "altadevelopment.ae - https://www.altadevelopment.ae",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 58,
+   "transactionsYtd": 22,
+   "salesValueBn": 0.2325,
+   "absorptionPct": 51.48,
+   "ucProjects": 1,
+   "ucUnits": 169,
+   "deliveredProjects": 1,
+   "deliveredUnits": 92,
+   "bedMix": "1BR2%(4)·2BR35%(68)·3BR40%(78)·4BR21%(40)·5BR2%(4)·6BR1%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB Alta - https://dxbinteract.com/top-property-developers-in-dubai/alta-real-estate-development"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 44.3,
+   "leaves": 2.5,
+   "coverage": 77,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 41.3,
+    "b": 51.5,
+    "c": 20,
+    "d": 100,
+    "e": 30
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Alta Real Estate, EST.2020. Flagship: Mr. C Residences Downtown(Al Wasl). 1 UC project/169 units + 1 delivered/92 units. Sales YTD:22 txns,AED232.5M. Absorption 51.48%. DLD dev#1300='ALTA REAL ESTATE DEVELOPMENT L.L.C',website altadevelopment.ae. DLD registry:3 projects,1 finished on-time,0 cancelled/abnormal → A2=100%.",
+  "blurbCn": "阿尔塔地产,成立于2020年。旗舰项目Mr. C Residences Downtown(Al Wasl区)。1个在建项目169套+1个已交付项目92套。2026年至今成交22笔,总额约2.325亿迪拉姆,吸纳率51.48%。DLD登记3个项目,1个按时交付,无取消/异常→按时交付率100%。"
+ },
+ {
+  "name": "Union Properties",
+  "cn": "联合置地",
+  "ownership": "Public Listed",
+  "founded": 1987,
+  "devNumber": "27",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 54,
+   "transactionsYtd": 143,
+   "salesValueBn": 0.2539,
+   "capitalGainPct": 19.88,
+   "absorptionPct": 49.61,
+   "ucProjects": 2,
+   "ucUnits": 1937,
+   "deliveredProjects": 3,
+   "deliveredUnits": 328,
+   "bedMix": "Studio11%(597)·1BR39%(2030)·2BR35%(1817)·3BR14%(713)·4BR2%(94)·5BR0%(5)",
+   "asOf": "2026-07-04",
+   "link": "DXB Union Properties - https://dxbinteract.com/top-property-developers-in-dubai/union-properties-pjsc"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56.8,
+   "leaves": 3,
+   "coverage": 90,
+   "confidence": "High",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 41.3,
+    "b": 79.7,
+    "c": 25.2,
+    "e": 97.5
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100
+  },
+  "trackRecord": "Union Properties PJSC(UP), DFM-listed, EST.1987. Flagship: Takaya & Mirdad 1(Al Hebiah First). 2 UC projects/1937 units + 3 delivered/328 units. Sales YTD:143 txns,AED253.9M. CapGain AED110.7M(19.88%). Absorption 49.61%. DLD dev#27='UNION PROPERTIES (P.J.S.C)',PUBLIC COMPANY license from 1987. DLD registry:1 project,finished on-time,0 cancelled/abnormal→A2=100%.",
+  "blurbCn": "联合置地(Union Properties PJSC)，迪拜金融市场(DFM)上市公司，成立于1987年。旗舰项目Takaya与Mirdad 1(Al Hebiah First区)。2个在建项目1937套+3个已交付项目328套。2026年至今成交143笔，总额约2.539亿迪拉姆，资本增值110.7M(19.88%)，吸纳率49.61%。DLD登记显示按时交付，无取消/异常记录，按时交付率100%。"
+ },
+ {
+  "name": "Digo",
+  "cn": "迪高地产",
+  "founded": 2021,
+  "devNumber": "1328",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 130,
+   "transactionsYtd": 1,
+   "salesValueBn": 0.0018,
+   "capitalGainPct": 9.9,
+   "absorptionPct": 93.02,
+   "ucProjects": 2,
+   "ucUnits": 444,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio22%(96)·1BR47%(207)·2BR28%(123)·3BR2%(10)",
+   "asOf": "2026-07-04",
+   "link": "DXB Digo - https://dxbinteract.com/top-property-developers-in-dubai/digo-real-estate"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Digo Real Estate Development(branch of Invest Group Overseas), EST.2021. Flagship: Azura Residences(Dubai Islands,17-story waterfront) & PELaGOS(Marsa Dubai/Dubai Marina,69.08% complete,due Mar 2026). 2 UC projects/444 units,0 delivered. Sales YTD:1 txn,AED1.8M. CapGain AED1.5M(9.9%). Absorption 93.02%. DLD dev#1328='DIGO REAL ESTATE DEVELOPMENT(BR OF INVEST GROUP OVERSEAS LLC)'. DLD registry:8 projects,2 finished on-time,0 cancelled/abnormal→A2=100%.",
+  "blurbCn": "迪高地产(Invest Group Overseas旗下分支)，成立于2021年。旗舰项目Azura Residences(迪拜群岛,17层滨海项目)及PELaGOS(迪拜码头区,已完工69.08%,预计2026年3月交付)。2个在建项目444套,尚无交付。2026年至今成交1笔,总额180万迪拉姆,资本增值150万(9.9%),吸纳率93.02%。DLD登记8个项目,2个按时交付,无取消/异常→按时交付率100%。"
+ },
+ {
+  "name": "Deviate",
+  "cn": "迪威特地产",
+  "founded": 2015,
+  "devNumber": "1788",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 126,
+   "transactionsYtd": 11,
+   "salesValueBn": 0.016,
+   "absorptionPct": 71.43,
+   "ucProjects": 2,
+   "asOf": "2026-07-04",
+   "link": "DXB Deviate - https://dxbinteract.com/top-property-developers-in-dubai/deviate-development"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "Deviate Real Estate Development, EST.2015, Dubai-based, mid-market apartments. 2 projects/105 properties tracked. Sales YTD:11 txns,AED16M. Absorption 71.43%. Detail page(deviate-development) returns ORA-01403 error(site DB issue,confirmed not our fault)→UC/Delivered split & BedMix flagged detail-pending. DLD dev#1788='DEVIATE FOR REAL ESTATE DEVELOPMENT L.L.C'. DLD registry:2 projects(both ACTIVE),0 finished/cancelled/abnormal(ontime not yet eligible).",
+  "blurbCn": "迪威特地产,成立于2015年,迪拜本地开发商,专注中端公寓项目。追踪2个项目/105套单位。2026年至今成交11笔,总额1600万迪拉姆,吸纳率71.43%。详情页报错(ORA-01403,网站数据库问题非漏检)→在建/交付拆分及户型占比标记待续查。DLD登记2个项目(均在建中),无取消/异常记录。"
+ },
+ {
+  "name": "Ayat",
+  "cn": "阿雅特",
+  "founded": 2015,
+  "devNumber": "2182",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 66,
+   "transactionsYtd": 207,
+   "salesValueBn": 0.1681,
+   "capitalGainPct": -7.6,
+   "absorptionPct": 45.53,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 49.4,
+   "leaves": 2.5,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 36.8,
+    "c": 21.3,
+    "d": 100,
+    "e": 55
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Ayat Development, EST. 2015. Dubai-based developer of luxury residential & commercial properties, focus on innovation/sustainability/craftsmanship.",
+  "blurbCn": "Ayat Development，成立于2015年，迪拜住宅及商业地产开发商，注重创新、可持续与工艺品质。"
+ },
+ {
+  "name": "Harbour One Investment",
+  "cn": "港湾壹号",
+  "devNumber": "1900",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 68,
+   "transactionsYtd": 17,
+   "salesValueBn": 0.1628,
+   "capitalGainPct": 18.65,
+   "absorptionPct": 84.31,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 72.8,
+   "leaves": 4,
+   "coverage": 68,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 91.7,
+    "c": 20,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "Harbour One Investment — Dubai-based real estate investment company, projects in Dubai Harbour waterfront district.",
+  "blurbCn": "Harbour One Investment，迪拜地产投资公司，项目位于迪拜港（Dubai Harbour）海滨区域。"
+ },
+ {
+  "name": "Enso",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ade Properties",
+  "cn": "ADE地产",
+  "devNumber": "1551",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 75,
+   "transactionsYtd": 140,
+   "salesValueBn": 0.1519,
+   "capitalGainPct": 0.21,
+   "absorptionPct": 68.63,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 57.8,
+   "leaves": 3,
+   "coverage": 68,
+   "confidence": "Low",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 100,
+    "b": 57.8,
+    "c": 20,
+    "d": 100
+   },
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "trackRecord": "ADE Properties — Emirati-owned, part of Al Dallal Group (UAE real estate since 1950s).",
+  "blurbCn": "ADE Properties，阿联酋本土开发商，隶属Al Dallal集团（该集团自1950年代深耕阿联酋地产）。"
+ },
+ {
+  "name": "Grovy",
+  "cn": "格罗维",
+  "founded": 1985,
+  "devNumber": "1084",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 100,
+   "transactionsYtd": 50,
+   "salesValueBn": 0.0578,
+   "capitalGainPct": 30.71,
+   "absorptionPct": 34.59,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 56.4,
+   "leaves": 3,
+   "coverage": 73,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 55.6,
+    "b": 73.8,
+    "c": 20,
+    "e": 100
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100
+  },
+  "blurbCn": "Grovy（格罗维）是一家总部位于迪拜的老牌房地产开发商，成立于 1985 年。目前在迪拜有 2 个在建项目。在丹枫置业 DFP-5 开发商评级体系中获 56.4 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "Time Properties",
+  "devNumber": "527",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 129,
+   "transactionsYtd": 7,
+   "salesValueBn": 0.0063,
+   "capitalGainPct": 22,
+   "absorptionPct": 94.09,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Desert Falcon",
+  "devNumber": "1259",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 125,
+   "transactionsYtd": 7,
+   "salesValueBn": 0.0162,
+   "absorptionPct": 23.94,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Me Do Re",
+  "cn": "美多蕾",
+  "devNumber": "1379",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "rank": 95,
+   "transactionsYtd": 15,
+   "salesValueBn": 0.0749,
+   "capitalGainPct": 9.96,
+   "absorptionPct": 50.43,
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "Rated",
+   "score": 55.8,
+   "leaves": 3,
+   "coverage": 78,
+   "confidence": "Medium",
+   "ratedDate": "2026-07-09",
+   "version": "DFP-5 v3.1",
+   "dims": {
+    "a": 55.6,
+    "b": 65.1,
+    "c": 20,
+    "d": 100
+   },
+   "a2MedianMonths": 100,
+   "a2bOntimeRefPct": 100,
+   "d1EscrowPct": 100
+  },
+  "blurbCn": "Me Do Re（美多蕾）是一家总部位于迪拜的房地产开发商，目前在迪拜有 2 个在建项目。在丹枫置业 DFP-5 开发商评级体系中获 55.8 分，对应 3 枚枫叶。"
+ },
+ {
+  "name": "H A B N",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Takmeel",
+  "devNumber": "1520",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "BNH",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Condor",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "ORO24",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Maaia Developers",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ahmadyar Development",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Saba Group",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Neoterra",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Arsenal East",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Pearlshire",
+  "devNumber": "1905",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Shamal Holding",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Majid Development Agency",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Bam Development",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Lucky Aeon",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Mirfa Ibc Developers",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "P C I Developers",
+  "devNumber": "1397",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "AJG Development",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Purvanchal Developers",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ginco",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Palladium Prime Real Estate Development LLC",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tranquil Infra",
+  "devNumber": "1812",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Rose Home Investment",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Ansari",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "National Properties",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Symbolic",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Green Properties",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Zazen",
+  "devNumber": "1311",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Mill Hill Riviera",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aqua Properties",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tomorrow World Group",
+  "dxb": {
+   "ucProjects": 2,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "The Cayan Group",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Danat Aldunia",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "DIA Homes",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Casagrand",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Reem",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aizn",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Zee Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "One Yard",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Pure Vision",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "SAION",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Manam",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "MAZ Developers",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Shakirov",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ever Glory",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Marquis Home",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Grand Signature",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Jamal Living",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Lion Stone",
+  "devNumber": "2535",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aces Holdings",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tameer",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Alishaan",
+  "devNumber": "2297",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Loutraki",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Grid Properties",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "DNG",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Andalus Court Yard",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Innovate",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Pyamod Homes",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ab Developers",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Amaal Emirates",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Pacifique Global",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "PBG Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Snk Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Hadaf",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Eight Square",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Newbury",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Mulk Properties",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aqua Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Suncrest Hills",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "SCC Vertex",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Elemental",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Manodev",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Asak",
+  "devNumber": "1888",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "MAS Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Axiom Prime",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Dar Al Karama",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Pob1",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "DeerFields",
+  "devNumber": "2411",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "PMR Property",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Andalusia Group",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Myka Luxe",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Mawared",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Alma Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Esk Investment",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Bling",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tulip Althahabi Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Bukadra Development",
+  "devNumber": "2349",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "HVM Living",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Yangtze International",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "PAL Developments",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ajmal Real Estate",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Rufi Properties",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Goldline Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Akshara Global",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "ARIB",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Enzo Prime",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Ghurair",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tasmeer",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "M V S",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Iraz",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Unique Saray",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Zenith Holding",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Mered",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Jumeirah Hills",
+  "devNumber": "1076",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Arista",
+  "devNumber": "2516",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Bithaus",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Waleed",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Century Seven",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Prysm",
+  "devNumber": "2308",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "AGN Skyline",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Tuscany Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Emaar Bawadi",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Viva Living",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Royal Development Company",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "77 Shades of Green",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Sikanta",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Red Rose",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Moizziyah",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Buhaleeba",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "MAK Developers",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Next Realty",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Amaya",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "R.EVOLUTION",
+  "founded": 2023,
+  "dxb": {
+   "rank": 124,
+   "transactionsYtd": 1,
+   "salesValueBn": 0.0174,
+   "absorptionPct": 28.3,
+   "ucProjects": 1,
+   "ucUnits": 53,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "3Beds 42%(22) | 2Beds 36%(19) | 4Beds 11%(6) | 5Beds 11%(6)",
+   "asOf": "2026-07-04",
+   "link": "DXB R.EVOLUTION - https://dxbinteract.com/top-property-developers-in-dubai/r-evolution"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aark Developers",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Marina Holding",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Devan",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Grenorbit",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Lincoln Star",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Svarn",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Casa Vista",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Namat",
+  "devNumber": "2431",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Hirat Real Estate Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Enawt",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Elysian",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "IKR Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "MN Vision",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Nuri Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Solanki",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Regent",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Emirates Mezna",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "HMK Development",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Dusit Rijas",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Abyaar",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Jumeirah Golf Estates",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Myra",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Al Ali Property Investment",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Sky View",
+  "devNumber": "2142",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Gulf Developers",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Sahara Livings",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Gutti",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Green Horizon",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Diamond Investments",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Orchid Living",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Nas Estates",
+  "devNumber": "1762",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Griffin",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Amali",
+  "devNumber": "2109",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Soho",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Como Group",
+  "dxb": {
+   "ucProjects": 1,
+   "asOf": "2026-07-03"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Aldar",
+  "cn": "阿尔达",
+  "ownership": "Public Listed",
+  "founded": 2001,
+  "devNumber": "1657",
+  "website": "https://www.aldar.com/",
+  "country": "United Arab Emirates",
+  "dxb": {
+   "transactionsYtd": 453,
+   "salesValueBn": 1.4,
+   "capitalGainPct": 8.51,
+   "absorptionPct": 82.64,
+   "ucProjects": 15,
+   "ucUnits": 9530,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Sales YTD: 1BR 38% / 2BR 30%",
+   "asOf": "2026-07-04",
+   "link": "DXB - Aldar - https://dxbinteract.com/top-property-developers-in-dubai/aldar"
+  },
+  "dfp5": {
+   "status": "NR"
+  },
+  "trackRecord": "• Founded 2004; Abu Dhabi's largest listed developer (ADX: ALDAR), now expanding into Dubai\n• Dubai projects: Haven, Verdes, The Source at Saadiyat (AD), Mandarin Oriental Downtown residences\n• DXB (since 2012): Dubai footprint 15 projects / 9,530 units under construction (delivery mostly in Abu Dhabi, not tracked here)\n• 2026 YTD (Dubai only): 453 transactions, AED 1.4B sales value; 8.5% capital gain, 83% absorption\n• Note: DXB leaderboard reflects Dubai activity only; group scale is far larger in Abu Dhabi",
+  "blurbCn": "阿尔达尔（Aldar）为阿布扎比最大上市开发商（ADX代码ALDAR），近年积极进军迪拜，迪拜项目包括Haven、Verdes及迪拜市中心文华东方公寓等。DXB榜单仅统计其迪拜业务：在建15个项目、约9,530套，2026年迄今迪拜销售额约14亿迪拉姆，去化率83%。集团整体规模以阿布扎比为主，实力远超此处迪拜口径数字，属跨酋长国龙头开发商。"
+ },
+ {
+  "name": "Modon",
+  "ownership": "Government",
+  "devNumber": "2100",
+  "website": "https://www.modon.com/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Ohana",
+  "website": "https://www.ohana.ae/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Emirates Development",
+  "founded": 2003,
+  "website": "https://emiratesdevelopments.com/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Burtville Development",
+  "founded": 2005,
+  "employees": 30,
+  "website": "https://www.burtville.com/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "ICT Real Estate Development",
+  "founded": 2007,
+  "employees": 16,
+  "website": "https://ictred.ae/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Cosmo Development",
+  "devNumber": "2721",
+  "website": "https://cosmodevelopments.com/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Nord Development",
+  "devNumber": "2112",
+  "website": "https://nord.ae/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Advanced Properties",
+  "employees": 75,
+  "website": "https://advancedproperties-uae.com/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Baraka Development",
+  "website": "https://www.barakadevelopment.ae/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "SAAS Properties",
+  "founded": 2019,
+  "devNumber": "1360",
+  "dxb": {
+   "transactionsYtd": 118,
+   "salesValueBn": 0.235,
+   "absorptionPct": 51.46,
+   "ucProjects": 1,
+   "ucUnits": 859,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "bedMix": "Studio 31%(280)·1B 39%(360)·2B 19%(175)·3B 9%(85)·4B 2%(17)·5B 0%(1)",
+   "asOf": "2026-07-04",
+   "link": "DXB - https://dxbinteract.com/top-property-developers-in-dubai/saas-properties"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "Arada",
+  "ownership": "Government",
+  "founded": 2017,
+  "employees": 1700,
+  "devNumber": "1409",
+  "website": "arada.com - https://www.arada.com",
+  "dxb": {
+   "transactionsYtd": 131,
+   "salesValueBn": 1.3,
+   "capitalGainPct": 10.61,
+   "absorptionPct": 68.62,
+   "ucProjects": 5,
+   "ucUnits": 1446,
+   "deliveredProjects": 0,
+   "deliveredUnits": 0,
+   "asOf": "2026-07-04",
+   "link": "DXB - Arada - https://dxbinteract.com/top-property-developers-in-dubai/arada"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ },
+ {
+  "name": "RAK",
+  "ownership": "Government",
+  "founded": 2005,
+  "employees": 139,
+  "devNumber": "2369",
+  "website": "https://www.rakproperties.ae/",
+  "dxb": {
+   "asOf": "2026-07-04"
+  },
+  "dfp5": {
+   "status": "NR"
+  }
+ }
+]

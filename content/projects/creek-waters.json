@@ -1,0 +1,105 @@
+{
+ "slug": "creek-waters",
+ "template": "v5",
+ "projectNumberDLD": "",
+ "name": "Creek Waters",
+ "cn": "",
+ "tagline": "Island Living · Dubai Creek Harbour",
+ "developer": "Emaar",
+ "community": "Dubai Creek Harbour",
+ "subCommunity": "Creek Island",
+ "emirate": "Dubai",
+ "country": "United Arab Emirates",
+ "hero": [
+  { "src": "/img/projects/creek-waters/hero-1.webp", "alt": "Creek Waters 迪拜溪港溪岛航拍效果图", "caption": "迪拜溪港溪岛水岸", "credit": "开发商官方素材" },
+  { "src": "/img/projects/creek-waters/hero-2.webp", "alt": "Creek Waters 塔楼外观效果图", "caption": "流线高塔与天际线", "credit": "开发商官方素材" },
+  { "src": "/img/projects/creek-waters/hero-3.webp", "alt": "Creek Waters 私家露台与迪拜溪全景效果图", "caption": "私家露台与迪拜溪全景", "credit": "开发商官方素材" }
+ ],
+ "intro": "海水湾（Creek Waters）是 Emaar 于 Dubai Creek Harbour 核心溪岛（Creek Island）打造的滨水住宅，紧邻中央公园与 Creek Beach 沙滩片区。项目提供 1 至 4 居公寓及少量 3 居联排，建筑面积约 750 至 8,200 平方英尺，直面迪拜溪与市中心天际线的一线水岸。采用 10/80/10 低门槛付款结构，2027 年第三季度交付；永久产权，外籍可购。",
+ "highlights": [
+  "Emaar 旗舰社区 Dubai Creek Harbour 核心溪岛（Creek Island）一线水岸地段",
+  "1–4 居公寓 + 3 居联排，户型约 750–8,200 sq.ft.，直面迪拜溪与市中心天际线",
+  "紧邻中央公园（Central Park）与 Creek Beach 白沙沙滩片区，步行可达游艇码头",
+  "10.5 km 至商务湾、11.2 km 至市中心与哈利法塔、14.1 km 至迪拜国际机场",
+  "10/80/10 付款结构，2027 年 Q3 交付；Freehold 永久产权，较大户型可覆盖黄金签证门槛"
+ ],
+ "unitTypes": [
+  { "type": "1 居公寓", "sizeMinSqft": 750, "sizeMaxSqft": 930, "unitCount": 185, "startFromAED": 1600000, "startFromLabel": "AED 1,600,000 起（开盘起价 · 非实时报价）" },
+  { "type": "2 居公寓", "sizeMinSqft": 1120, "sizeMaxSqft": 1490, "unitCount": 175, "startFromAED": 2200000, "startFromLabel": "AED 2,200,000 起（开盘起价 · 非实时报价）" },
+  { "type": "3 居公寓 / 联排", "sizeMinSqft": 1550, "sizeMaxSqft": 3010, "unitCount": 67, "startFromAED": 3000000, "startFromLabel": "AED 3,000,000 起（开盘起价 · 非实时报价）" },
+  { "type": "4 居公寓", "sizeMinSqft": 2440, "sizeMaxSqft": 2810, "unitCount": 22, "startFromAED": 6300000, "startFromLabel": "AED 6,300,000 起（开盘起价 · 非实时报价）" }
+ ],
+ "unitNote": "户型面积与开盘起价为开发商公布示意口径（非实时报价）；套数为开发商公布配比示意。实时可售房态与价格以丹枫持牌顾问确认为准。",
+ "productDetails": [
+  {
+   "title": "建筑与到访体验",
+   "body": "项目以壮观迎宾水景与挑高大堂开启到访动线，充沛自然光纳入公共层，坐拥林荫大道全景；入夜由可持续集成艺术照明点亮建筑特征，确立溪岛水岸的地标身份。",
+   "image": { "src": "/img/projects/creek-waters/hero-2.webp", "alt": "Creek Waters 挑高大堂与水景效果图", "caption": "迎宾水景与挑高大堂" }
+  },
+  {
+   "title": "空间、光线与收口工艺",
+   "body": "每户以最大化空间与采光为设计原点，落地全景窗直面迪拜溪与市中心天际线；材料、五金与每一处收口细节均为契合当代精致生活而考究打磨。",
+   "image": { "src": "/img/projects/creek-waters/hero-3.webp", "alt": "Creek Waters 室内空间与采光效果图", "caption": "空间、光线与考究收口" }
+  }
+ ],
+ "payment": {
+  "structure": "10 / 80 / 10",
+  "milestones": [
+   { "stage": "预订时", "percent": "10%", "note": "首付 Down Payment" },
+   { "stage": "建造期间", "percent": "80%", "note": "分期支付 During Construction" },
+   { "stage": "交付时", "percent": "10%", "note": "On Handover" }
+  ],
+  "note": "付款结构为示意，具体比例与节点以开发商正式方案为准。"
+ },
+ "handover": "2027（预计 Q3 2027）",
+ "location": {
+  "distances": [
+   "Creek Island 溪岛之上 · 中央公园与 Creek Beach 沙滩片区",
+   "Business Bay 商务湾 · 10.5 km",
+   "Downtown Dubai 市中心与哈利法塔 · 11.2 km",
+   "迪拜国际机场（DXB）· 14.1 km",
+   "迪拜地铁站 · 邻近"
+  ],
+  "connectivity": [
+   "社区通过 Ras Al Khor Road（E44）与 Sheikh Mohammed Bin Zayed Road（E311）通达全城",
+   "片区规划 4 座地铁站、3 座桥梁与水上的士；未来蓝线 Emaar Properties 站规划为世界最高地铁站（2029）"
+  ]
+ },
+ "amenities": [
+  "融天无边泳池 + 观景平台",
+  "儿童泳池 + 遮阳游乐区",
+  "设备齐全健身馆（俯瞰泳池）",
+  "度假式园林配套平台（Podium）",
+  "观景台 / 观景平台",
+  "家庭公园、游乐场与儿童游乐区",
+  "咖啡、餐饮与零售",
+  "游艇码头 / 游艇俱乐部通达",
+  "精修园景与户外公共空间"
+ ],
+ "views": [
+  "迪拜溪与市中心天际线",
+  "一线水岸",
+  "中央公园绿地",
+  "Creek Beach 沙滩片区"
+ ],
+ "communityFacts": [
+  "Dubai Creek Harbour 旗舰滨水综合体",
+  "住宅空间约 7.4 百万㎡",
+  "规划容纳约 20 万居民"
+ ],
+ "brochureUrl": "",
+ "video": "",
+ "meta": {
+  "sources": [
+   "项目库 Monday「Projects: Off-Plan」board 3916277144：结构化字段权威源（起价示意口径）",
+   "子项库 board 4048926548：户型/套数/面积/开盘起价（不含任何 PSF/现价/去化字段）",
+   "开发商官方项目页 Emaar Creek Waters（文案 + 效果图源）",
+   "communities.json（DXBC-0057 迪拜云溪港 画像/标签）+ developers.json（Emaar DFP-5 / DXB）"
+  ],
+  "updated": "2026-07",
+  "priceNote": "本页仅展示开盘起价示意口径；任何单价(PSF)、现价、去化率、可售套数均不入本文件、不上前端、不入 AI 上下文。售态严格绑 catalog.status。具体价格以丹枫持牌顾问确认为准。",
+  "imageNote": "hero 及各 section 图走 assets-manifest 本地 webp（/img/projects/creek-waters/*.webp，管线已备 12 张 + card）；禁生产环境热链开发商图床。",
+  "videoNote": "未确认到 Emaar 官方视频，按 SOP 留空。",
+  "brochureNote": "楼书下载 2026-07-10 起下架；brochureUrl 留空，SHOW_BROCHURE 控制显隐。"
+ }
+}

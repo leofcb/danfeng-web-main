@@ -1,0 +1,62 @@
+{
+ "slug": "binghatti",
+ "name": "Binghatti",
+ "cn": "宾加蒂",
+ "brandStory": "宾加蒂（Binghatti）2008 年由宾加蒂家族（Hussain、Muhammad、Ahmed Binghatti）在迪拜创立，是一家保持家族控股的私营开发商。它在迪拜开发版图里的角色颇为独特：以极高的推盘与交付速度著称，又以一种辨识度极强的立面语言——层层错落、彼此交织的阳台肌理——把「宾加蒂外立面」变成可被一眼认出的视觉签名。近年，它更以一系列奢侈品牌联名塔楼进入大众视野：与 Jacob & Co、Bugatti、Mercedes-Benz 合作的品牌住宅，把珠宝与汽车的设计基因移植进建筑。研究者会注意到宾加蒂的两面性——一面是面向投资客、以工作室与一居为主的高周转产品，集中于 JVC、Business Bay 等租赁热区；另一面是话题性拉满的超高层品牌旗舰。它的成长路径，某种程度上是迪拜近十余年「以设计与话题驱动去化」打法的缩影。",
+ "milestones": [
+  {
+   "year": "2008",
+   "title": "宾加蒂家族创立",
+   "desc": "由 Hussain、Muhammad、Ahmed Binghatti 在迪拜创立，定位家族控股的私营开发商。"
+  },
+  {
+   "year": "2022",
+   "title": "Burj Binghatti Jacob & Co 发布",
+   "desc": "与珠宝品牌 Jacob & Co 联名的超高层住宅塔破土，对标「世界最高住宅塔」量级，开启品牌联名路线。"
+  },
+  {
+   "year": "2023",
+   "title": "Bugatti Residences 发布",
+   "desc": "与 Bugatti 联名推出全球首个 Bugatti 品牌住宅，落址 Business Bay。"
+  },
+  {
+   "year": "2024",
+   "title": "Mercedes-Benz Places 发布 · 首笔美元 Sukuk",
+   "desc": "与 Mercedes-Benz 联名的品牌住宅落地；同年完成首次美元伊斯兰债券（Sukuk）发行，打通国际资本市场融资渠道。"
+  },
+  {
+   "year": "2012 起",
+   "title": "高速交付（DXB 口径）",
+   "desc": "自 2012 年以来累计交付 39 个项目、逾 1.2 万套，另有 37 个项目、约 3.88 万套在建，推盘与交付节奏居迪拜前列。"
+  }
+ ],
+ "flagships": [
+  {
+   "name": "Burj Binghatti Jacob & Co",
+   "cn": "宾加蒂雅各布塔",
+   "positioning": "与 Jacob & Co 联名的超高层住宅旗舰，对标世界最高住宅塔量级。",
+   "librarySlug": "burj-binghatti-jacob-and-co"
+  },
+  {
+   "name": "Bugatti Residences",
+   "cn": "布加迪公馆",
+   "positioning": "全球首个 Bugatti 品牌住宅，把超跑设计语言移植进 Business Bay 塔楼。",
+   "librarySlug": "bugatti-residences"
+  },
+  {
+   "name": "Mercedes-Benz Places",
+   "cn": "奔驰之地",
+   "positioning": "与 Mercedes-Benz 联名的品牌住宅，延续「奢侈品牌 × 超高层」的旗舰策略。",
+   "librarySlug": "mercedes-benz-places"
+  }
+ ],
+ "business": "业务上，宾加蒂以迪拜为唯一主战场，围绕中央城区（Business Bay、Al Jaddaf、迪拜市中心）与租赁热区（JVC、JVT、Dubai Science Park、Dubai Sports City 等）密集布局，产品以工作室、一居为主，主打低门槛、高租赁需求的投资型住宅。品牌策略上，它通过与 Jacob & Co、Bugatti、Mercedes-Benz 的联名，将奢侈品设计语言引入超高层住宅，形成「高周转刚需盘 + 话题性品牌旗舰」的双轨产品结构。集团业务亦延伸至酒店与建筑施工，并已通过美元 Sukuk 发行接入国际资本市场。",
+ "meta": {
+  "sources": [
+   "库内权威层 developers.json（trackRecord / blurbCn）：成立年份、家族私营属性、联名塔楼、DXB 交付与在建规模——均已交叉核验",
+   "Wikipedia《Binghatti》：2008 年由 Hussain / Muhammad / Ahmed Binghatti 创立；Burj Binghatti Jacob & Co（2022-11 发布）、Bugatti Residences（2023-05 发布）、Mercedes-Benz Places（2024-01 发布）、首笔美元 Sukuk（2024-02）——里程碑年份逐条交叉核验"
+  ],
+  "updated": "2026-07",
+  "notes": "内容层仅承载研究叙事事实，零价格数字、零外链；里程碑年份均有出处。投资总值等金额口径不入本内容层。"
+ }
+}

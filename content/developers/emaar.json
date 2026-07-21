@@ -1,0 +1,69 @@
+{
+ "slug": "emaar",
+ "name": "Emaar",
+ "cn": "伊玛尔",
+ "brandStory": "伊玛尔（Emaar Properties）1997 年由 Mohamed Alabbar 牵头创立于迪拜，是这座城市从贸易港转向全球都会叙事的主要执笔者之一。它更像一家以「造城」为方法的综合运营者——先规划整片区，再以地标建筑锚定人气，再用零售、酒店与社区管理沉淀生活方式。哈利法塔、迪拜购物中心、迪拜码头、迪拜市中心，这些被写进城市名片的名字多数出自它的整体规划；若说迪拜天际线有一部编年史，伊玛尔的作品序列几乎就是其主线。作为在迪拜金融市场（DFM，代码 EMAAR）上市的公众公司，其治理与披露相对透明。研究者眼中，其辨识度不在某栋楼的造型，而在「规划—交付—运营」闭环累积的品牌溢价与二手流动性——这也是它长期居迪拜一线基准开发商之列的结构性原因。",
+ "milestones": [
+  {
+   "year": "1997",
+   "title": "公司创立于迪拜",
+   "desc": "由 Mohamed Alabbar 牵头成立，后于迪拜金融市场（DFM，代码 EMAAR）挂牌，成为迪拜地产的公众上市标杆。"
+  },
+  {
+   "year": "2008",
+   "title": "迪拜购物中心开业",
+   "desc": "迪拜市中心（Downtown Dubai）核心商业体落成，成为全球访问量领先的购物与娱乐目的地之一。"
+  },
+  {
+   "year": "2010",
+   "title": "哈利法塔落成",
+   "desc": "828 米、长期居世界第一高楼，与迪拜购物中心、迪拜喷泉共同奠定迪拜市中心的地标格局。"
+  },
+  {
+   "year": "2012 起",
+   "title": "规模化交付（DXB 口径）",
+   "desc": "自 2012 年以来累计交付 182 个项目、逾 11.4 万套，另有 141 个项目、约 7.35 万套在建，交付体量长期居迪拜前列。"
+  },
+  {
+   "year": "2026",
+   "title": "迪拜销售规模第一",
+   "desc": "以年内销售规模居迪拜开发商首位，品牌溢价与二手流动性保持市场领先（DXB Interact 口径）。"
+  }
+ ],
+ "flagships": [
+  {
+   "name": "Burj Khalifa",
+   "cn": "哈利法塔",
+   "positioning": "迪拜市中心地标，长期为世界第一高楼，伊玛尔造城叙事的精神原点。",
+   "librarySlug": ""
+  },
+  {
+   "name": "The Dubai Mall",
+   "cn": "迪拜购物中心",
+   "positioning": "全球访问量领先的购物与娱乐目的地，锚定迪拜市中心人气的商业核。",
+   "librarySlug": ""
+  },
+  {
+   "name": "Dubai Marina",
+   "cn": "迪拜码头",
+   "positioning": "人工运河滨海社区，奠定迪拜高密度滨水生活的早期范式。",
+   "librarySlug": ""
+  },
+  {
+   "name": "Dubai Creek Harbour",
+   "cn": "迪拜溪港",
+   "positioning": "业界称「Downtown 2.0」的整体规划新中心，伊玛尔当代旗舰片区。",
+   "librarySlug": ""
+  }
+ ],
+ "business": "业务上，伊玛尔以迪拜为大本营，通过 Emaar Development 运作住宅开发主体，并延伸出 Emaar Malls（零售）、Emaar Hospitality（酒店与 Address、Vida 品牌）等板块，形成「开发—零售—酒店—社区管理」的一体化闭环。片区布局覆盖迪拜市中心、迪拜码头、迪拜山庄、阿拉伯牧场、迪拜溪港、Emaar Beachfront、The Valley、Emaar South 等标杆社区，产品从市中心公寓、滨海塔楼到高尔夫别墅与联排均有覆盖。海外层面，其足迹延伸至沙特、埃及、印度、巴基斯坦等多国市场。",
+ "meta": {
+  "sources": [
+   "库内权威层 developers.json（trackRecord / blurbCn）：成立年份、DFM 上市、代表作、DXB 交付与在建规模、2026 销售第一——均已交叉核验",
+   "DBpedia / Wikipedia《Emaar Properties》：foundingYear 1997、创始人 Mohamed Alabbar、公众公司、DFM 上市、Burj Khalifa / The Dubai Mall / Downtown Dubai / Dubai Marina 开发关系（年份交叉核验）",
+   "公开史料：哈利法塔 2010 年落成、迪拜购物中心 2008 年开业（现代建筑通识记录）"
+  ],
+  "updated": "2026-07",
+  "notes": "内容层仅承载研究叙事事实，零价格数字、零外链；里程碑年份均有出处。销售规模居第一以定性表述，具体金额见页面数据仪表（DXB 口径），不入本内容层。"
+ }
+}

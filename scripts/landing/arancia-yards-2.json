@@ -1,0 +1,142 @@
+{
+  "slug": "arancia-yards-2",
+  "name": "Arancia Yards 2",
+  "cn": "阿兰恰苑 2期",
+  "mondayItemId": 12462563248,
+  "footerDate": "2026-07-21",
+  "seo": {
+    "desc": "阿兰恰苑 2 期（Arancia Yards 2）位于 City of Arabia 的 The Yards 大盘，BEYOND 出品，4 栋 5–7 层住宅、约 370 套 1–3 居公寓，地中海风情、景观花园环绕，起售价约 AED 100 万起。",
+    "ogDesc": "The Yards · City of Arabia · BEYOND 出品 · 约 370 套 1–3 居 · 地中海风情景观社区。查看官方项目影像、产品、区位、社区与开发商资料。"
+  },
+  "hero": {
+    "kicker": "City of Arabia · The Yards",
+    "span": "在果园与花园之间栖居",
+    "en": "ARANCIA YARDS 2 · The Essence of Cultivated Living",
+    "copy": "BEYOND 于 City of Arabia「The Yards」大盘打造的新一期，紧邻一期。4 栋 5–7 层住宅围绕景观花园、林荫步道与地中海风情庭院，约 370 套 1–3 居公寓，让自然成为日常生活的底色。"
+  },
+  "facts": [
+    { "k": "项目", "v": "Arancia Yards 2 阿兰恰苑 2期" },
+    { "k": "位置", "v": "The Yards, City of Arabia" },
+    { "k": "开发商", "v": "BEYOND 超越地产" },
+    { "k": "建筑", "v": "4 栋 · 5–7 层" },
+    { "k": "住宅", "v": "约 370 套" },
+    { "k": "类型", "v": "1–3 居公寓" },
+    { "k": "计划交付", "v": "2029 年 Q2", "em": "以 SPA 为准" }
+  ],
+  "video": { "id": "Dh5fpE1FcNo" },
+  "gallery": [
+    { "src": "hero-aerial", "title": "大盘航拍" },
+    { "src": "facade", "title": "黄昏庭院" },
+    { "src": "courtyard-aerial", "title": "组团航拍" },
+    { "src": "courtyard-green", "title": "花园步道" },
+    { "src": "water-feature", "title": "泳池水景", "span": "泳池水景" },
+    { "src": "interior-1", "title": "起居空间" },
+    { "src": "interior-2", "title": "客厅挑高" },
+    { "src": "bedroom", "title": "主卧" },
+    { "src": "coworking", "title": "屋顶露台" }
+  ],
+  "overview": {
+    "title": "The Yards 的新一章，",
+    "em": "让景观成为社区的底座",
+    "photo": "courtyard-aerial",
+    "paras": [
+      "阿兰恰苑 2 期（Arancia Yards 2）是 BEYOND 在 City of Arabia「The Yards」大盘推出的新一期，紧邻一期，延续以自然为中心的社区愿景。",
+      "项目由 4 栋精心设计的 5–7 层住宅楼组成，围绕景观花园、活力户外空间与遮阴步道网络布局，将居民与更广阔的社区紧密相连。",
+      "地中海风情的葡式蓝白瓷砖、橙园与庭院贯穿其间。在这里，景观不是社区的点缀，而是社区赖以生长的根基。"
+    ],
+    "metrics": [
+      { "n": "370", "u": "套住宅", "p": "官方住宅总量（约）。" },
+      { "n": "4", "u": "栋建筑", "p": "5–7 层住宅组团（A/B/C/D）。" },
+      { "n": "1–3", "u": "居", "p": "1、2、3 居公寓。" },
+      { "n": "3.1", "u": "米层高", "p": "部分底层住宅达 4.0 米。" }
+    ]
+  },
+  "highlights": {
+    "photo": "courtyard-green",
+    "items": [
+      { "b": "The Yards 新一期", "h": "紧邻一期的成长型大盘", "p": "City of Arabia「The Yards」大盘新一期，紧邻已推出的一期，可更早进入这一以景观为核心的成长型社区。" },
+      { "b": "景观为本", "h": "花园环绕的四栋组团", "p": "4 栋 5–7 层住宅围绕景观花园、庭院与遮阴步道布局，景观是社区赖以生长的根基而非点缀。" },
+      { "b": "地中海风情", "h": "葡式瓷砖与果园庭院", "p": "蓝白葡式瓷砖、橙园与地中海景观交织，营造舒缓而有仪式感的日常。" },
+      { "b": "开阔明亮", "h": "3.1 米层高 · 私享露台", "p": "宽敞格局、充沛自然光与 3.1 米层高（部分底层达 4.0 米），私享露台俯瞰花园绿意。" },
+      { "b": "全维配套", "h": "泳池 · 健身 · 社区农场", "p": "泳池、健身、景观花园、餐饮与儿童乐园，以及托儿所、学校、诊所、清真寺与运动中心融入社区。" }
+    ]
+  },
+  "location": {
+    "title": "City of Arabia，",
+    "em": "Dubailand 的门户大城",
+    "mapCity": "City of Arabia, Dubai",
+    "mapZoom": 11,
+    "mapQuery": "q=Arancia+Yards+2,+City+of+Arabia,+Dubai",
+    "officialCaption": "开发商官方区位示意 · 距离为项目库/公开资料整理约数",
+    "distances": [
+      { "t": "约 3 分钟", "p": "IMG 冒险世界 IMG Worlds" },
+      { "t": "约 10 分钟", "p": "环球村 Global Village" },
+      { "t": "约 15 分钟", "p": "Silicon Central Mall" },
+      { "t": "约 15 分钟", "p": "迪拜奇迹花园" },
+      { "t": "约 20 分钟", "p": "迪拜市中心 / 哈利法塔" },
+      { "t": "约 25 分钟", "p": "迪拜国际机场" }
+    ]
+  },
+  "product": [
+    { "tag": "ARCHITECTURE · 建筑设计", "img": "facade", "h": "地中海风情的低层组团", "p": "4 栋 5–7 层低层组团围绕中央花园布局，砖石立面搭配木质格栅与层层绿植露台，建筑尺度亲切，与景观自然交融、彼此借景。" },
+    { "tag": "SPACE · 空间设计", "img": "interior-2", "h": "开阔通透的起居格局", "p": "3.1 米层高（部分底层达 4.0 米）带来充沛开阔感；落地窗与私享露台让室内外无缝衔接，将花园绿意引入每一处起居空间。" },
+    { "tag": "INTERIOR · 室内设计", "img": "interior-1", "h": "自然色调与精工细节", "p": "室内以中性色调、瓷面地板与平滑抹灰墙面为基底，自然光充沛；卧室以橡木饰面细节增添温度与质感，营造当代而温暖的居住氛围。" },
+    { "tag": "LANDSCAPE · 景观设计", "img": "courtyard-green", "h": "花园步道与庭院绿意", "p": "遮阴步道、橙园与庭院绿意串联四栋组团，地中海风情景观让连接、漫步与日常愉悦自然发生。" },
+    { "tag": "MATERIALS · 材料配置", "img": "kitchen", "h": "石感台面与欧洲品牌电器", "p": "厨房配石感台面与岛台、瓷面地板与集成欧洲品牌（或同级）电器；材料以品质、耐用与低调优雅为选择标准。具体品牌、型号与材料表以 SPA 为准。" }
+  ],
+  "amenities": {
+    "title": "一座花园，",
+    "em": "串联每天的生活",
+    "mosaic": [
+      { "img": "water-feature", "cap": "泳池水景" },
+      { "img": "kids-club", "cap": "庭院绿意" },
+      { "img": "coworking", "cap": "屋顶露台" }
+    ],
+    "list": [
+      { "icon": "🏊", "t": "泳池" },
+      { "icon": "💪", "t": "健身中心" },
+      { "icon": "🌳", "t": "景观花园与遮阴步道" },
+      { "icon": "🍽️", "t": "餐饮与咖啡" },
+      { "icon": "🧸", "t": "儿童乐园" },
+      { "icon": "🌾", "t": "社区农场" },
+      { "icon": "⚽", "t": "运动中心" },
+      { "icon": "🏫", "t": "托儿所与学校" },
+      { "icon": "🕌", "t": "清真寺" },
+      { "icon": "📹", "t": "CCTV 安防" }
+    ],
+    "secondary": [
+      { "img": "retail-cafe", "cap": "社区农场与休闲" },
+      { "img": "lobby", "cap": "起居空间" },
+      { "img": "courtyard-aerial", "cap": "组团景观航拍" }
+    ]
+  },
+  "community": {
+    "area": "City of Arabia",
+    "slug": "city-of-arabia",
+    "em": "Area Community · 阿拉伯城",
+    "h": "Dubailand 的门户综合大城",
+    "p": "City of Arabia（阿拉伯城）是 Dubailand 内规划中的综合大城，紧邻 IMG 冒险世界与环球村，沿 Sheikh Mohammed Bin Zayed Road（E311）通达全城。The Yards 是其中以景观与生活方式为核心的大盘，Arancia Yards 系列坐落其间。",
+    "tags": ["Dubailand 门户", "The Yards 大盘", "近 IMG / 环球村", "景观社区", "成长型片区"],
+    "facts": [
+      { "b": "E311", "s": "主干道直连" },
+      { "b": "3 min", "s": "IMG 冒险世界" },
+      { "b": "10 min", "s": "环球村" },
+      { "b": "The Yards", "s": "景观大盘" }
+    ]
+  },
+  "units": {
+    "intro": [
+      "项目提供 1、2、3 居公寓，官方户型均面积约 750（一居）、1,100（二居）、1,700（三居）平方英尺，层高 3.1 米（部分底层住宅达 4.0 米）。",
+      "均面积为官方示意，不代表每一套房源。具体楼层、朝向、露台、面积、套数、价格及可售状态，应按开发商当期分户表和价单逐套确认。"
+    ],
+    "photo": "interior-1",
+    "cards": [
+      { "b": "1", "span": "居", "h": "1 Bedroom", "rows": [ { "k": "均面积", "v": "约 750 sq.ft." }, { "k": "层高", "v": "3.1 米" }, { "k": "起售价", "v": "约 AED 100 万起 · 示意" } ] },
+      { "b": "2", "span": "居", "h": "2 Bedrooms", "rows": [ { "k": "均面积", "v": "约 1,100 sq.ft." }, { "k": "层高", "v": "3.1 米" }, { "k": "价格", "v": "垂询顾问" } ] },
+      { "b": "3", "span": "居", "h": "3 Bedrooms", "rows": [ { "k": "均面积", "v": "约 1,700 sq.ft." }, { "k": "层高", "v": "3.1 米（底层达 4.0 米）" }, { "k": "价格", "v": "垂询顾问" } ] }
+    ],
+    "disclosure": "<strong>住宅总量约 370 套。</strong> 项目由 4 栋 5–7 层住宅楼（A/B/C/D）组成，提供 1–3 居公寓，户型均面积约 750 / 1,100 / 1,700 平方英尺；起售价约 AED 100 万起（示意）。具体可售房源、面积、套数与价格以开发商当期分户表和价单为准。",
+    "payment": { "big": "10 / 30 / 60", "legend": ["10% 预订时", "30% 建造期间", "60% 交付时"] },
+    "schedule": { "start": "待开工", "handover": "2029 年 Q2", "note": "项目 2026 年 7 月推出、当前尚未开工（施工状态：未开始），付款计划显示预计 2029 年第二季度交付。开工与交付时间以开发商正式文件及 SPA 为准。" }
+  }
+}

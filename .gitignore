@@ -1,0 +1,34 @@
+/node_modules
+/.next
+/out
+/build
+.DS_Store
+*.pem
+.env
+.env.local
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel
+
+# stray scratch test (mount could not delete)
+_t.mjs
+_t2.mjs
+_dt.mjs
+
+# data-import scratch/temp (VM fuse mount blocks rm; ignore so pushes stay clean)
+lib/data/.tmp-*
+lib/data/_export_v2/
+lib/data/_raw_parts/
+lib/data/_raw_parts_new/
+lib/data/_mapper.js
+lib/data/*.bak.*
+.env*
+
+# build/scratch logs & pids
+build*.log
+build-deploy.log
+*.pid
+_gv_truth.mjs
+agent-logs/

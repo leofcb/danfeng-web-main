@@ -1,0 +1,91 @@
+{
+ "slug": "creek-waters-2",
+ "template": "v5",
+ "projectNumberDLD": "",
+ "name": "Creek Waters 2",
+ "cn": "",
+ "tagline": "Island Living · Dubai Creek Harbour",
+ "developer": "Emaar",
+ "community": "Dubai Creek Harbour",
+ "subCommunity": "Creek Island",
+ "emirate": "Dubai",
+ "country": "United Arab Emirates",
+ "hero": [
+  { "src": "/img/projects/creek-waters-2/hero-1.webp", "alt": "Creek Waters 2 迪拜溪港溪岛航拍效果图", "caption": "迪拜溪港溪岛水岸", "credit": "开发商官方素材" },
+  { "src": "/img/projects/creek-waters-2/hero-2.webp", "alt": "Creek Waters 2 塔楼外观效果图", "caption": "水岸高塔", "credit": "开发商官方素材" },
+  { "src": "/img/projects/creek-waters-2/hero-3.webp", "alt": "Creek Waters 2 无边泳池效果图", "caption": "融天无边泳池", "credit": "开发商官方素材" }
+ ],
+ "intro": "Creek Waters 2 是 Emaar 于 Dubai Creek Harbour 溪岛（Creek Island）打造的滨水住宅新阶段，延续海水湾的水岸生活语言。项目提供 1 至 4 居公寓与臻稀 5 居复式顶层公寓，建筑面积约 750 至 8,190 平方英尺，5 分钟可达拉斯阿尔霍野生动物保护区，紧邻游艇码头与滨水步道。采用 10/80/10 低门槛付款结构，2027 年第四季度交付；永久产权，外籍可购。",
+ "highlights": [
+  "Emaar 旗舰社区 Dubai Creek Harbour 溪岛（Creek Island）一线水岸地段",
+  "1–4 居公寓 + 臻稀 5 居复式顶层公寓，户型约 750–8,190 sq.ft.",
+  "5 分钟达拉斯阿尔霍野生动物保护区，紧邻游艇码头与滨水步道",
+  "10 分钟迪拜国际机场、15 分钟哈利法塔与迪拜中心、25 分钟迪拜码头",
+  "10/80/10 付款结构，2027 年 Q4 交付；Freehold 永久产权，较大户型可覆盖黄金签证门槛"
+ ],
+ "unitTypes": [
+  { "type": "1 居公寓", "sizeMinSqft": 750, "sizeMaxSqft": 920, "unitCount": 185, "startFromAED": 1900000, "startFromLabel": "AED 1,900,000 起（开盘起价 · 非实时报价）" },
+  { "type": "2 居公寓", "sizeMinSqft": 1120, "sizeMaxSqft": 1490, "unitCount": 180, "startFromAED": 2900000, "startFromLabel": "AED 2,900,000 起（开盘起价 · 非实时报价）" },
+  { "type": "3 居公寓 / 联排", "sizeMinSqft": 1550, "sizeMaxSqft": 3010, "unitCount": 67, "startFromAED": 4100000, "startFromLabel": "AED 4,100,000 起（开盘起价 · 非实时报价）" },
+  { "type": "4 居公寓", "sizeMinSqft": 2440, "sizeMaxSqft": 2810, "unitCount": 22, "startFromAED": 6200000, "startFromLabel": "AED 6,200,000 起（开盘起价 · 非实时报价）" },
+  { "type": "5 居复式 · 顶层公寓", "sizeMinSqft": 8190, "sizeMaxSqft": 8190, "unitCount": 1, "startFromAED": 19300000, "startFromLabel": "AED 19,300,000 起（开盘起价 · 非实时报价）" }
+ ],
+ "unitNote": "户型面积与开盘起价为开发商公布示意口径（非实时报价）；套数为开发商公布配比示意。实时可售房态与价格以丹枫持牌顾问确认为准。",
+ "payment": {
+  "structure": "10 / 80 / 10",
+  "milestones": [
+   { "stage": "预订时", "percent": "10%", "note": "首付 Down Payment" },
+   { "stage": "建造期间", "percent": "80%", "note": "分期支付 During Construction" },
+   { "stage": "交付时", "percent": "10%", "note": "On Handover" }
+  ],
+  "note": "付款结构为示意，具体比例与节点以开发商正式方案为准。"
+ },
+ "handover": "2027（预计 Q4 2027）",
+ "location": {
+  "distances": [
+   "拉斯阿尔霍野生动物保护区 · 约 5 分钟",
+   "迪拜国际机场（DXB）· 约 10 分钟",
+   "哈利法塔与迪拜中心 · 约 15 分钟",
+   "迪拜码头 Dubai Marina · 约 25 分钟"
+  ],
+  "connectivity": [
+   "紧邻 Creek Marina 游艇码头与滨水步道",
+   "片区规划 4 座地铁站、3 座桥梁与水上的士；未来蓝线 Emaar Properties 站规划为世界最高地铁站（2029）"
+  ]
+ },
+ "amenities": [
+  "融天无边泳池 + 日光平台",
+  "儿童泳池 + 遮阳游乐区",
+  "观景台 / 观景平台",
+  "设备齐全健身馆（俯瞰泳池）",
+  "烧烤 BBQ 区",
+  "度假式园林配套平台（Podium）",
+  "零售与餐饮直达"
+ ],
+ "views": [
+  "迪拜溪与市中心天际线",
+  "拉斯阿尔霍野生动物保护区",
+  "一线水岸",
+  "Creek Marina 游艇码头"
+ ],
+ "communityFacts": [
+  "Dubai Creek Harbour 旗舰滨水综合体",
+  "住宅空间约 7.4 百万㎡",
+  "规划容纳约 20 万居民"
+ ],
+ "brochureUrl": "",
+ "video": "",
+ "meta": {
+  "sources": [
+   "项目库 Monday「Projects: Off-Plan」board 3916277144：结构化字段权威源（起价示意口径）",
+   "子项库 board 4048926548：户型/套数/面积/开盘起价（不含任何 PSF/现价/去化字段）",
+   "开发商官方项目页 Emaar Creek Waters 2（文案 + 效果图源）",
+   "communities.json（DXBC-0057 迪拜云溪港 画像/标签）+ developers.json（Emaar DFP-5 / DXB）"
+  ],
+  "updated": "2026-07",
+  "priceNote": "本页仅展示开盘起价示意口径；任何单价(PSF)、现价、去化率、可售套数均不入本文件、不上前端、不入 AI 上下文。售态严格绑 catalog.status。具体价格以丹枫持牌顾问确认为准。",
+  "imageNote": "hero 及各 section 图走 assets-manifest 本地 webp（/img/projects/creek-waters-2/*.webp，管线已备 12 张 + card）；禁生产环境热链开发商图床。",
+  "videoNote": "未确认到 Emaar 官方视频，按 SOP 留空。",
+  "brochureNote": "楼书下载 2026-07-10 起下架；brochureUrl 留空，SHOW_BROCHURE 控制显隐。"
+ }
+}

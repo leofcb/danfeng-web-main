@@ -1,0 +1,103 @@
+{
+  "slug": "business-bay",
+  "name": "Business Bay",
+  "cn": "商业湾",
+  "communityId": "DXBC-0043",
+  "isHot": true,
+  "footerDate": "2026-07-20",
+  "wechatHref": "https://u.wechat.com/MBHeTbPUEaA4Wzeda66CFBo?s=2",
+  "seo": {
+    "desc": "Business Bay 商业湾社区档案：片区画像、迪拜土地局 DLD 社区市场数据、位置交通与到核心区距离、配套与生活方式、活跃开发商、代表在售项目与相似社区。丹枫置业研究整理。",
+    "ogDesc": "商业湾片区画像、DLD 市场数据、位置交通、配套生活、活跃开发商与在售项目。"
+  },
+  "hero": {
+    "kicker": "迪拜市中心 · 运河核心商住区",
+    "en": "BUSINESS BAY · DUBAI WATER CANAL · DLD AREA",
+    "img": "https://danfengproperties.com/img/communities/business-bay/hero-1.webp",
+    "copy": "商业湾是迪拜市中心紧邻迪拜运河的核心商住区，与市中心、金融中心咫尺可达，地铁红线直通、交通最便利的板块之一。运河沿岸高层公寓林立，商务与生活兼具，是迪拜成交最活跃、租金回报领先的中端公寓片区。"
+  },
+  "facts": [
+    { "k": "在售项目", "v": "95 个" },
+    { "k": "社区租金回报", "v": "5.85%", "em": "迪拜土地局 DLD" },
+    { "k": "近 12 月成交", "v": "10,190 套", "em": "同比 −3.4%" },
+    { "k": "中位成交尺价", "v": "AED 2,570", "em": "同比 +10.1%" }
+  ],
+  "profile": {
+    "title": "读懂商业湾",
+    "em": "先看片区",
+    "blurb": [
+      "商业湾（Business Bay）是迪拜市中心紧邻迪拜运河的核心商住区，与市中心 Downtown、迪拜国际金融中心步行/车程可达，是迪拜地铁红线直达、交通最便利的板块之一。",
+      "区内高层公寓林立，运河沿岸步道、Bay Avenue Mall 及丰富餐饮配套兼顾商务与生活。是迪拜成交最活跃、租金回报领先的中端公寓板块之一，适合看重地段与流动性的自住及投资客户。"
+    ],
+    "tags": ["热门片区", "商务核心", "运河滨水", "地铁红线", "外籍聚居"],
+    "identity": [
+      { "k": "分类", "v": "核心商住区（DLD Area）" },
+      { "k": "DLD 区域", "v": "Business Bay" },
+      { "k": "社区编号", "v": "DXBC-0043" },
+      { "k": "主力物业", "v": "高层公寓（开间–4 居）" }
+    ]
+  },
+  "data": {
+    "title": "商业湾市场概览",
+    "em": "来自迪拜土地局",
+    "market": [
+      { "k": "近 12 月成交", "v": "10,190", "u": "套", "yoy": "同比 −3.4%", "yoyDir": -3.4 },
+      { "k": "中位成交尺价", "v": "2,570", "u": "AED/平方英尺", "yoy": "同比 +10.1%", "yoyDir": 10.1 },
+      { "k": "社区租金回报（毛收益）", "v": "5.85%", "yoy": "同比 −0.06pp", "yoyDir": -0.06 },
+      { "k": "未来供应", "v": "24,923", "u": "套 · 在建/规划" },
+      { "k": "近 12 月售出率", "v": "86%" },
+      { "k": "市场流动性", "v": "良好", "u": "非薄市场" }
+    ],
+    "note": "数据来源：迪拜土地局（DLD）成交登记口径，近 12 个月滚动 / 同比。社区租金回报为片区级毛收益参考（按社区口径，非按户型拆分），为历史行情参考、非收益承诺；具体房源实时价格与真实回报以丹枫持牌顾问及开发商正式文件为准。"
+  },
+  "location": {
+    "mapQuery": "Business Bay, Dubai",
+    "mapZoom": 13,
+    "distances": [
+      { "t": "迪拜市中心 Downtown Dubai", "p": "约 5 分钟" },
+      { "t": "哈利法塔 Burj Khalifa", "p": "约 8 分钟" },
+      { "t": "迪拜购物中心 The Dubai Mall", "p": "约 12 分钟" },
+      { "t": "迪拜国际机场", "p": "约 15 分钟" }
+    ],
+    "transit": "Sheikh Zayed Road（E11）与 Al Khail Road（E44）直连全城；Business Bay 地铁站（红线）就在区内，通勤市中心、金融中心便捷。车程为常规路况估算，仅供参考。"
+  },
+  "amenities": [
+    { "h": "商场 · 零售", "en": "RETAIL & MALL", "ico": "🛍", "items": ["Bay Avenue Mall（Executive Towers）：超市、咖啡、餐饮一站配齐", "生鲜超市：Choithrams · Spinneys · Carrefour Market · West Zone", "运河沿岸与 Bay Avenue 临街商业、精品店"] },
+    { "h": "教育", "en": "EDUCATION", "ico": "🎓", "items": ["学校：JESS · GEMS Jumeirah Primary（Al Safa，临近）", "幼儿园：Blossom Nursery · Learning Tree Nursery", "紧邻 Al Safa / Jumeirah 名校带，通学便利"] },
+    { "h": "健身 · 康乐", "en": "WELLNESS & LEISURE", "ico": "🌿", "items": ["健身房：UFC Gym · Gold's Gym · Fitness First", "迪拜运河滨水步道 & Burj Park 城市绿地", "Bay Avenue Park 社区公园，慢跑遛娃休闲"] }
+  ],
+  "lifestyle": [
+    { "h": "运河都会", "p": "迪拜运河畔的核心商住混合区，高层塔楼与滨水步道交织，现代都市气质鲜明，通勤与生活半径都在中心。" },
+    { "h": "人群画像", "p": "深受专业人士、情侣与投资客青睐，配套持续完善后日益适合家庭居住，社区活力与国际化程度高。" },
+    { "h": "餐饮夜生活", "p": "餐饮场景活跃：高端餐厅、印度菜、精品咖啡与实惠食肆兼备，滨水休闲与夜生活并存。" },
+    { "h": "投资流动性", "p": "迪拜成交与出租最活跃的板块之一，租金回报领先、易租易售，是看重流动性客户的首选片区之一。" }
+  ],
+  "developers": [
+    { "name": "Damac", "cn": "达马克", "count": 25, "slug": "damac", "leaves": "4.5", "score": "85.2", "rank": 2 },
+    { "name": "DEYAAR", "cn": "迪亚尔", "count": 13, "slug": "deyaar", "leaves": "4.5", "score": "81.1", "rank": 19 },
+    { "name": "Omniyat", "cn": "欧尼亚特", "count": 8, "slug": "omniyat", "leaves": "3.5", "score": "60.5", "rank": 7 },
+    { "name": "Select Group", "cn": "精选集团", "count": 8, "slug": "select-group", "leaves": "4", "score": "76.7", "rank": 25 },
+    { "name": "Binghatti", "cn": "宾加蒂", "count": 6, "slug": "binghatti", "leaves": "4.5", "score": "88", "rank": 3 },
+    { "name": "Al Seeb", "cn": "阿尔西卜", "count": 4, "slug": "al-seeb", "leaves": "2.5", "score": "46.4", "rank": 97 },
+    { "name": "Danube", "cn": "多瑙", "count": 3, "slug": "danube", "leaves": "4.5", "score": "82.8", "rank": 13 },
+    { "name": "Ellington", "cn": "艾灵顿", "count": 2, "slug": "ellington", "leaves": "4", "score": "79.4", "rank": 6 }
+  ],
+  "projects": {
+    "moreHref": "https://danfengproperties.com/projects?commId=DXBC-0043",
+    "moreCount": "95",
+    "cards": [
+      { "name": "Burj Binghatti Jacob & Co", "cn": "宾加蒂·雅各布塔", "pill": "Binghatti", "status": "在售", "types": "公寓", "beds": "约 3,290–6,840 平方英尺", "handover": "待定", "price": "起价 AED 790 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["超高层", "地标", "超豪华"], "href": "https://danfengproperties.com/projects/burj-binghatti-jacob-and-co" },
+      { "name": "Tiger Sky Tower", "cn": "泰格天际塔", "pill": "Tiger", "status": "在售", "types": "公寓", "beds": "1–5 居", "handover": "2029", "price": "起价 AED 268 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["超高层", "空中雨林"], "href": "https://danfengproperties.com/projects/tiger-sky-tower" },
+      { "name": "Al Habtoor Tower", "cn": "阿尔哈布托大厦", "pill": "Al Habtoor", "status": "在售", "types": "公寓", "beds": "1–5 居", "handover": "2026", "price": "起价 AED 241 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["运河景观", "黄金签证适配"], "href": "https://danfengproperties.com/projects/al-habtoor-tower" },
+      { "name": "Canal Heights", "cn": "运河高地", "pill": "Damac", "status": "在售", "types": "公寓", "beds": "开间–4 居", "handover": "待定", "price": "起价 AED 354 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["Cavalli 设计", "运河景观"], "href": "https://danfengproperties.com/projects/canal-heights" },
+      { "name": "Lumena Alta", "cn": "卢米娜·阿尔塔", "pill": "Omniyat", "status": "在售", "types": "酒店公寓 / 写字楼", "beds": "开间", "handover": "待定", "price": "起价 AED 2,200 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["顶奢", "设计驱动"], "href": "https://danfengproperties.com/projects/lumena-alta" },
+      { "name": "Binghatti Skyrise", "cn": "宾格帝·天际", "pill": "Binghatti", "status": "在售", "types": "公寓", "beds": "开间–3 居", "handover": "待定", "price": "起价 AED 120 万", "priceNote": "开盘示意 · 非实时报价", "tags": ["三塔综合体", "运河景观"], "href": "https://danfengproperties.com/projects/binghatti-skyrise" }
+    ]
+  },
+  "similar": [
+    { "cn": "迪拜市中心", "en": "Downtown Dubai", "img": "https://danfengproperties.com/img/communities/downtown-dubai/card.webp", "blurb": "哈利法塔与迪拜购物中心所在的城市中心，地标云集、租售最抗跌的顶级门户片区。", "href": "https://danfengproperties.com/communities/downtown-dubai" },
+    { "cn": "迪拜国际金融中心", "en": "DIFC", "img": "https://danfengproperties.com/img/communities/difc/card.webp", "blurb": "甲级写字楼与高端公寓并存，金融精英聚居的都会核心，商务氛围浓厚。", "href": "https://danfengproperties.com/communities/difc" },
+    { "cn": "迪拜码头", "en": "Dubai Marina", "img": "https://danfengproperties.com/img/communities/dubai-marina/card.webp", "blurb": "人工运河环绕的滨海高层片区，游艇码头、海滨步道与活跃夜生活，租赁需求旺盛。", "href": "https://danfengproperties.com/communities/dubai-marina" },
+    { "cn": "城市漫步", "en": "City Walk", "img": "https://danfengproperties.com/img/communities/city-walk/card.webp", "blurb": "Meraas 打造的低密度都市街区，露天商街与精品住宅，生活方式导向的中心地段。", "href": "https://danfengproperties.com/communities/city-walk" }
+  ]
+}

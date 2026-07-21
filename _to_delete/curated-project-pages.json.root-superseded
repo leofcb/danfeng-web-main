@@ -1,0 +1,7 @@
+{
+  "_note": "唯一权威生产源 = 系统/danfeng-web（Claude 主，Codex 辅）。构建前(prebuild)校验以下每个专版页的静态文件与路由登记均存在，缺一即让构建失败，防止任何一方部署时漏页覆盖生产域名。Codex 专版页须套用 WEB-LP-V1.3 标准后并入 projects 数组，并从 pendingFromCodex 移除。",
+  "projects": ["arancia-yards", "arancia-yards-2", "aria", "hado", "sensia", "talea"],
+  "developers": ["beyond"],
+  "communities": ["business-bay"],
+  "pendingFromCodex": ["passo-by-beyond", "kanyon", "soulever", "31-above", "saria", "the-mural", "orise"]
+}

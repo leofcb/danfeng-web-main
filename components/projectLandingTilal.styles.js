@@ -1,0 +1,294 @@
+// AUTO-GENERATED from codex-handoff/output/altan-3608-tilal-style.html — Tilal 暗调影院母版视觉忠实移植。
+// 作用域前缀 .tilal 防污染全站（CSS 变量落在 .tilal 根，由子孙 var() 继承）。
+// Hero/CTA 背景图机械替换为 var(--hero-img)/var(--cta-img)，由组件按装配器图片槽位内联注入。
+// 勿手改：源=Tilal 母版 <style>，经 /tmp/scope-tilal.mjs 机械加前缀。禁再创作。
+// 例外（LEO 2026-07-12 授权返修）：首屏右侧四格指标（.hero-stats/.hstat）叠在 hero 图亮部时不可读 +
+// 起售价护栏小字白版 bug，母版原样式本身即含缺陷（.hstat .note 与全局 .note 撞名，含 background:ivory
+// 渗入白底）。已加 --gold-bright 变量 + .hero-stats 深色渐变面板 + .hstat-note 专属类名修正，其余选择器未动。
+//
+// 样式共享化（第3棒 · LEO 2026-07-12 批）：ProjectLandingTilal.jsx 不再从此文件取 TILAL_CSS
+// 内联注入 <style>（原每页 SSR 输出携带整份 ~24KB CSS，1705 页累计巨量重复产物）。运行时样式
+// 改由 app/projects/[slug]/tilal.css（Next 路由段级 CSS import，见同目录 layout.jsx）承载，
+// 与此处 TILAL_CSS 逐字节一致。此导出保留仅供 scripts/v5-guardrail.mjs 静态扫描比对源
+// （断言选择器在场 + 与 tilal.css 内容一致），修改本文件须同步重新导出 tilal.css，禁止分叉。
+export const TILAL_CSS = String.raw`
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+.tilal{--red:#CE1C24;
+    --red-deep:#A9151B;
+    --gold:#AD8E5F;
+    --gold-soft:#EFE6D5;
+    --gold-bright:#DDC393;
+    --ivory:#FBF7EF;
+    --ivory-2:#F1E8D8;
+    --paper:#FFFDF8;
+    --ink:#17120E;
+    --ink-2:#3D352B;
+    --muted:#817668;
+    --line:rgba(173,142,95,.34);
+    --line-soft:rgba(23,18,14,.11);
+    --dark:#100E0B;
+    --max:1420px;
+    --pad:clamp(22px,4.5vw,72px);
+    --display:"Noto Serif SC",serif;
+    --body:"Noto Sans SC",system-ui,sans-serif;
+    --num:"Manrope",system-ui,sans-serif;}
+.tilal *,.tilal *::before,.tilal *::after{box-sizing:border-box;margin:0;padding:0}
+.tilal{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+.tilal{font-family:var(--body);background:var(--ivory);color:var(--ink-2);line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.tilal img{display:block;max-width:100%}
+.tilal a{color:inherit;text-decoration:none}
+.tilal button,.tilal input,.tilal select,.tilal textarea{font:inherit}
+.tilal .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.tilal .mono{font-family:var(--num)}
+.tilal .serif{font-family:var(--display)}
+.tilal .icon{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.tilal .brandmark{width:36px;height:36px;display:block;flex:0 0 auto}
+.tilal .brandmark .r{fill:var(--red)}
+.tilal .brandmark .rd{fill:var(--red-deep)}
+.tilal .brandmark .g{fill:var(--gold)}
+.tilal .nav{position:fixed;left:0;right:0;top:0;z-index:50;
+    background:rgba(16,14,11,.84);backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(173,142,95,.18);}
+.tilal .nav-in{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.tilal .brand{display:flex;align-items:center;gap:12px;color:var(--paper)}
+.tilal .brand strong{font-family:var(--num);font-size:15px;letter-spacing:.08em;font-weight:800;line-height:1}
+.tilal .brand span{display:block;font-size:10px;letter-spacing:.34em;color:var(--gold);margin-top:5px}
+.tilal .nav-links{display:flex;gap:28px;color:rgba(255,253,248,.72);font-size:13px;letter-spacing:.16em}
+.tilal .nav-links a:hover{color:var(--gold)}
+.tilal .nav-cta{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 18px;border:1px solid var(--gold);color:var(--gold);font-size:12px;letter-spacing:.18em;font-weight:700;transition:.25s}
+.tilal .nav-cta:hover{background:var(--gold);color:var(--dark)}
+.tilal .hero{position:relative;min-height:100vh;color:var(--paper);
+    background:
+      linear-gradient(105deg,rgba(16,14,11,.94) 0%,rgba(16,14,11,.78) 43%,rgba(16,14,11,.22) 67%,rgba(16,14,11,.62) 100%),
+      var(--hero-img) center/cover no-repeat;
+    display:flex;align-items:end;padding:118px 0 42px;overflow:hidden;}
+.tilal .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 88% 14%,rgba(173,142,95,.22),transparent 34%),linear-gradient(180deg,transparent 62%,rgba(16,14,11,.86));pointer-events:none}
+.tilal .hero::after{content:"";position:absolute;left:var(--pad);right:var(--pad);bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.42}
+.tilal .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.04fr .86fr;gap:clamp(34px,6vw,88px);align-items:end;width:100%}
+.tilal .hero-tag{display:inline-flex;align-items:center;gap:14px;color:var(--gold);font-size:12px;letter-spacing:.34em;font-weight:700;margin-bottom:24px}
+.tilal .hero-tag::before{content:"";width:44px;height:1px;background:var(--gold)}
+.tilal .hero h1{font-family:var(--display);font-size:clamp(48px,7vw,96px);font-weight:400;line-height:1.02;letter-spacing:.02em;color:#fff}
+.tilal .hero h1 em{display:block;font-style:normal;color:var(--gold);font-weight:500;font-size:.46em;line-height:1.28;margin-top:18px}
+.tilal .hero-en{font-family:var(--num);font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,253,248,.52);font-weight:700;margin-top:20px}
+.tilal .tagline{max-width:620px;margin-top:26px;font-size:17px;color:rgba(255,253,248,.82);font-weight:300;line-height:1.9}
+.tilal .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.tilal .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:14px 24px;border:1px solid transparent;font-weight:700;letter-spacing:.14em;font-size:14px;transition:.3s}
+.tilal .btn-red{background:var(--red);color:#fff}
+.tilal .btn-red:hover{background:#E13A42;transform:translateY(-2px)}
+.tilal .btn-ghost{border-color:rgba(255,253,248,.38);color:var(--paper)}
+.tilal .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.tilal .arrow{width:18px;height:1px;background:currentColor;position:relative;display:inline-block}
+.tilal .arrow::after{content:"";position:absolute;right:0;top:-4px;width:8px;height:8px;border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(45deg)}
+.tilal .hero-panel{border-left:1px solid rgba(173,142,95,.46);padding-left:32px;margin-bottom:8px}
+.tilal .quote{font-family:var(--display);font-size:clamp(18px,1.7vw,25px);line-height:1.82;color:rgba(255,253,248,.9);font-weight:300}
+.tilal .hero-stats{margin-top:30px;position:relative;display:grid;grid-template-columns:repeat(2,1fr);
+    background:linear-gradient(160deg,rgba(10,10,12,.66) 0%,rgba(10,10,12,.56) 48%,rgba(10,10,12,.38) 78%,rgba(10,10,12,.16) 100%);
+    -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+    border:1px solid rgba(173,142,95,.22);border-radius:18px;
+    padding:22px 22px 6px;box-shadow:0 30px 60px -34px rgba(0,0,0,.6);}
+.tilal .hstat{padding:0 18px 22px 0;border-bottom:1px solid rgba(255,253,248,.14)}
+.tilal .hstat:nth-child(odd){border-right:1px solid rgba(255,253,248,.14)}
+.tilal .hstat:nth-child(even){padding-left:20px}
+.tilal .hstat:nth-last-child(-n+2){border-bottom:none}
+.tilal .hstat small{display:block;color:var(--gold);font-family:var(--num);font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;margin-bottom:7px;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.tilal .hstat strong{display:block;color:#fff;font-size:17px;font-weight:700;line-height:1.35;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+.tilal .hstat.price strong{color:var(--gold-bright);font-weight:800}
+/* 白版 bug 修复：原 .hstat .note 与全局 .tilal .note（background:var(--ivory)+padding:16px 20px，
+   见通用说明块选择器）撞名同类，白底/内边距样式跨作用域渗入首屏起售价护栏小字，渲成一块白版。
+   改专属类名 .hstat-note 彻底与全局 .note 脱钩，显式 background:none 兜底。 */
+.tilal .hstat-note{display:inline-flex;align-items:center;gap:5px;margin-top:6px;background:none;padding:0;
+    font-size:11px;line-height:1.5;color:rgba(255,255,255,.58);letter-spacing:.03em}
+.tilal .hstat-note .lock-ic{width:10px;height:10px;flex:0 0 auto;color:inherit;stroke:currentColor}
+.tilal .scroll{position:absolute;z-index:2;left:50%;bottom:18px;transform:translateX(-50%);font-size:10px;letter-spacing:.32em;color:rgba(255,253,248,.5);display:flex;flex-direction:column;align-items:center;gap:10px}
+.tilal .scroll::after{content:"";width:1px;height:34px;background:linear-gradient(var(--gold),transparent)}
+.tilal .fact-band{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tilal .facts{display:grid;grid-template-columns:repeat(6,1fr)}
+.tilal .fact{padding:28px 22px;border-right:1px solid var(--line-soft);min-height:128px}
+.tilal .fact:last-child{border-right:0}
+.tilal .fact small{display:block;font-family:var(--num);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+.tilal .fact strong{display:block;color:var(--ink);font-size:16px;line-height:1.35}
+.tilal .fact span{display:block;margin-top:5px;color:var(--muted);font-size:12px;line-height:1.55}
+.tilal section{position:relative}
+.tilal .sec{padding:clamp(76px,8vw,122px) 0}
+.tilal .sec.alt{background:var(--ivory-2)}
+.tilal .section-head{display:grid;grid-template-columns:minmax(180px,.34fr) 1fr;gap:clamp(24px,5vw,72px);align-items:end;margin-bottom:48px}
+.tilal .eyebrow{display:inline-flex;align-items:center;gap:14px;color:var(--gold);font-family:var(--num);font-size:11px;letter-spacing:.32em;text-transform:uppercase;font-weight:800;white-space:nowrap}
+.tilal .eyebrow::before{content:"";width:34px;height:1px;background:var(--gold)}
+.tilal .section-title{font-family:var(--display);font-size:clamp(32px,4vw,56px);line-height:1.18;color:var(--ink);font-weight:400;letter-spacing:.01em}
+.tilal .section-title em{font-style:normal;color:var(--red);font-weight:500}
+.tilal .overview-grid{display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:center}
+.tilal .copy p{font-size:16px;line-height:1.96;color:var(--ink-2);font-weight:300;margin-bottom:18px}
+.tilal .copy p:first-child{font-size:17px;color:var(--ink);font-weight:400}
+.tilal .metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.tilal .metric{background:rgba(255,253,248,.7);padding:28px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:148px}
+.tilal .metric .n{font-family:var(--num);font-size:36px;font-weight:800;color:var(--red);line-height:1}
+.tilal .metric .unit{font-size:13px;margin-left:5px;color:var(--gold);font-family:var(--body);font-weight:700}
+.tilal .metric .l{margin-top:12px;font-size:13px;color:var(--muted);line-height:1.65}
+.tilal .highlights{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tilal .highlight{padding:32px 24px;border-right:1px solid var(--line);transition:.3s;min-height:260px}
+.tilal .highlight:last-child{border-right:0}
+.tilal .highlight:hover{background:rgba(173,142,95,.08)}
+.tilal .highlight b{display:block;font-family:var(--num);font-size:34px;color:var(--gold);font-weight:700;line-height:1;margin-bottom:22px}
+.tilal .highlight p{font-size:14px;line-height:1.86;color:var(--ink-2);font-weight:300}
+.tilal .loc-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:stretch}
+.tilal .map{min-height:488px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;overflow:hidden}
+.tilal .map iframe{border:0;min-height:440px;width:100%;flex:1;filter:saturate(.78) contrast(.98)}
+.tilal .caption{font-size:11px;color:var(--muted);padding:11px 14px;border-top:1px solid var(--line-soft);background:var(--paper)}
+.tilal .distance-card{background:var(--paper);border:1px solid var(--line);padding:28px}
+.tilal .distance-card h3{font-family:var(--display);font-size:25px;color:var(--ink);font-weight:500;margin-bottom:12px}
+.tilal .distance-card .conn{font-size:13px;color:var(--muted);line-height:1.75;margin-bottom:12px}
+.tilal .distance{display:grid;grid-template-columns:92px 1fr;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line-soft)}
+.tilal .distance:last-child{border-bottom:0}
+.tilal .distance strong{font-family:var(--num);font-size:22px;color:var(--red);line-height:1;font-weight:800}
+.tilal .distance span{font-size:14px;color:var(--ink-2)}
+.tilal .area-img{margin-top:24px;border:1px solid var(--line);height:310px;overflow:hidden;position:relative}
+.tilal .area-img img{width:100%;height:100%;object-fit:cover}
+.tilal .product-stack{display:grid;gap:36px}
+.tilal .product{display:grid;grid-template-columns:.98fr 1.02fr;gap:38px;align-items:center}
+.tilal .product:nth-child(even){grid-template-columns:1.02fr .98fr}
+.tilal .product:nth-child(even) .product-media{order:2}
+.tilal .product-media{height:480px;border:1px solid var(--line);overflow:hidden;position:relative;background:#fff}
+.tilal .product-media img{width:100%;height:100%;object-fit:cover}
+.tilal .product-body{background:var(--paper);border:1px solid var(--line);padding:42px}
+.tilal .product-body .idx{font-family:var(--num);font-size:11px;letter-spacing:.24em;color:var(--gold);font-weight:800}
+.tilal .product-body h3{font-family:var(--display);font-size:32px;line-height:1.25;color:var(--ink);font-weight:500;margin:18px 0 14px}
+.tilal .product-body p{font-size:15px;line-height:1.92;color:var(--ink-2);font-weight:300}
+.tilal .amenity-section{background:var(--dark);color:var(--paper);overflow:hidden}
+.tilal .amenity-section::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(206,28,36,.08),transparent 44%),radial-gradient(circle at 86% 18%,rgba(173,142,95,.18),transparent 36%);pointer-events:none}
+.tilal .amenity-section .wrap{position:relative;z-index:1}
+.tilal .amenity-section .section-title{color:#fff}
+.tilal .amenity-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(173,142,95,.28);background:rgba(173,142,95,.15)}
+.tilal .amenity{background:rgba(16,14,11,.88);padding:24px 22px;min-height:120px;border-right:1px solid rgba(173,142,95,.18);border-bottom:1px solid rgba(173,142,95,.18);transition:.3s}
+.tilal .amenity:nth-child(4n){border-right:0}
+.tilal .amenity:hover{background:rgba(206,28,36,.16)}
+.tilal .amenity .icon{color:var(--gold);margin-bottom:16px}
+.tilal .amenity strong{display:block;font-size:15px;color:#fff;line-height:1.45}
+.tilal .amenity-band{height:420px;border:1px solid rgba(173,142,95,.28);border-top:0;overflow:hidden}
+.tilal .amenity-band img{width:100%;height:100%;object-fit:cover;filter:saturate(.88)}
+.tilal .community-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tilal .community-card{background:var(--paper);border:1px solid var(--line);padding:26px;min-height:240px;display:flex;flex-direction:column;transition:.3s}
+.tilal .community-card:hover{transform:translateY(-4px);box-shadow:0 24px 50px -42px rgba(23,18,14,.5)}
+.tilal .pill{display:inline-flex;align-self:flex-start;padding:5px 11px;background:var(--red);color:#fff;font-size:10px;letter-spacing:.14em;font-weight:800;margin-bottom:auto}
+.tilal .community-card h3{font-family:var(--display);font-size:21px;color:var(--ink);font-weight:500;margin:20px 0 9px}
+.tilal .community-card p{font-size:13px;color:var(--muted);line-height:1.72}
+.tilal .wide{margin-top:28px;height:430px;border:1px solid var(--line);overflow:hidden;position:relative}
+.tilal .wide img{width:100%;height:100%;object-fit:cover}
+.tilal .market-band{margin-top:28px;background:var(--paper);border:1px solid var(--line)}
+.tilal .market-head{padding:22px 26px;border-bottom:1px solid var(--line-soft);display:flex;align-items:center;justify-content:space-between;gap:18px}
+.tilal .market-head h3{font-family:var(--display);font-size:25px;color:var(--ink);font-weight:500}
+.tilal .badge{font-size:11px;color:var(--gold);border:1px solid var(--line);padding:6px 12px;letter-spacing:.08em;white-space:nowrap}
+.tilal table{width:100%;border-collapse:collapse}
+.tilal th,.tilal td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--line-soft);font-size:13px}
+.tilal th{font-family:var(--num);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:var(--ivory)}
+.tilal td{color:var(--ink-2)}
+.tilal tr:last-child td{border-bottom:0}
+.tilal .note{font-size:12px;line-height:1.7;color:var(--muted);padding:16px 20px;background:var(--ivory)}
+.tilal .link-card{margin-top:24px;background:var(--paper);border:1px solid var(--line);padding:26px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end}
+.tilal .link-card h3{font-family:var(--display);font-size:26px;color:var(--ink);font-weight:500;margin-bottom:4px}
+.tilal .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.tilal .chip{font-size:11px;border:1px solid var(--line);padding:5px 10px;color:var(--gold);background:var(--ivory)}
+.tilal .developer-card{background:var(--paper);border:1px solid var(--line);display:grid;grid-template-columns:.92fr 1.08fr;gap:42px;padding:42px;align-items:start}
+.tilal .dev-name{font-family:var(--display);font-size:42px;line-height:1.12;color:var(--ink);font-weight:500}
+.tilal .rating{display:inline-flex;align-items:center;gap:10px;margin-top:18px;border:1px solid var(--line);background:var(--ivory);padding:8px 14px;color:var(--gold);font-family:var(--num);font-size:13px;font-weight:800}
+.tilal .developer-card p{font-size:15px;line-height:1.9;color:var(--ink-2);font-weight:300;margin-top:18px}
+.tilal .dev-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.tilal .dev-metric{background:var(--ivory);border:1px solid var(--line-soft);padding:20px}
+.tilal .dev-metric small{display:block;font-size:11px;color:var(--muted);letter-spacing:.12em;margin-bottom:8px}
+.tilal .dev-metric strong{font-family:var(--num);font-size:28px;color:var(--red);line-height:1}
+.tilal .unit-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:center}
+.tilal .unit-img{height:470px;border:1px solid var(--line);overflow:hidden;position:relative}
+.tilal .unit-img img{width:100%;height:100%;object-fit:cover}
+.tilal .unit-copy p{font-size:16px;line-height:1.9;color:var(--ink-2);font-weight:300;margin-bottom:16px}
+.tilal .floor-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+.tilal .floor{background:var(--paper);border:1px solid var(--line);padding:24px;min-height:216px}
+.tilal .floor-num{font-family:var(--num);font-size:38px;color:var(--gold);font-weight:800;line-height:1}
+.tilal .floor-num span{font-family:var(--body);font-size:13px;margin-left:6px;color:var(--muted)}
+.tilal .floor h3{font-size:17px;color:var(--ink);margin:16px 0 10px}
+.tilal .floor-row{display:flex;justify-content:space-between;gap:12px;border-top:1px dashed var(--line);padding:10px 0;font-size:13px}
+.tilal .floor-row span:first-child{color:var(--muted)}
+.tilal .floor-row span:last-child{font-family:var(--num);color:var(--ink);text-align:right;font-weight:700}
+.tilal .payment-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:18px;margin-top:20px}
+.tilal .pay-card,.tilal .steps{background:var(--paper);border:1px solid var(--line);padding:28px}
+.tilal .pay-card h3,.tilal .steps h3{font-family:var(--display);font-size:25px;color:var(--ink);font-weight:500;margin-bottom:14px}
+.tilal .pay-big{font-family:var(--num);font-size:44px;color:var(--red);font-weight:800;line-height:1}
+.tilal .pay-note{font-size:12px;line-height:1.75;color:var(--muted);margin-top:16px}
+.tilal .step{display:grid;grid-template-columns:88px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line-soft)}
+.tilal .step:last-child{border-bottom:0}
+.tilal .step strong{font-family:var(--num);font-size:27px;color:var(--gold);line-height:1}
+.tilal .step b{display:block;font-size:14px;color:var(--ink)}
+.tilal .step span{font-size:12px;color:var(--muted)}
+.tilal .price-summary{margin-top:20px;border:1px solid var(--line);border-left:4px solid var(--red);background:linear-gradient(135deg,var(--paper),var(--gold-soft));padding:24px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
+.tilal .price-summary small{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
+.tilal .price-summary strong{font-family:var(--num);font-size:32px;color:var(--red);line-height:1}
+.tilal .price-summary p{font-size:12px;color:var(--muted);line-height:1.65}
+.tilal .cta{background:var(--dark);color:var(--paper);overflow:hidden}
+.tilal .cta::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(206,28,36,.22),transparent 38%),var(--cta-img) center/cover no-repeat;opacity:.46}
+.tilal .cta::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--dark) 0%,rgba(16,14,11,.82) 54%,rgba(16,14,11,.56))}
+.tilal .cta .wrap{position:relative;z-index:2}
+.tilal .cta-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:48px;align-items:center}
+.tilal .cta h2{font-family:var(--display);font-size:clamp(34px,4.4vw,58px);line-height:1.18;color:#fff;font-weight:400;margin:16px 0}
+.tilal .cta h2 em{font-style:normal;color:var(--gold)}
+.tilal .cta p{font-size:16px;line-height:1.85;color:rgba(255,253,248,.72);font-weight:300}
+.tilal .paths{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.tilal .path{border:1px solid rgba(173,142,95,.34);background:rgba(255,253,248,.06);padding:30px;min-height:300px;display:flex;flex-direction:column}
+.tilal .path.primary{border-color:rgba(206,28,36,.56);background:linear-gradient(150deg,rgba(206,28,36,.24),rgba(255,253,248,.05))}
+.tilal .path .icon{color:var(--gold);margin-bottom:18px}
+.tilal .path h3{font-family:var(--display);font-size:24px;color:#fff;font-weight:500;margin-bottom:10px}
+.tilal .path p{font-size:13px;line-height:1.7;color:rgba(255,253,248,.62);margin-bottom:22px;flex:1}
+.tilal .path a{display:block;text-align:center;background:var(--gold);color:var(--dark);padding:14px;font-weight:800;letter-spacing:.12em}
+.tilal .path.primary a{background:var(--red);color:#fff}
+.tilal .qrbox{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.tilal .qr{width:64px;height:64px;background:
+    linear-gradient(90deg,#fff 10px,transparent 10px 18px,#fff 18px 28px,transparent 28px),
+    linear-gradient(#fff 10px,transparent 10px 18px,#fff 18px 28px,transparent 28px),#111;
+    background-size:28px 28px;border:5px solid #fff;flex:0 0 auto}
+.tilal .qrbox small{font-size:11px;color:rgba(255,253,248,.62)}
+.tilal footer{background:var(--paper);border-top:1px solid var(--line);padding:42px 0 52px;color:var(--muted)}
+.tilal .foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+.tilal .foot-brand{display:flex;gap:12px;align-items:center;color:var(--ink)}
+.tilal .foot-brand b{font-family:var(--num);font-size:15px}
+.tilal .disclaimer{max-width:900px;font-size:12px;line-height:1.8;color:var(--muted)}
+.tilal .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease}
+.tilal .reveal.in{opacity:1;transform:none}
+@media (max-width:1100px){
+.tilal .nav-links{display:none}
+.tilal .hero-grid,.tilal .overview-grid,.tilal .loc-grid,.tilal .product,.tilal .product:nth-child(even),.tilal .developer-card,.tilal .unit-grid,.tilal .cta-grid{grid-template-columns:1fr}
+.tilal .product:nth-child(even) .product-media{order:0}
+.tilal .facts{grid-template-columns:repeat(3,1fr)}
+.tilal .fact:nth-child(3){border-right:0}
+.tilal .fact:nth-child(-n+3){border-bottom:1px solid var(--line-soft)}
+.tilal .highlights{grid-template-columns:repeat(2,1fr)}
+.tilal .highlight:nth-child(2n){border-right:0}
+.tilal .highlight:nth-child(-n+4){border-bottom:1px solid var(--line)}
+.tilal .amenity-grid,.tilal .community-grid{grid-template-columns:repeat(2,1fr)}
+.tilal .amenity:nth-child(2n){border-right:0}
+}
+@media (max-width:720px){
+.tilal .hero{min-height:auto;padding-top:108px}
+.tilal .hero-panel{border-left:0;border-top:1px solid rgba(173,142,95,.42);padding:26px 0 0}
+.tilal .hero-stats,.tilal .metric-grid,.tilal .floor-grid,.tilal .payment-grid,.tilal .paths,.tilal .price-summary{grid-template-columns:1fr}
+.tilal .hstat,.tilal .hstat:nth-child(even),.tilal .hstat:nth-child(odd){border-right:0;padding-left:0}
+.tilal .facts,.tilal .amenity-grid,.tilal .community-grid,.tilal .dev-metrics{grid-template-columns:1fr}
+.tilal .fact,.tilal .fact:nth-child(3),.tilal .fact:nth-child(-n+3){border-right:0;border-bottom:1px solid var(--line-soft)}
+.tilal .section-head{grid-template-columns:1fr}
+.tilal .highlights{grid-template-columns:1fr}
+.tilal .highlight{border-right:0;border-bottom:1px solid var(--line)}
+.tilal .product-media,.tilal .unit-img,.tilal .wide,.tilal .amenity-band{height:320px}
+.tilal .map{min-height:360px}
+.tilal .map iframe{min-height:320px}
+.tilal .link-card{grid-template-columns:1fr}
+}
+/* —— 项目视频能力（枫岳 2026-07-13）：路线一首屏氛围短片 + 路线二 YouTube 懒加载嵌入 —— */
+.tilal .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none;background:#100e0b}
+.tilal .hero-video-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(105deg,rgba(16,14,11,.94) 0%,rgba(16,14,11,.78) 43%,rgba(16,14,11,.22) 67%,rgba(16,14,11,.62) 100%)}
+@media (prefers-reduced-motion:reduce){.tilal .hero-video{display:none}}
+.tilal .video-embed{position:relative;width:100%;aspect-ratio:16/9;background:#0c0b09;border:1px solid rgba(173,142,95,.22);border-radius:14px;overflow:hidden;box-shadow:0 30px 60px -34px rgba(0,0,0,.6)}
+.tilal .video-iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.tilal .video-facade{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;cursor:pointer;display:flex;align-items:center;justify-content:center;background:var(--video-thumb,linear-gradient(160deg,#1a1712,#0c0b09)) center/cover no-repeat}
+.tilal .video-facade::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,14,11,.12),rgba(16,14,11,.46));transition:.3s}
+.tilal .video-facade:hover::after{background:linear-gradient(180deg,rgba(16,14,11,.04),rgba(16,14,11,.34))}
+.tilal .video-thumb-probe{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.tilal .video-play{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:50%;background:var(--red);color:#fff;box-shadow:0 16px 40px -12px rgba(206,28,36,.7);transition:.3s}
+.tilal .video-facade:hover .video-play{transform:scale(1.06)}
+.tilal .video-play svg{width:34px;height:34px;margin-left:4px}
+`;

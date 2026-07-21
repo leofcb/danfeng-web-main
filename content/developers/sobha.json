@@ -1,0 +1,63 @@
+{
+ "slug": "sobha",
+ "name": "Sobha",
+ "cn": "索巴",
+ "brandStory": "索巴（Sobha Realty）是索巴集团在迪拜的开发臂，其根脉可上溯至 1976 年——印度裔企业家 P.N.C. Menon 在阿曼创立的一家室内装饰公司。这一出身塑造了索巴日后最鲜明的基因：对「建造」本身近乎执拗的掌控欲。与多数把设计、施工、装修外包出去的开发商不同，索巴推行一套「backward integration（垂直一体化 / 后向整合）」体系——从建材、门窗到家具，尽可能由自有工厂与团队完成，以换取对品质与工期的直接掌控。在迪拜，它以 Sobha Hartland 及 Hartland II 两片临水综合社区为主战场，把「高精装标准 + 临水地段」作为核心叙事。研究者对索巴的评价往往落在同一个词上：build quality（建造品质）。它不是话题最响的开发商，却常被行业与买家在「工程质量」维度反复提及——这是一种更慢、也更耐读的品牌资产。",
+ "milestones": [
+  {
+   "year": "1976",
+   "title": "集团起源于阿曼",
+   "desc": "P.N.C. Menon 在阿曼创立室内装饰公司，奠定索巴日后「自建自控」的垂直一体化基因。"
+  },
+  {
+   "year": "1995",
+   "title": "Sobha Limited 成立（印度）",
+   "desc": "集团在印度确立地产开发主体，以班加罗尔为大本营，逐步扩展至多州市场。"
+  },
+  {
+   "year": "2014",
+   "title": "更名 Sobha Limited",
+   "desc": "母公司由「Sobha Developers Ltd」正式更名为「Sobha Ltd」，统一集团品牌架构。"
+  },
+  {
+   "year": "2012 起",
+   "title": "迪拜规模化交付（DXB 口径）",
+   "desc": "自 2012 年以来在迪拜累计交付 15 个项目、逾 1.2 万套，另有 21 个项目、约 3.49 万套在建，去化表现稳健。"
+  }
+ ],
+ "flagships": [
+  {
+   "name": "Sobha Hartland",
+   "cn": "索巴哈特兰",
+   "positioning": "MBR City 内临水综合社区，索巴迪拜业务的旗舰片区与品牌名片。",
+   "librarySlug": ""
+  },
+  {
+   "name": "Sobha Hartland II",
+   "cn": "索巴哈特兰二期",
+   "positioning": "新一代临水综合社区，Riverside Crescent 等高层系列所在地。",
+   "librarySlug": ""
+  },
+  {
+   "name": "Sobha One",
+   "cn": "索巴 One",
+   "positioning": "Meydan Horizon 高层综合体，串联高尔夫与临水景观的当代旗舰。",
+   "librarySlug": "sobha-one"
+  },
+  {
+   "name": "Sobha SeaHaven",
+   "cn": "索巴海港",
+   "positioning": "Dubai Harbour 临海高层旗舰，坐拥棕榈岛与海港天际线视野。",
+   "librarySlug": "sobha-seahaven"
+  }
+ ],
+ "business": "业务上，索巴以迪拜为国际业务重心，同时保有印度（班加罗尔为大本营，覆盖多州）、阿曼、巴林等地的开发与投资布局。在迪拜，其产品高度集中于自持的大型综合社区——Sobha Hartland、Hartland II，以及 Meydan、Dubai Harbour、Motor City 等片区的高层旗舰，形态以高精装公寓与临水住宅为主，并向别墅与联排延伸。区别于纯营销驱动的同业，索巴的差异化护城河是那套垂直一体化的自建体系：把设计、施工、装修与建材生产尽量收拢在集团内部，以工程质量与交付确定性作为品牌承诺的落点。",
+ "meta": {
+  "sources": [
+   "库内权威层 developers.json（trackRecord / blurbCn）：垂直一体化自建体系、Sobha Hartland / Hartland II 旗舰社区、DXB 交付与在建规模、去化表现——均已交叉核验",
+   "Wikipedia《Sobha Realty / Sobha (company)》：1976 年 P.N.C. Menon 在阿曼创立室内装饰公司起源；Sobha Limited 印度主体（1995）；2014-08 由 Sobha Developers Ltd 更名 Sobha Ltd；backward integration 自建体系——里程碑年份逐条交叉核验"
+  ],
+  "updated": "2026-07",
+  "notes": "内容层仅承载研究叙事事实，零价格数字、零外链；里程碑年份均有出处。库内 developers.json 的 cn 字段为「首霸」，本内容层展示采用市场通行译名「索巴（Sobha Realty）」，归属权威仍以 developers.json 为准。销售 / 去化金额口径不入本内容层。"
+ }
+}

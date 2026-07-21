@@ -1,0 +1,28 @@
+{
+  "name": "danfeng-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "丹枫置业 Danfeng Properties — 阿联酋期房智能投顾 (Next.js 工程版)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "sync-assets:monday": "node scripts/sync-assets.mjs --from-monday",
+    "guardrail": "node scripts/guardrail-check.mjs",
+    "prebuild": "node scripts/verify-curated-project-pages.mjs",
+    "verify:curated-pages": "node scripts/verify-curated-project-pages.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "npm": "^11.18.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "run": "^1.5.0",
+    "sync-assets": "^0.1.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}
