@@ -1,7 +1,7 @@
 {
-  "_note": "唯一权威生产源 = 系统/danfeng-web（Claude 主、Codex 辅）。发布前 `npm run verify:curated-pages`（并由 package.json prebuild 自动前置于 build）校验：以下每个专版页的静态文件 + 路由登记均存在，缺一即构建失败，绝不让残缺站覆盖生产。Codex 专版页套用 WEB-LP-V1.3 标准后并入 projects 并从 pendingFromCodex 移除。此文件为双方唯一保护清单（对齐 CLAUDE/CODEX 协作规则 §2）。",
-  "projects": ["arancia-yards", "arancia-yards-2", "aria", "hado", "sensia", "talea"],
+  "_note": "唯一权威生产源=系统/danfeng-web。prebuild 校验每个专版页静态文件+路由登记均在，缺一即构建失败。",
+  "projects": ["arancia-yards", "arancia-yards-2", "aria", "hado", "sensia", "talea", "passo-by-beyond", "kanyon", "soulever", "31-above", "saria", "the-mural", "orise"],
   "developers": ["beyond"],
   "communities": ["business-bay"],
-  "pendingFromCodex": ["passo-by-beyond", "kanyon", "soulever", "31-above", "saria", "the-mural", "orise"]
+  "pendingFromCodex": []
 }

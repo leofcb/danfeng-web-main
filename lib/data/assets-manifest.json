@@ -1,6 +1,6 @@
 {
   "$schema": "danfeng-assets-manifest/v1",
-  "generatedAt": "2026-07-12T08:59:25.695Z",
+  "generatedAt": "2026-07-22T04:39:08.863Z",
   "note": "本地素材同步产物（scripts/sync-assets.mjs）。路径均为站内本地 /img 与 /brochures；禁止外链/Dropbox（见 guardrail-check.mjs 断言）。",
   "projects": {
     "creek-waters": {
@@ -5183,6 +5183,116 @@
       ],
       "brochureCover": "/img/projects/vista-ridge/brochure-cover.webp",
       "brochure": "/brochures/vista-ridge.pdf"
+    },
+    "31-above": {
+      "heroImages": [
+        "/img/projects/31-above/hero-1.webp",
+        "/img/projects/31-above/hero-2.webp",
+        "/img/projects/31-above/hero-3.webp",
+        "/img/projects/31-above/hero-4.webp",
+        "/img/projects/31-above/hero-5.webp",
+        "/img/projects/31-above/hero-6.webp",
+        "/img/projects/31-above/hero-7.webp",
+        "/img/projects/31-above/hero-8.webp",
+        "/img/projects/31-above/hero-9.webp",
+        "/img/projects/31-above/hero-10.webp",
+        "/img/projects/31-above/hero-11.webp",
+        "/img/projects/31-above/hero-12.webp"
+      ],
+      "cardImage": "/img/projects/31-above/card.webp"
+    },
+    "kanyon": {
+      "heroImages": [
+        "/img/projects/kanyon/hero-1.webp",
+        "/img/projects/kanyon/hero-2.webp",
+        "/img/projects/kanyon/hero-3.webp",
+        "/img/projects/kanyon/hero-4.webp",
+        "/img/projects/kanyon/hero-5.webp",
+        "/img/projects/kanyon/hero-6.webp",
+        "/img/projects/kanyon/hero-7.webp",
+        "/img/projects/kanyon/hero-8.webp",
+        "/img/projects/kanyon/hero-9.webp"
+      ],
+      "cardImage": "/img/projects/kanyon/card.webp"
+    },
+    "passo": {
+      "heroImages": [
+        "/img/projects/passo/hero-1.webp",
+        "/img/projects/passo/hero-2.webp",
+        "/img/projects/passo/hero-3.webp",
+        "/img/projects/passo/hero-4.webp",
+        "/img/projects/passo/hero-5.webp",
+        "/img/projects/passo/hero-6.webp",
+        "/img/projects/passo/hero-7.webp",
+        "/img/projects/passo/hero-8.webp",
+        "/img/projects/passo/hero-9.webp",
+        "/img/projects/passo/hero-10.webp",
+        "/img/projects/passo/hero-11.webp",
+        "/img/projects/passo/hero-12.webp"
+      ],
+      "cardImage": "/img/projects/passo/card.webp",
+      "brochure": "/brochures/passo.pdf"
+    },
+    "saria": {
+      "heroImages": [
+        "/img/projects/saria/hero-1.webp",
+        "/img/projects/saria/hero-2.webp",
+        "/img/projects/saria/hero-3.webp",
+        "/img/projects/saria/hero-4.webp",
+        "/img/projects/saria/hero-5.webp",
+        "/img/projects/saria/hero-6.webp",
+        "/img/projects/saria/hero-7.webp",
+        "/img/projects/saria/hero-8.webp",
+        "/img/projects/saria/hero-9.webp"
+      ],
+      "cardImage": "/img/projects/saria/card.webp",
+      "brochure": "/brochures/saria.pdf"
+    },
+    "soulever": {
+      "heroImages": [
+        "/img/projects/soulever/hero-1.webp",
+        "/img/projects/soulever/hero-2.webp",
+        "/img/projects/soulever/hero-3.webp",
+        "/img/projects/soulever/hero-4.webp",
+        "/img/projects/soulever/hero-5.webp",
+        "/img/projects/soulever/hero-6.webp",
+        "/img/projects/soulever/hero-7.webp",
+        "/img/projects/soulever/hero-8.webp",
+        "/img/projects/soulever/hero-9.webp",
+        "/img/projects/soulever/hero-10.webp",
+        "/img/projects/soulever/hero-11.webp"
+      ],
+      "cardImage": "/img/projects/soulever/card.webp"
+    },
+    "the-mural": {
+      "heroImages": [
+        "/img/projects/the-mural/hero-1.webp",
+        "/img/projects/the-mural/hero-2.webp",
+        "/img/projects/the-mural/hero-3.webp",
+        "/img/projects/the-mural/hero-4.webp",
+        "/img/projects/the-mural/hero-5.webp",
+        "/img/projects/the-mural/hero-6.webp",
+        "/img/projects/the-mural/hero-7.webp",
+        "/img/projects/the-mural/hero-8.webp",
+        "/img/projects/the-mural/hero-9.webp"
+      ],
+      "cardImage": "/img/projects/the-mural/card.webp",
+      "brochureSkipped": true
+    },
+    "orise": {
+      "heroImages": [
+        "/img/projects/orise/hero-1.webp",
+        "/img/projects/orise/hero-2.webp",
+        "/img/projects/orise/hero-3.webp",
+        "/img/projects/orise/hero-4.webp",
+        "/img/projects/orise/hero-5.webp",
+        "/img/projects/orise/hero-6.webp",
+        "/img/projects/orise/hero-7.webp",
+        "/img/projects/orise/hero-8.webp",
+        "/img/projects/orise/hero-9.webp"
+      ],
+      "cardImage": "/img/projects/orise/card.webp",
+      "brochureSkipped": true
     }
   },
   "developers": {

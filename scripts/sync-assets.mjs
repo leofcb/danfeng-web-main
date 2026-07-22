@@ -10,6 +10,11 @@
 //   · 本地模式（默认）      : node scripts/sync-assets.mjs
 //   · Monday 对账模式       : node scripts/sync-assets.mjs --from-monday
 //   · 强制重压（忽略缓存）  : 追加 --force
+//   · 定向拉取（省全板重活）: 追加 --only=passo,kanyon,31-above（Monday 模式下逗号分隔多个；
+//                            按 Monday 项目名/slug 归一匹配；同时跳过开发商/社区段）
+//   · hero 兜底（2026-07-21）: Monday 有楼书但 Hero 列空时，自动用 poppler(pdfimages) 从楼书 PDF
+//                            抽 hero（标准：9 张、横版 16:9(w/h 1.3~2.2)、≥1280×720、源图≤10MB，
+//                            跨页均匀取样覆盖外部/内部/整体/配套）。缺 poppler/sharp 则跳过并提示。
 //
 // 【素材缓存目录约定】（可用环境变量覆盖，详见 ASSETS-README.md）
 //   emaar-ingest/downloads/<项目名>/          项目图（<category>__…）+ 楼书 PDF
@@ -116,12 +121,29 @@ const NONPROJECT_TOPLEVEL_DIRS = new Set([
 const ARGS = new Set(process.argv.slice(2));
 const FROM_MONDAY = ARGS.has('--from-monday');
 const FORCE = ARGS.has('--force');
+// 从楼书抽的 hero 回传 Monday Hero 列（正规化真源：Monday 无 hero → 楼书抽 → 写回 Monday）。
+const PUSH_HERO = ARGS.has('--push-hero');
 // 仅处理单个文件夹（如 `--only=Altan`）；缺省处理全部。
 const ONLY_ARG = [...ARGS].find((a) => a.startsWith('--only='));
 const ONLY = ONLY_ARG ? ONLY_ARG.split('=').slice(1).join('=').trim() : null;
+// —— 2026-07-21：--from-monday 定向拉取 ——
+// --only 在 Monday 模式支持逗号分隔多个目标（如 --only=passo,kanyon,31-above），
+// 按「Monday 项目名」或「catalog slug」归一（小写去非字母数字）匹配；命中才下载/处理，
+// 其余项目跳过（不下图、不压缩），大幅省去全板 1600+ 项目的重活。缺省 = 全板。
+const _onlyNorm = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+const ONLY_KEYS = ONLY ? new Set(ONLY.split(',').map((t) => _onlyNorm(t)).filter(Boolean)) : null;
+const matchesOnly = (name, slug) => {
+  if (!ONLY_KEYS) return true;
+  return ONLY_KEYS.has(_onlyNorm(name)) || ONLY_KEYS.has(_onlyNorm(slug));
+};
 
 const MAX_BROCHURE_MB = 15;
 const MAX_HERO = 12;
+// —— hero 图数据库标准（LEO 2026-07-21）——
+//   每项目 9 张 hero，分类覆盖外部/内部/整体/配套等；每张源图 ≤10MB；尽量横版 16:9。
+//   楼书自动提取严格照此：9 张、横版、≤10MB、跨页均匀取样以覆盖不同分类。
+const HERO_TARGET = 9;
+const HERO_SRC_MAX_MB = 10;
 // —— 分类感知（2026-07-11）：按文件名前缀 `<category>__…` 落位到不同 manifest 键 ——
 //   hero_carousel / exterior          → heroImages（首屏图集，轮播序号优先）
 //   interior / feature_block          → detailImages（产品细节章图文块）
@@ -461,7 +483,8 @@ async function processProject(slug, name, cats, pdfPath, report) {
     let srcPdf = pdfPath;
     let mb = statSync(srcPdf).size / (1024 * 1024);
     // 超限先试 ghostscript /ebook 压缩（存在时）。
-    if (mb > MAX_BROCHURE_MB && hasGhostscript()) {
+    // 15~40MB 才试 gs 压缩（>40MB 压不到 15MB 以下，跳过省时）。
+    if (mb > MAX_BROCHURE_MB && mb <= 40 && hasGhostscript()) {
       const tmp = join(PUBLIC_BRO, `.${slug}.gs.pdf`);
       const ok = gsCompress(srcPdf, tmp);
       if (ok && existsSync(tmp)) {
@@ -478,7 +501,8 @@ async function processProject(slug, name, cats, pdfPath, report) {
       entry.brochure = `/brochures/${slug}.pdf`;
       rec.brochure = `copied (${mb.toFixed(1)}MB)${DRY ? ' [dry]' : ''}`;
     } else {
-      rec.brochure = `skipped (${mb.toFixed(1)}MB > ${MAX_BROCHURE_MB}MB 上限；建议 gs 压缩后重跑)`;
+      entry.brochureSkipped = true;   // 记录超限跳过 → 下次不再重下大楼书（避免每次重跑都慢）
+      rec.brochure = `skipped (${mb.toFixed(1)}MB > ${MAX_BROCHURE_MB}MB 上限，已记录不再重下)`;
     }
   } else {
     rec.brochure = 'none';
@@ -1042,76 +1066,218 @@ function assetIdsFromColValue(value) {
   } catch { return []; }
 }
 
+// 上传单个文件到 Monday 某项目的文件列（multipart，add_file_to_column）——与 monday_upload_item_files.mjs 一致。
+async function uploadFileToMondayCol(itemId, colId, filePath, displayName) {
+  const buf = readFileSync(filePath);
+  const form = new FormData();
+  form.append('query', `mutation add($file: File!){ add_file_to_column(item_id: ${itemId}, column_id: "${colId}", file: $file){ id } }`);
+  form.append('map', '{"1":["variables.file"]}');
+  form.append('1', new Blob([buf]), displayName);
+  const r = await fetch('https://api.monday.com/v2/file', { method: 'POST', headers: { Authorization: process.env.MONDAY_TOKEN }, body: form });
+  const j = await r.json();
+  if (j.errors) throw new Error(JSON.stringify(j.errors));
+  return j.data?.add_file_to_column;
+}
+
+// —— 2026-07-21：hero 从楼书 PDF 自动提取（兜底）——
+//   当 Monday 项目「有楼书、但 Hero Images 列为空」时，从楼书 PDF 抽出内嵌大图当 hero 候选，
+//   免去人工传 hero（Track-2 开发商只给楼书的常见场景）。用 poppler `pdfimages -all` 抽图，
+//   sharp 读尺寸过滤（≥1200×800 才算 hero 级，滤掉 logo/图标/纹理），按面积降序取前 N。
+//   缺 poppler(pdfimages) 或 sharp → 返回空并在报告提示安装（同 ffmpeg 干跑思路）。
+let _hasPdfimages = null;
+function hasPdfimages() {
+  if (_hasPdfimages !== null) return _hasPdfimages;
+  try { execSync('command -v pdfimages', { stdio: 'ignore' }); _hasPdfimages = true; }
+  catch { _hasPdfimages = false; }
+  return _hasPdfimages;
+}
+// 与 emaar-ingest/batch-material-ingest.mjs 的 pdfExtractImages 一致的 proven 级联：
+//   ① pdfimages 抽嵌入图（>80KB、大图优先，质量最高）
+//   ③ 不足则 gs 逐页渲染兜底（整页背景渲染图靠这个）——r150 jpeg
+//   多抽候选（≥max），建页时再人工挑最优 max 张（滤掉带文字的排版页）。
+async function extractHeroFromBrochure(pdfPath, workDir, max = HERO_TARGET) {
+  const res = { files: [], ok: 0, noTool: false, method: null };
+  if (!pdfPath || !existsSync(pdfPath) || !sharp) return res;
+  const exDir = join(workDir, '_pdfhero');
+  try { rmSync(exDir, { recursive: true, force: true }); } catch {}
+  mkdirSync(exDir, { recursive: true });
+  const MIN = 80 * 1024;                 // <80KB 判为 logo/装饰/空白，跳过
+  const sizedDesc = (dir, re) => {
+    let out = [];
+    try { out = readdirSync(dir).filter((f) => re.test(f)).map((f) => join(dir, f)); } catch { return []; }
+    return out.map((p) => { try { return { p, size: statSync(p).size }; } catch { return { p, size: 0 }; } })
+      .filter((x) => x.size > MIN).sort((a, b) => b.size - a.size).map((x) => x.p);
+  };
+  let picks = [];
+  // ① pdfimages 嵌入图
+  if (hasPdfimages()) {
+    try { execSync(`pdfimages -all ${JSON.stringify(pdfPath)} ${JSON.stringify(join(exDir, 'pdfimg'))} 2>/dev/null`, { stdio: 'ignore' }); } catch {}
+    const v = sizedDesc(exDir, /^pdfimg.*\.(jpg|jpeg|png|ppm|tif|tiff)$/i);
+    if (v.length) { picks = v; res.method = 'pdfimages'; }
+  } else { res.noTool = true; }
+  // ③ 嵌入图不足 max → gs 逐页渲染补足（整页渲染图兜底）
+  if (picks.length < max && hasGhostscript()) {
+    try { execSync(`gs -dNOPAUSE -dBATCH -sDEVICE=jpeg -r150 -sOutputFile=${JSON.stringify(join(exDir, 'gspage_%03d.jpg'))} ${JSON.stringify(pdfPath)} 2>/dev/null`, { stdio: 'ignore' }); } catch {}
+    let pages = [];
+    try { pages = readdirSync(exDir).filter((f) => /^gspage_\d+\.jpg$/i.test(f)).sort().map((f) => join(exDir, f)); } catch {}
+    pages = pages.filter((p) => { try { return statSync(p).size > MIN; } catch { return false; } });
+    if (pages.length) { picks = picks.concat(pages); res.method = res.method ? res.method + '+gs' : 'gs'; }
+  }
+  res.ok = picks.length;
+  // 自动质量排序：按 sharp 熵(照片细节度)降序 → 干净渲染图排前、文字/装饰/空白页排后，取前 max 张。
+  // 批量无人工挑图（熵已验证能区分渲染图 vs 文字页：渲染图熵高、文字/剪影页熵低）。
+  const scored = [];
+  for (const p of picks) {
+    try { const st = await sharp(p).stats(); scored.push({ p, e: st.entropy || 0 }); }
+    catch { scored.push({ p, e: 0 }); }
+  }
+  scored.sort((a, b) => b.e - a.e);
+  res.files = scored.slice(0, max).map((x) => x.p);
+  return res;
+}
+
 async function runMonday(manifest, report) {
   if (DRY) { console.error('[sync] Monday 模式需 sharp（压缩）；当前环境无 sharp，中止。'); return; }
   const tmpRoot = join(INGEST_ROOT, '_monday-tmp');
   if (!existsSync(tmpRoot)) mkdirSync(tmpRoot, { recursive: true });
+
+  // —— 阶段1：轻量翻页发现目标（只取 id/name/两列，不拉 assets，快）——
+  //   --only 时命中全部目标即提前结束翻页；否则扫全板。逐页打印进度（不再黑屏静默）。
+  const wantN = ONLY_KEYS ? ONLY_KEYS.size : null;
   const Q = `query ($cursor: String) {
     boards(ids: [${BOARD_ID}]) {
-      items_page(limit: 50, cursor: $cursor) {
+      items_page(limit: 200, cursor: $cursor) {
         cursor
-        items {
-          id name
-          assets { id name public_url }
-          column_values(ids: ["${COL_HERO}","${COL_BRO}"]) { id value }
-        }
+        items { id name column_values(ids: ["${COL_HERO}","${COL_BRO}"]) { id value } }
       }
     }
   }`;
-  let cursor = null;
+  const targets = [];                 // { id, name, slug, heroIds, broIds, needHero, needBro }
+  const foundKeys = new Set();        // --only 命中计数（含已完整而跳过的）
+  let cursor = null, scanned = 0, pages = 0;
+  console.log(`[sync] 扫描项目板 ${BOARD_ID}${ONLY_KEYS ? `（定向：${[...ONLY_KEYS].join(', ')}）` : '（全板）'} …`);
   do {
     const data = await mondayFetch(Q, { cursor });
     const page = data.boards?.[0]?.items_page;
     if (!page) break;
-    cursor = page.cursor;
+    cursor = page.cursor; pages += 1;
     for (const it of page.items || []) {
-      const slug = _byName.get(normName(it.name)) || (_bySlug.has(slugify(it.name)) ? slugify(it.name) : null);
-      if (!slug) { report.mismatched.push({ kind: 'project', folder: `monday:${it.name}`, reason: '未匹配 catalog' }); continue; }
-      const assetById = new Map((it.assets || []).map((a) => [String(a.id), a]));
+      scanned += 1;
+      let slug = _byName.get(normName(it.name)) || (_bySlug.has(slugify(it.name)) ? slugify(it.name) : null);
+      if (ONLY_KEYS && !matchesOnly(it.name, slug)) continue;   // --only 定向：非目标跳过
+      if (!slug) {
+        if (ONLY_KEYS) {
+          // 显式点名的目标即使不在 catalog，也按项目名 slug 直接处理（不因 catalog 缺失而跳过）。
+          slug = slugify(it.name);
+          report.notes.push(`--only 目标「${it.name}」不在 catalog，按项目名 slug=${slug} 直接处理素材。`);
+        } else {
+          report.mismatched.push({ kind: 'project', folder: `monday:${it.name}`, reason: '未匹配 catalog' });
+          continue;
+        }
+      }
+      if (ONLY_KEYS) foundKeys.add(_onlyNorm(it.name));
       let heroIds = [], broIds = [];
       for (const cv of it.column_values || []) {
         if (cv.id === COL_HERO) heroIds = assetIdsFromColValue(cv.value);
         if (cv.id === COL_BRO) broIds = assetIdsFromColValue(cv.value);
       }
       const existing = manifest.projects[slug] || {};
-      const needHero = FORCE || !(existing.heroImages && existing.heroImages.length);
-      const needBro = FORCE || !existing.brochure;
-      if (!needHero && !needBro) continue;
-
-      const tdir = join(tmpRoot, slug);
-      if (!existsSync(tdir)) mkdirSync(tdir, { recursive: true });
-      const heroFiles = [];
-      if (needHero) {
-        let n = 0;
-        for (const id of heroIds) {
-          const a = assetById.get(id);
-          if (!a?.public_url) continue;
-          n += 1;
-          const dest = join(tdir, `hero_carousel__${id}_${basename(a.name)}`);
-          try { await download(a.public_url, dest); heroFiles.push(dest); }
-          catch (e) { report.mismatched.push({ kind: 'project', folder: `monday:${it.name}`, reason: String(e.message) }); }
-        }
-      }
-      let pdfPath = null;
-      if (needBro && broIds.length) {
-        const a = assetById.get(broIds[0]);
-        if (a?.public_url) {
-          pdfPath = join(tdir, `brochurePdf__${a.name.endsWith('.pdf') ? a.name : a.name + '.pdf'}`);
-          try { await download(a.public_url, pdfPath); }
-          catch (e) { pdfPath = null; report.mismatched.push({ kind: 'project', folder: `monday:${it.name}`, reason: String(e.message) }); }
-        }
-      }
-      // Monday 图列不带语义前缀 → 全归 hero（与既有行为一致）；分类键留空。
-      const cats = { hero: needHero ? heroFiles : [], detail: [], area: [], cover: null, cardSrc: (needHero ? heroFiles[0] : null) || null };
-      const entry = await processProject(slug, it.name, cats, pdfPath, report);
-      // 合并：未重拉的段沿用旧 manifest。
-      const merged = { ...existing };
-      if (needHero) { merged.heroImages = entry.heroImages; merged.cardImage = entry.cardImage; }
-      if (entry.brochure) merged.brochure = entry.brochure;
-      manifest.projects[slug] = merged;
-      if (existing.heroImages || existing.brochure) report.matched[report.matched.length - 1].updated = true;
+      // hero 不足 9 张(含空缺)就补：< HERO_TARGET 即需处理；已达 9 张则跳过。
+      const needHero = FORCE || !(existing.heroImages && existing.heroImages.length >= HERO_TARGET);
+      const needBro = FORCE || (!existing.brochure && !existing.brochureSkipped);
+      // 有可拉素材才纳入：需 hero 且有 hero 图或楼书(可走兜底)，或需楼书且有楼书。
+      const anyPull = (needHero && (heroIds.length || broIds.length)) || (needBro && broIds.length);
+      if (anyPull) targets.push({ id: String(it.id), name: it.name, slug, heroIds, broIds, needHero, needBro });
     }
+    console.log(`  · 已扫 ${scanned} 项（${pages} 页）· 命中 ${ONLY_KEYS ? foundKeys.size : targets.length}${wantN ? `/${wantN}` : ''}`);
+    if (wantN && foundKeys.size >= wantN) { console.log('  · 目标已全部命中，提前结束翻页。'); break; }
   } while (cursor);
+
+  if (!targets.length) { console.log('[sync] 无待处理项目（可能素材已齐，或用 --force 强制重拉）。'); try { rmSync(tmpRoot, { recursive: true, force: true }); } catch {} return; }
+
+  // —— 阶段2：只为命中目标批量拉 assets（public_url，分块 ≤25）——
+  console.log(`[sync] 为 ${targets.length} 个目标拉取素材链接 …`);
+  const assetById = new Map();
+  const ids = targets.map((t) => t.id);
+  for (let i = 0; i < ids.length; i += 25) {
+    const chunk = ids.slice(i, i + 25);
+    const data = await mondayFetch(`query { items(ids: [${chunk.join(',')}]) { id assets { id name public_url } } }`, {});
+    for (const it of data.items || []) for (const a of it.assets || []) assetById.set(String(a.id), a);
+  }
+
+  // —— 阶段3：逐目标下载 + 处理（逐项进度）——
+  let done = 0;
+  for (const t of targets) {
+    done += 1;
+    const { slug, name, heroIds, broIds, needHero, needBro } = t;
+    process.stdout.write(`  [${done}/${targets.length}] ${name} → ${slug} … `);
+    const existing = manifest.projects[slug] || {};
+    const tdir = join(tmpRoot, slug);
+    if (!existsSync(tdir)) mkdirSync(tdir, { recursive: true });
+    const heroFiles = [];
+    if (needHero) {
+      for (const id of heroIds) {
+        const a = assetById.get(String(id));
+        if (!a?.public_url) continue;
+        const dest = join(tdir, `hero_carousel__${id}_${basename(a.name)}`);
+        try { await download(a.public_url, dest); heroFiles.push(dest); }
+        catch (e) { report.mismatched.push({ kind: 'project', folder: `monday:${name}`, reason: String(e.message) }); }
+      }
+    }
+    let pdfPath = null;
+    if (needBro && broIds.length) {
+      const a = assetById.get(String(broIds[0]));
+      if (a?.public_url) {
+        pdfPath = join(tdir, `brochurePdf__${a.name.endsWith('.pdf') ? a.name : a.name + '.pdf'}`);
+        try { await download(a.public_url, pdfPath); }
+        catch (e) { pdfPath = null; report.mismatched.push({ kind: 'project', folder: `monday:${name}`, reason: String(e.message) }); }
+      }
+    }
+    // —— hero 兜底：hero 不足 9 张（含空缺）→ 从楼书 PDF 抽大图补足到 9 张；已达 9 张则跳过 ——
+    const monHeroCount = heroFiles.length;   // 来自 Monday 的 hero 张数（回传时跳过这些，只传新补的）
+    let heroFromBro = false;
+    if (needHero && heroFiles.length < HERO_TARGET) {
+      let broForHero = pdfPath;
+      if (!broForHero && broIds.length) {
+        const a = assetById.get(String(broIds[0]));
+        if (a?.public_url) {
+          const bp = join(tdir, `brochurePdf__hero_${slug}.pdf`);
+          try { await download(a.public_url, bp); broForHero = bp; } catch { broForHero = null; }
+        }
+      }
+      if (!broForHero) { const pub = join(PUBLIC_BRO, `${slug}.pdf`); if (existsSync(pub)) broForHero = pub; }
+      const ex = await extractHeroFromBrochure(broForHero, tdir, HERO_TARGET - heroFiles.length);
+      if (ex.files.length) { heroFiles.push(...ex.files); heroFromBro = true; }
+      if (broForHero) report.notes.push(`${name} 楼书抽 hero: 方法=${ex.method || '无(缺poppler/gs)'} · 候选 ${ex.ok} 张 · 取 ${ex.files.length} 张`);
+    }
+    const cats = { hero: needHero ? heroFiles : [], detail: [], area: [], cover: null, cardSrc: (needHero ? heroFiles[0] : null) || null };
+    const entry = await processProject(slug, name, cats, pdfPath, report);
+    if (heroFromBro) {
+      report.matched[report.matched.length - 1].heroFromBrochure = true;
+      report.notes.push(`${name} → ${slug}：Monday 无 hero，已从楼书自动抽取 ${entry.heroImages.length} 张 hero。`);
+      // --push-hero：把楼书抽的 hero 回传 Monday Hero 列，补全真源（批量自动）。
+      if (PUSH_HERO && entry.heroImages && entry.heroImages.length > monHeroCount) {
+        let up = 0;
+        for (let i = monHeroCount; i < entry.heroImages.length; i++) {   // 只传新补的（Monday 已有的不重复上传）
+          const disk = join(ROOT, 'public', entry.heroImages[i].replace(/^\//, ''));
+          if (!existsSync(disk)) continue;
+          try {
+            await uploadFileToMondayCol(t.id, COL_HERO, disk, `${slug}-hero-${i + 1}.webp`);
+            up += 1;
+            await new Promise((r) => setTimeout(r, 800));   // Monday 上传限速
+          } catch (e) { report.notes.push(`${name} 回传 Monday 失败(hero-${i + 1}): ${e.message}`); }
+        }
+        if (up) { report.matched[report.matched.length - 1].heroPushed = up; report.notes.push(`${name}: 已回传 ${up} 张 hero 到 Monday Hero 列 ✅ 真源已补全。`); }
+      }
+    }
+    const merged = { ...existing };
+    if (needHero) { merged.heroImages = entry.heroImages; merged.cardImage = entry.cardImage; }
+    if (entry.brochure) merged.brochure = entry.brochure;
+    if (entry.brochureSkipped) merged.brochureSkipped = true;   // 超限楼书标记，下次不再重下
+    manifest.projects[slug] = merged;
+    if (existing.heroImages || existing.brochure) report.matched[report.matched.length - 1].updated = true;
+    console.log(`hero×${entry.heroImages.length}${heroFromBro ? '(←楼书)' : ''} · 楼书:${entry.brochure ? '✓' : '—'}`);
+  }
   try { rmSync(tmpRoot, { recursive: true, force: true }); } catch {}
 }
 
@@ -1264,8 +1430,11 @@ async function main() {
 
   if (FROM_MONDAY) {
     await runMonday(manifest, report);
-    await runMondayDevelopers(manifest, report);
-    await runMondayCommunities(manifest, report);
+    // --only 定向（如只拉某些项目）时跳过开发商/社区段，聚焦且更快。
+    if (!ONLY) {
+      await runMondayDevelopers(manifest, report);
+      await runMondayCommunities(manifest, report);
+    }
   } else {
     await runLocal(manifest, report);
     if (ONLY) {
@@ -1332,7 +1501,7 @@ async function main() {
     console.log(`\n── ${label}：匹配 ${mm.length} / 失配 ${mis.length} / 重复 ${dup.length} ──`);
     for (const m of mm) {
       if (k === 'project') {
-        console.log(`  ✓ ${m.folderName} → ${m.slug} | hero×${m.heroCount ?? 0}${m.detailCount ? ` detail×${m.detailCount}` : ''}${m.areaCount ? ` area×${m.areaCount}` : ''}${m.card ? ' +card' : ''}${m.cover ? ' +cover' : ''} | 楼书: ${m.brochure}${m.video ? ` | 视频: ${m.video}` : ''}${m.updated ? ' | [更新]' : ''}`);
+        console.log(`  ✓ ${m.folderName} → ${m.slug} | hero×${m.heroCount ?? 0}${m.heroFromBrochure ? '(←楼书)' : ''}${m.detailCount ? ` detail×${m.detailCount}` : ''}${m.areaCount ? ` area×${m.areaCount}` : ''}${m.card ? ' +card' : ''}${m.cover ? ' +cover' : ''} | 楼书: ${m.brochure}${m.video ? ` | 视频: ${m.video}` : ''}${m.updated ? ' | [更新]' : ''}`);
       } else if (k === 'developer') {
         console.log(`  ✓ ${m.folderName} → ${m.slug} | logo: ${m.logo}${m.heroCount ? ` | hero×${m.heroCount}` : ''}${m.updated ? ' | [更新]' : ''}`);
       } else {
