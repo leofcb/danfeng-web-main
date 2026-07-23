@@ -32,3 +32,5 @@ build-deploy.log
 *.pid
 _gv_truth.mjs
 agent-logs/
+_brochures/
+_to_delete/

@@ -53,10 +53,11 @@ const CATALOG_JSON = join(DATA, 'catalog.json');
 const DEVELOPERS_JSON = join(DATA, 'developers.json');
 const COMMUNITIES_JSON = join(DATA, 'communities.json');
 const MANIFEST_JSON = join(DATA, 'assets-manifest.json');
-const PUBLIC_IMG = join(ROOT, 'public', 'img', 'projects');
+const PUBLIC_IMG = join(ROOT, 'public', 'img', 'projects');       // 兼容保留（开发商/社区暂沿用 img）
+const PUBLIC_PROJECTS = join(ROOT, 'public', 'projects');         // 项目资产合并家：public/projects/<slug>/assets/
 const PUBLIC_IMG_DEV = join(ROOT, 'public', 'img', 'developers');
 const PUBLIC_IMG_COMM = join(ROOT, 'public', 'img', 'communities');
-const PUBLIC_BRO = join(ROOT, 'public', 'brochures');
+const PUBLIC_BRO = join(ROOT, '_brochures');                      // 楼书私有源：不入 public、不进 git（.gitignore）；Dropbox 冷备
 const LOG_DIR = join(ROOT, 'agent-logs');
 // 素材缓存根：emaar-ingest 与 danfeng-web 同级（各类可用专属环境变量覆盖）。
 const INGEST_ROOT = process.env.DANFENG_INGEST || join(ROOT, '..', 'emaar-ingest');
@@ -423,7 +424,7 @@ async function toWebp(src, dest, width, quality, rotate = true) {
 //   cats = { hero:[abs…], detail:[abs…], area:[abs…], cover: abs|null, cardSrc: abs|null }
 async function processProject(slug, name, cats, pdfPath, report) {
   const rec = { kind: 'project', folderName: name, slug, name: (_bySlug.get(slug)?.name) || name };
-  const outDir = join(PUBLIC_IMG, slug);
+  const outDir = join(PUBLIC_PROJECTS, slug, 'assets');
   const entry = { heroImages: [], cardImage: null };
   const hero = cats.hero || [];
   const detail = cats.detail || [];
@@ -444,7 +445,7 @@ async function processProject(slug, name, cats, pdfPath, report) {
         const dest = join(outDir, `${prefix}-${n}.webp`);
         if (!upToDate(dest, src)) await toWebp(src, dest, width, quality);
       }
-      arr.push(`/img/projects/${slug}/${prefix}-${n}.webp`);
+      arr.push(`/projects/${slug}/assets/${prefix}-${n}.webp`);
     }
     return arr;
   };
@@ -461,7 +462,7 @@ async function processProject(slug, name, cats, pdfPath, report) {
       const cardDest = join(outDir, 'card.webp');
       if (!upToDate(cardDest, cardSrc)) await toWebp(cardSrc, cardDest, 640, 75);
     }
-    entry.cardImage = `/img/projects/${slug}/card.webp`;
+    entry.cardImage = `/projects/${slug}/assets/card.webp`;
   }
   // 楼书封面 brochure_cover → 单键 brochureCover（不入图集）。
   if (cover) {
@@ -469,7 +470,7 @@ async function processProject(slug, name, cats, pdfPath, report) {
       const covDest = join(outDir, 'brochure-cover.webp');
       if (!upToDate(covDest, cover)) await toWebp(cover, covDest, 900, 82);
     }
-    entry.brochureCover = `/img/projects/${slug}/brochure-cover.webp`;
+    entry.brochureCover = `/projects/${slug}/assets/brochure-cover.webp`;
   }
 
   rec.heroCount = entry.heroImages.length;
