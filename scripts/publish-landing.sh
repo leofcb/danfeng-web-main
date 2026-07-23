@@ -28,13 +28,13 @@ case "$slug" in
   talea)  ITEM_ID=9567978068 ;;
   aria)   ITEM_ID=12462704939 ;;
   arancia-yards-2) ITEM_ID=12462563248 ;;
-  passo-by-beyond) ITEM_ID=9786291705 ;;
   kanyon) ITEM_ID=18387155771 ;;
   soulever) ITEM_ID=18145456982 ;;
   31-above) ITEM_ID=18378633686 ;;
   saria)  ITEM_ID=8113423887 ;;
   the-mural) ITEM_ID=8871921099 ;;
   orise)  ITEM_ID=12462704764 ;;
+  passo)  ITEM_ID=9786291705 ;;
   *)      ITEM_ID="" ;;
 esac
 

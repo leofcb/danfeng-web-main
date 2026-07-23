@@ -1,6 +1,6 @@
 {
   "_note": "唯一权威生产源=系统/danfeng-web。prebuild 校验每个专版页静态文件+路由登记均在，缺一即构建失败。",
-  "projects": ["arancia-yards", "arancia-yards-2", "aria", "hado", "sensia", "talea", "passo-by-beyond", "kanyon", "soulever", "31-above", "saria", "the-mural", "orise"],
+  "projects": ["arancia-yards", "arancia-yards-2", "aria", "hado", "sensia", "talea", "passo", "kanyon", "soulever", "31-above", "saria", "the-mural", "orise"],
   "developers": ["beyond"],
   "communities": ["business-bay"],
   "pendingFromCodex": []

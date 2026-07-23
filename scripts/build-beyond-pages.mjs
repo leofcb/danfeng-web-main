@@ -17,7 +17,7 @@ const QRSRC = join(WEB, 'public', 'projects', 'arancia-yards-2', 'assets');  // 
 
 // 每项目：pageSlug（URL）、assetDir（hero 图所在 /img/projects/<dir>）、及内容字段。
 const P = [
-  { slug: 'passo-by-beyond', assetDir: 'passo', item: 9786291705, name: 'PASSO', cn: '帕索公寓',
+  { slug: 'passo', assetDir: 'passo', item: 9786291705, name: 'PASSO', cn: '帕索公寓',
     comm: 'Palm Jumeirah', commSlug: 'palm-jumeirah', video: 'yueG74a4V8I',
     kicker: 'Palm Jumeirah · BEYOND', tagline: '棕榈岛上的疗愈奢居', enTag: 'Waterfront Wellness Living',
     buildings: '2 栋', floors: '15 层', units: '约 625 套', types: '1–6 居', payment: '10 / 50 / 40',
