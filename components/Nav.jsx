@@ -65,11 +65,7 @@ export default function Nav() {
     <nav id="nav" className={scrolled ? 'scrolled' : ''}>
       <div className="wrap nav-in">
         <a href="/" className="brand" onClick={(e) => { e.preventDefault(); onHome ? document.getElementById('top')?.scrollIntoView({ behavior: 'smooth' }) : router.push('/'); }}>
-          <img src="/logo-mark.png" alt="丹枫置业" />
-          <div className="bt">
-            <div className="en">Danfeng Properties</div>
-            <div className="cn">丹 枫 置 业</div>
-          </div>
+          <img src="/logo-horizontal.webp" alt="Danfeng Properties 丹枫置业" style={{ height: '46px', width: 'auto', display: 'block' }} />
         </a>
         <div
           className="nav-links"

@@ -12,14 +12,14 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-grid">
           <div className="foot-brand">
-            <img src="/logo-mark.png" alt="丹枫置业" />
-            <p>Danfeng Properties 丹枫置业 · 数据驱动的阿联酋期房智能投顾平台，服务全球华人高净值投资者。</p>
+            <img src="/logo-horizontal.webp" alt="Danfeng Properties 丹枫置业" style={{ height: '44px', width: 'auto', marginBottom: '14px' }} />
+            <p>Danfeng Properties 丹枫置业 · AI 驱动的中东房产智能投顾平台，服务全球华人高净值投资者。</p>
           </div>
           <div className="foot-col">
             <h5>导航</h5>
             <a href="#console">智能投顾</a>
             <a href="#projects">精选项目</a>
-            <a href="#developers">开发商</a>
+            <a href="#developers">开发商榜</a>
             <a href="#communities">热门社区</a>
             <a href="#contact">联系我们</a>
           </div>
