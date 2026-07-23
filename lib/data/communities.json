@@ -1839,7 +1839,8 @@
    "dxb": "Business Bay",
    "matched": [
     "PF",
-    "Bayut"
+    "Bayut",
+    "DXB"
    ]
   },
   "display": true,
@@ -1851,36 +1852,31 @@
      "type": "Studio",
      "propertyType": "Apartment",
      "salePrice": 1016500,
-     "rent": 80500,
-     "roi": 14.88
+     "rent": 80500
     },
     {
      "type": "1 Bed",
      "propertyType": "Apartment",
      "salePrice": 1838000,
-     "rent": 126500,
-     "roi": 12.89
+     "rent": 126500
     },
     {
      "type": "2 Beds",
      "propertyType": "Apartment",
      "salePrice": 2625500,
-     "rent": 169500,
-     "roi": 14.18
+     "rent": 169500
     },
     {
      "type": "3 Beds",
      "propertyType": "Apartment",
      "salePrice": 4927000,
-     "rent": 211000,
-     "roi": 11.21
+     "rent": 211000
     },
     {
      "type": "4 Beds",
      "propertyType": "Apartment",
      "salePrice": 20725000,
-     "rent": 354000,
-     "roi": 2.09
+     "rent": 354000
     },
     {
      "type": "6 Beds",
@@ -4936,7 +4932,7 @@
    "slug": "madinat-al-mataar"
   },
   "profile": {
-   "blurbCn": "世博城（Expo City Dubai）坐落于迪拜南部原2020世博会园区，是集住宅、商业与文化休闲于一体的大型总体规划新城，紧邻迪拜世界中心机场，通过E311/E11/E611/E77主干道及地铁红线世博城站直达市区。社区涵盖世博中心（Expo Central）公寓与商住综合体，以及世博谷（Expo Valley）低密度别墅/联排/复式住宅，绿化率高、步行友好，秉承\"15分钟生活圈\"理念。作为迪拜南部新兴地标片区，吸引看好区域长期发展潜力、追求现代化配套与文化氛围的自住及投资客户；目前仍处开发早期，二手市场交易历史较短。",
+   "blurbCn": "世博城（Expo City Dubai）坐落于迪拜南部原2020世博会园区，是集住宅、商业与文化休闲于一体的大型总体规划新城，紧邻迪拜世界中心机场，通过E311/E11/E611/E77主干道及地铁红线世博城站直达市区。社区涵盖世博中心（Expo Central）公寓与商住综合体，以及世博谷（Expo Valley）低密度别墅/联排/复式住宅，绿化率高、步行友好，秉承“15分钟生活圈”理念。作为迪拜南部新兴地标片区，吸引看好区域长期发展潜力、追求现代化配套与文化氛围的自住及投资客户；目前仍处开发早期，二手市场交易历史较短。",
    "tags": [
     "Family Friendly",
     "Parks",
