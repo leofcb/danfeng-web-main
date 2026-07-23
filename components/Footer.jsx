@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-grid">
           <div className="foot-brand">
-            <img src="/logo-horizontal.webp" alt="Danfeng Properties 丹枫置业" style={{ height: '44px', width: 'auto', marginBottom: '14px' }} />
+            <img src="/logo-horizontal.webp" alt="Danfeng Properties 丹枫置业" style={{ height: '40px', width: 'auto', marginBottom: '14px' }} />
             <p>Danfeng Properties 丹枫置业 · AI 驱动的中东房产智能投顾平台，服务全球华人高净值投资者。</p>
           </div>
           <div className="foot-col">
