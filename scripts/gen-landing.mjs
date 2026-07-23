@@ -28,6 +28,35 @@ let GALLERY_JS = readFileSync(join(LAND, '_gallery.html'), 'utf8').trimEnd();
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const A = (name) => `assets/${name}.webp`;                  // 相对图路径（预览版）
 
+// —— 开发商维表（批量数据驱动开发商块，任何开发商自动出块；DXB 口径统一改 DLD）——
+const DEVELOPERS = JSON.parse(readFileSync(join(WEB, 'lib', 'data', 'developers.json'), 'utf8'));
+const DEV_OWN = { Government: '政府', Private: '私营', 'Public Listed': '上市企业', 'Local Family': '本地家族' };
+const devSlugOf = (n) => String(n || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const numFmt = (n) => (Number.isFinite(Number(n)) ? Number(n).toLocaleString('en-US') : null);
+function buildDevBlock(name) {
+  const dev = DEVELOPERS.find((d) => d.name === name);
+  if (!dev) return BEYOND_DEV;                              // 维表未命中 → 兜底 Beyond 块
+  const slug = devSlugOf(dev.name);
+  const dxb = dev.dxb || {}, f = dev.dfp5 || {};
+  const rated = f.status === 'Rated' && Number.isFinite(f.score);
+  const own = DEV_OWN[dev.ownership] || '';
+  const facts = [];
+  if (Number.isFinite(dxb.salesValueBn)) facts.push(['今年销售额', `AED ${dxb.salesValueBn}B`]);
+  if (Number.isFinite(dxb.rank)) facts.push(['今年销售额排名', `第 ${dxb.rank}`]);
+  if (Number.isFinite(dxb.transactionsYtd)) facts.push(['今年成交量', `${numFmt(dxb.transactionsYtd)} 套`]);
+  if (Number.isFinite(dxb.ucUnits)) facts.push(['在建规模', `${numFmt(dxb.ucUnits)} 套`]);
+  if (Number.isFinite(dxb.ucProjects)) facts.push(['在建项目', `${dxb.ucProjects} 个`]);
+  if (Number.isFinite(dxb.deliveredUnits)) facts.push(['已交付', `${numFmt(dxb.deliveredUnits)} 套`]);
+  const factsHtml = facts.slice(0, 6).map(([k, v]) => `<div class="dev-fact"><small>${esc(k)}</small><strong>${esc(v)}</strong></div>`).join('');
+  const score = rated
+    ? `<div class="dev-score"><b>${(Math.round(f.score * 10) / 10).toFixed(1)}</b><span>${esc(f.version || 'DFP-5')} · ${f.leaves} 枫叶<br>置信度 ${esc(f.confidence || '—')} · 覆盖率 ${Number.isFinite(f.coverage) ? f.coverage : '—'}%</span></div>`
+    : `<div class="dev-score"><b style="font-size:34px">未评级 NR</b><span>尚未纳入 DFP-5 覆盖<br>不代表负面评价</span></div>`;
+  const heading = dev.cn ? `${esc(dev.name)} ${esc(dev.cn)}` : esc(dev.name);
+  const sub = [own && `${own}`, dev.founded && `${dev.founded} 年成立`, dev.country].filter(Boolean).join(' · ');
+  const asOf = dxb.asOf || f.ratedDate || '';
+  return `<div class="developer-layout"><div class="developer-copy reveal"><div class="dev-heading"><img class="dev-logo" src="https://danfengproperties.com/img/developers/${slug}/logo.webp" alt="${esc(dev.name)} 开发商标志" onerror="this.style.display='none'"><div class="dev-name">${heading}${sub ? `<span>${esc(sub)}</span>` : ''}</div></div>${dev.blurbCn ? `<p>${esc(dev.blurbCn)}</p>` : ''}${score}<div class="dev-facts">${factsHtml}</div><p class="data-note">来源：丹枫开发商数据库、DLD 迪拜土地局。${asOf ? `数据截至 ${esc(asOf)}；` : ''}DFP-5 为丹枫内部研究评分，仅供参考，非信用评级、不构成投资建议。</p><a class="btn btn-dark" href="https://danfengproperties.com/developers/${slug}">查看 ${esc(dev.name)} 详情与完整评级</a></div></div>`;
+}
+
 // —— 开发商默认块（Beyond；JSON.developer 可整段覆盖 html 字段）——
 const BEYOND_DEV = `<div class="developer-layout"><div class="developer-copy reveal"><div class="dev-heading"><img class="dev-logo" src="https://danfengproperties.com/img/developers/beyond/logo.webp" alt="BEYOND 开发商标志"><div class="dev-name">OMNIYAT GROUP 旗下高端地产品牌<span>AN OMNIYAT GROUP COMPANY</span></div></div><p>BEYOND 为 OMNIYAT GROUP 旗下高端地产品牌，2024 年成立，强调设计、自然与品质生活。集团背景有助于品牌、资源和产品组织，但不能替代对项目主体、施工进度与最终交付标准的核验。</p><div class="dev-score"><b>71.3</b><span>DFP-5 v3.1 · 4 枫叶<br>置信度 Medium · 覆盖率 70%</span></div><div class="dev-facts"><div class="dev-fact"><small>2026 年销售额</small><strong>AED 6.7B</strong></div><div class="dev-fact"><small>DLD 综合排名</small><strong>第 8</strong></div><div class="dev-fact"><small>近 12 月成交</small><strong>1,269 套</strong></div><div class="dev-fact"><small>在建规模</small><strong>6,824 套</strong></div><div class="dev-fact"><small>在建项目</small><strong>10 个</strong></div><div class="dev-fact"><small>已交付记录</small><strong>0 个</strong></div></div><p class="data-note">来源：丹枫开发商数据库、DLD 迪拜土地局。销售数据截至 2026-07-04；DFP-5 评级日期 2026-07-09。内部评级仅供研究参考。</p><a class="btn btn-dark" href="https://danfengproperties.com/developers/beyond">查看 BEYOND 详情与完整评级</a></div></div>`;
 
@@ -35,8 +64,9 @@ const BEYOND_DEV = `<div class="developer-layout"><div class="developer-copy rev
 const facts = () => data.facts.map(f => `<div class="fact"><small>${esc(f.k)}</small><strong>${esc(f.v)}</strong>${f.em ? `<em>${esc(f.em)}</em>` : ''}</div>`).join('');
 
 const galleryThumbs = () => {
-  const vid = `<button class="thumb thumb-video active" type="button" data-type="video" data-title="官方项目影片"><img src="${A(data.gallery[0].src)}" alt="播放官方项目影片"><span>官方影片</span></button>`;
-  const imgs = data.gallery.map(g => `<button class="thumb" type="button" data-type="image" data-src="${A(g.src)}" data-title="${esc(g.title)}"><img src="${A(g.src)}" alt="${esc(g.title)}"><span>${esc(g.span || g.title)}</span></button>`).join('');
+  const hasVid = !!(data.video && data.video.id);
+  const vid = hasVid ? `<button class="thumb thumb-video active" type="button" data-type="video" data-title="官方项目影片"><img src="${A(data.gallery[0].src)}" alt="播放官方项目影片"><span>官方影片</span></button>` : '';
+  const imgs = data.gallery.map((g, i) => `<button class="thumb${!hasVid && i === 0 ? ' active' : ''}" type="button" data-type="image" data-src="${A(g.src)}" data-title="${esc(g.title)}"><img src="${A(g.src)}" alt="${esc(g.title)}"><span>${esc(g.span || g.title)}</span></button>`).join('');
   return vid + imgs;
 };
 
@@ -45,18 +75,31 @@ const highlights = () => data.highlights.items.map(h => `<article class="highlig
 const distances = () => data.location.distances.map(d => `<div class="distance"><b>${esc(d.t)}</b><span>${esc(d.p)}</span></div>`).join('');
 // 产品设计固定五主题（WEB-LP-V1.3 标准 · 顺序与命名锁定，内容按 data.product 五项对位）：
 // 建筑设计 / 景观设计 / 室内设计 / 空间设计 / 材料设计。图片一律横版素材。
+// 五主题按关键字归位（不依赖 JSON 顺序，修顺序错乱 + 兼容各种命名）：
 const PRODUCT_THEMES = [
-  'ARCHITECTURE · 建筑设计',
-  'LANDSCAPE · 景观设计',
-  'INTERIOR · 室内设计',
-  'SPACE · 空间设计',
-  'MATERIALS · 材料设计',
+  { label: 'ARCHITECTURE · 建筑设计', kw: /建筑|architect|facade|立面|塔|冠顶|structure/i },
+  { label: 'LANDSCAPE · 景观设计', kw: /景观|landscape|园林|绿|视野|view|花园|garden|公园|park|水岸|泳池|步道/i },
+  { label: 'INTERIOR · 室内设计', kw: /室内|interior|起居|living|卧|bedroom|居所|采光/i },
+  { label: 'SPACE · 空间设计', kw: /空间|space|格局|大堂|lobby|挑高|动线|办公|workspace|会所|影院|礼序/i },
+  { label: 'MATERIALS · 材料设计', kw: /材料|material|材质|饰面|finish|石材|木作|精工/i },
 ];
-const products = () => PRODUCT_THEMES.map((theme, i) => {
-  const p = (data.product && data.product[i]) || {};
-  const img = p.img || (data.gallery[i % data.gallery.length] || {}).src;
-  return `<article class="product reveal"><div class="product-img"><img src="${A(img)}" alt="${esc(data.name)} ${esc(theme.split('·').pop().trim())}"></div><div class="panel"><div class="idx">${esc(theme)}</div><h3>${esc(p.h || '')}</h3><p>${esc(p.p || '')}</p></div></article>`;
-}).join('');
+const products = () => {
+  const entries = Array.isArray(data.product) ? data.product : [];
+  const used = new Array(entries.length).fill(false);
+  const slots = PRODUCT_THEMES.map((theme) => {
+    const idx = entries.findIndex((e, i) => !used[i] && theme.kw.test(`${e.tag || ''} ${e.h || ''} ${e.p || ''}`));
+    let p = {};
+    if (idx >= 0) { used[idx] = true; p = entries[idx]; }
+    return { theme, p };
+  });
+  // 未命中的主题用剩余未用条目按序补足（保证五张齐全）
+  const rem = entries.map((e, i) => i).filter((i) => !used[i]);
+  for (const s of slots) { if (!s.p.h && !s.p.img && rem.length) s.p = entries[rem.shift()]; }
+  return slots.map(({ theme, p }, i) => {
+    const img = p.img || (data.gallery[i % data.gallery.length] || {}).src;
+    return `<article class="product reveal"><div class="product-img"><img src="${A(img)}" alt="${esc(data.name)} ${esc(theme.label.split('·').pop().trim())}"></div><div class="panel"><div class="idx">${esc(theme.label)}</div><h3>${esc(p.h || '')}</h3><p>${esc(p.p || '')}</p></div></article>`;
+  }).join('');
+};
 const amMosaic = () => data.amenities.mosaic.map(m => `<figure><img src="${A(m.img)}" alt="${esc(data.name)} ${esc(m.cap)}"><figcaption>${esc(m.cap)}</figcaption></figure>`).join('');
 const amList = () => data.amenities.list.map(a => `<div class="amenity" data-icon="${a.icon}"><strong>${esc(a.t)}</strong></div>`).join('');
 const amSecondary = () => data.amenities.secondary.map(s => `<figure><img src="${A(s.img)}" alt="${esc(data.name)} ${esc(s.cap)}"><figcaption>${esc(s.cap)}</figcaption></figure>`).join('');
@@ -90,7 +133,7 @@ ${STYLES}
   <header class="hero" id="top"><div class="wrap hero-grid"><div><div class="kicker">${esc(data.hero.kicker)}</div><h1>${esc(data.name)}<span>${esc([data.cn, data.hero.span].filter(Boolean).join(' · '))}</span></h1><div class="hero-en">${esc(data.hero.en)}</div><p class="hero-copy">${esc(data.hero.copy)}</p><div class="actions"><a class="btn btn-red" href="#cta">获取资料</a><a class="btn btn-paper" href="#gallery">浏览项目</a></div></div></div></header>
   <div class="facts"><div class="wrap facts-row">${facts()}</div></div>
 
-  <section class="sec media" id="video"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Project Film &amp; Gallery</div><h2 class="title">影片与图片，<br><em>在同一个 Gallery 中浏览</em></h2></div></div><div class="media-grid reveal"><div class="gallery" id="gallery"><div class="gallery-main"><iframe class="gallery-video" id="galleryVideo" loading="lazy" src="https://www.youtube-nocookie.com/embed/${esc(data.video.id)}?rel=0&amp;modestbranding=1" title="${esc(data.name)} 官方项目影片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><img id="galleryMain" src="${A(data.gallery[0].src)}" alt="${esc(data.name)} 项目效果图" hidden><strong class="gallery-title" id="galleryTitle">官方项目影片</strong><button class="gallery-control gallery-prev" type="button" id="galleryPrev" aria-label="上一项">‹</button><button class="gallery-control gallery-next" type="button" id="galleryNext" aria-label="下一项">›</button></div><div class="gallery-strip" aria-label="项目影片与图片缩略图">${galleryThumbs()}</div></div></div></div></section>
+  <section class="sec media" id="video"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Project Film &amp; Gallery</div><h2 class="title">影片与图片，<br><em>在同一个 Gallery 中浏览</em></h2></div></div><div class="media-grid reveal"><div class="gallery" id="gallery"><div class="gallery-main">${data.video && data.video.id ? `<iframe class="gallery-video" id="galleryVideo" loading="lazy" src="https://www.youtube-nocookie.com/embed/${esc(data.video.id)}?rel=0&amp;modestbranding=1" title="${esc(data.name)} 官方项目影片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>` : ''}<img id="galleryMain" src="${A(data.gallery[0].src)}" alt="${esc(data.name)} 项目效果图"${data.video && data.video.id ? ' hidden' : ''}><strong class="gallery-title" id="galleryTitle">${data.video && data.video.id ? '官方项目影片' : esc(data.gallery[0].title)}</strong><button class="gallery-control gallery-prev" type="button" id="galleryPrev" aria-label="上一项">‹</button><button class="gallery-control gallery-next" type="button" id="galleryNext" aria-label="下一项">›</button></div><div class="gallery-strip" aria-label="项目影片与图片缩略图">${galleryThumbs()}</div></div></div></div></section>
 
   <section class="sec" id="overview"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Overview</div><h2 class="title">${esc(data.overview.title)}<br><em>${esc(data.overview.em)}</em></h2></div></div><div class="overview-grid"><div class="overview-photo reveal"><img src="${A(data.overview.photo)}" alt="${esc(data.name)} 概况"></div><div class="overview-copy reveal"><div class="copy">${ovParas()}</div><div class="metrics">${metrics()}</div></div></div></div></section>
 
@@ -104,7 +147,7 @@ ${STYLES}
 
   <section class="sec alt" id="community"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Community</div><h2 class="title">社区解读，指向<br><em>${esc(data.community.area)}</em></h2></div></div><div class="community-band reveal"><div class="community-image"><img src="https://danfengproperties.com/img/communities/${esc(data.community.slug)}/hero-1.webp" alt="${esc(data.community.area)} 社区横版景观"></div><div class="community-copy"><div class="community-main"><div class="eyebrow">${esc(data.community.em)}</div><h3>${esc(data.community.h)}</h3><p>${esc(data.community.p)}</p><div class="tags">${commTags()}</div><a class="btn" href="https://danfengproperties.com/communities/${esc(data.community.slug)}">查看 ${esc(data.community.area)} 社区详情</a></div></div></div></div></section>
 
-  <section class="sec" id="developer"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Developer</div><h2 class="title">开发商 · <em>${esc(data.developer?.name || 'BEYOND')}</em></h2></div></div>${data.developer?.html || BEYOND_DEV}</div></section>
+  <section class="sec" id="developer"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Developer</div><h2 class="title">开发商 · <em>${esc(data.developer?.name || 'BEYOND')}</em></h2></div></div>${data.developer?.html || buildDevBlock(data.developer?.name || 'Beyond')}</div></section>
 
   <section class="sec alt" id="unit"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Units &amp; Timeline</div><h2 class="title">户型、面积、价格与<br><em>施工计划</em></h2></div></div><div class="unit-intro"><div class="copy reveal">${unitIntro()}</div><div class="unit-photo reveal"><img src="${A(data.units.photo)}" alt="${esc(data.name)} 起居空间"></div></div><div class="unit-cards reveal">${unitCards()}</div><div class="unit-disclosure reveal">${data.units.disclosure}</div><div class="payment reveal"><div class="pay-card"><h3>Payment · 付款结构</h3><div class="pay-big">${esc(data.units.payment.big)}</div><div class="pay-legend">${payLegend()}</div><p class="note">丹枫项目库历史整理口径。比例、日期与节点以开发商正式付款计划为准。</p></div><div class="schedule"><h3>Construction · 施工计划</h3><div class="schedule-row"><small>计划开工</small><strong>${esc(data.units.schedule.start)}</strong></div><div class="schedule-row"><small>计划交付</small><strong>${esc(data.units.schedule.handover)}</strong></div><p class="note">${esc(data.units.schedule.note)}</p></div></div></div></section>
 
